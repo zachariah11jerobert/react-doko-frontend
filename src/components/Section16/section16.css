@@ -1,0 +1,12 @@
+.inline_sec16_style1 {
+  background: #3ebeb4;
+  background-image: linear-gradient(
+    to left,
+    rgb(167 251 243 / 0%),
+    #00968814,
+    #00968817,
+    #00968866,
+    #009688f0
+  );
+  padding: 50px 0 50px;
+}

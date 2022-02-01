@@ -1,0 +1,43 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer class="footer-section">
+      <div class="footer-bottom gray-light-bg py-3">
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <div class="col-md-6 col-lg-6">
+              <p class="copyright-text pb-0 mb-0">
+                <a href="../privacy" target="_blank">
+                  Privacy Policy
+                </a>{" "}
+                |
+                <a href="../terms-of-use" target="_blank">
+                  Terms of Use
+                </a>{" "}
+                |
+                <a href="../telemedicine-consent" target="_blank">
+                  Telemedicine Consent
+                </a>
+                |{" "}
+                <a href="../refund-policy" target="_blank">
+                  Refund policy
+                </a>
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <p class="copyright-text pb-0 mb-0">
+                Copyrights © 2021. All rights reserved by
+                <a href="" target="_blank">
+                  Doko Medical Inc.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
