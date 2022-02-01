@@ -1,0 +1,88 @@
+.inline_testimonial-quote-wrap {
+  padding: 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #303d54;
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+.inline_testimonial-quote-wrap2 {
+  padding: 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #303d54;
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+.inline_testimonial-quote-wrap3 {
+  padding: 0rem 2rem 2rem 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #2fa5a9;
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+.inline_testimonial-quote-wrap4 {
+  padding: 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #2fa5a9;
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+.inline_vigara {
+  width: 92%;
+  height: 24px;
+  background-color: #33c7b8;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  margin-left: 4%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+}
+
+.inline_cip {
+  width: 92%;
+  height: 24px;
+  background-color: #e1a240;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  margin-left: 4%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+}
+
+.inline_pill1 {
+  width: 94%;
+  height: 32px;
+  background-color: #34bbad;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  margin-left: 3%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+}
+
+.inline_pill2 {
+  width: 94%;
+  height: 32px;
+  background-color: #0c1a30;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  margin-left: 3%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+}
+
+.inline_hero-section {
+  background: url("maintopimgmin.jpg") no-repeat center center / cover;
+  padding: 70px 0px 70px 0px;
+}

@@ -1,0 +1,12 @@
+.inline-offer{
+    display: block;
+    width: 100%;
+    background-color: #e91e63;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1038;
+    text-align: center;
+    color: #fff;
+}
