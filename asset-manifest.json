@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-doko-frontend/static/css/main.c1f089aa.css",
-    "main.js": "/react-doko-frontend/static/js/main.797ff35b.js",
+    "main.js": "/react-doko-frontend/static/js/main.0f94bb96.js",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/bck3threebox.png": "/react-doko-frontend/static/media/bck3threebox.ff1ab063a27a685644af.png",
     "static/media/maintopimgmin.jpg": "/react-doko-frontend/static/media/maintopimgmin.dea18f60b1338b01a20b.jpg",
     "index.html": "/react-doko-frontend/index.html",
     "main.c1f089aa.css.map": "/react-doko-frontend/static/css/main.c1f089aa.css.map",
-    "main.797ff35b.js.map": "/react-doko-frontend/static/js/main.797ff35b.js.map"
+    "main.0f94bb96.js.map": "/react-doko-frontend/static/js/main.0f94bb96.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f089aa.css",
-    "static/js/main.797ff35b.js"
+    "static/js/main.0f94bb96.js"
   ]
 }
