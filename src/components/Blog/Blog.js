@@ -7,7 +7,10 @@ const Blog = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8">
-            <div className="section-heading mb-5" style={{ textAlign: "center" }}>
+            <div
+              className="section-heading mb-5"
+              style={{ textAlign: "center" }}
+            >
               <br />
               <h2>Our Treatments for ED</h2>
               <p className="" style={{ marginBottom: "0em" }}>
@@ -19,7 +22,7 @@ const Blog = () => {
         </div>
 
         <div className="row" style={{ marginTop: "9%" }}>
-          <div className="col-md-6 chnageclassmedlist">
+          <div className="col-md-6 chnageclassmedlist" data-aos="fade-right">
             <div
               className="single-blog-card card border-0 shadow-sm"
               style={{ minHeight: "400px", maxHeight: "auto" }}
@@ -134,7 +137,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 chnageclassmedlist" id="">
+          <div className="col-md-6 chnageclassmedlist" data-aos="fade-left">
             <div
               className="single-blog-card card border-0 shadow-sm mgtopphone"
               style={{ minHeight: "400px", maxHeight: "auto" }}
