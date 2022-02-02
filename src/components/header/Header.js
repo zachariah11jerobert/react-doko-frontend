@@ -3,7 +3,7 @@ import './header.css';
 
 const Header = () => {
   return (
-    <header class="header">
+    <header className="header">
       <div className="offers inline-offer">
         <p style={{marginBottom:"5px",marginTop:"5px"}}>
           <b style={{ fontSize: 17, letterSpacing: 2 }}>

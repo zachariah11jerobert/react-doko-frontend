@@ -2,15 +2,15 @@ import React from "react";
 
 const Comp1 = () => {
   return (
-    <div class="row" id="boxdesk01">
-      <div class="col-6">
-        <div class="testimonial-quote-wrap inline_testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-          <div class="client-say">
+    <div className="row" id="boxdesk01">
+      <div className="col-6">
+        <div className="testimonial-quote-wrap inline_testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
+          <div className="client-say">
             <p>FDA APPROVED</p>
           </div>
-          <div class="media author-info mb-3">
-            <div class="media-body">
-              <h5 class="mb-0" style={{ color: "#fff" }}>
+          <div className="media author-info mb-3">
+            <div className="media-body">
+              <h5 className="mb-0" style={{ color: "#fff" }}>
                 Erectile Dysfunction
               </h5>
               <div>
@@ -25,14 +25,14 @@ const Comp1 = () => {
           <div className="inline_vigara">From $1 per pill</div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="testimonial-quote-wrap inline_testimonial-quote-wrap2 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-          <div class="client-say">
+      <div className="col-6">
+        <div className="testimonial-quote-wrap inline_testimonial-quote-wrap2 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
+          <div className="client-say">
             <p>FDA APPROVED</p>
           </div>
-          <div class="media author-info mb-3">
-            <div class="media-body">
-              <h5 class="mb-0" style={{ color: "#fff" }}>
+          <div className="media author-info mb-3">
+            <div className="media-body">
+              <h5 className="mb-0" style={{ color: "#fff" }}>
                 Erectile Dysfunction
               </h5>
               <div>

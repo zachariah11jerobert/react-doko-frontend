@@ -5,38 +5,38 @@ import "./Hero.css"
 
 const Hero = () => {
   return (
-    <section class="hero-section background-img inline_hero-section top01sec">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md-7 col-lg-7">
-            <div class="hero-content section-title text-center text-lg-left my-5 mt-lg-0">
-              <span class="text-uppercase color-secondary font-weight-bold">
+    <section className="hero-section background-img inline_hero-section top01sec">
+      <div className="container">
+        <div className="row align-items-center justify-content-between">
+          <div className="col-md-7 col-lg-7">
+            <div className="hero-content section-title text-center text-lg-left my-5 mt-lg-0">
+              <span className="text-uppercase color-secondary font-weight-bold">
                 Best Service Quality
               </span>
-              <h1 class="font-weight-bold" style={{ color: "#fff" }}>
+              <h1 className="font-weight-bold" style={{ color: "#fff" }}>
                 ED Meds PrescribedOnline Delivered Free!
               </h1>
               <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
-              <p class="lead" style={{ color: "#dbd8d8" }}></p>
+              <p className="lead" style={{ color: "#dbd8d8" }}></p>
               <Comp1 />
 
-              <div class="row" id="boxmobile01" style={{ display: "none" }}>
-                <div class="col-12">
-                  <div class="testimonial-quote-wrap .inline_testimonial-quote-wrap2 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                    <div class="client-say">
+              <div className="row" id="boxmobile01" style={{ display: "none" }}>
+                <div className="col-12">
+                  <div className="testimonial-quote-wrap .inline_testimonial-quote-wrap2 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
+                    <div className="client-say">
                       <p>FDA APPROVED</p>
                     </div>
                     <div
-                      class="media author-info mb-3"
+                      className="media author-info mb-3"
                       style={{ marginTop: "1%" }}
                     >
-                      <div class="media-body">
-                        <h5 class="mb-0" style={{ color: "#fff" }}>
+                      <div className="media-body">
+                        <h5 className="mb-0" style={{ color: "#fff" }}>
                           Erectile Dysfunction
                         </h5>
 
-                        <div class="row">
-                          <div class="col-6">
+                        <div className="row">
+                          <div className="col-6">
                             <div>
                               <img
                                 src="https://rexmd.com/home/04/img/viagra.png"
@@ -48,7 +48,7 @@ const Hero = () => {
                               </span>
                             </div>
                           </div>
-                          <div class="col-6">
+                          <div className="col-6">
                             <div>
                               <img
                                 src="https://rexmd.com/home/04/img/cialis.png"
@@ -68,15 +68,15 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div class="row" id="boxmobile01" style={{ display: "none" }}>
-                <div class="col-12">
-                  <div class="testimonial-quote-wrap inline_testimonial-quote-wrap4 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                    <div class="client-say">
+              <div className="row" id="boxmobile01" style={{ display: "none" }}>
+                <div className="col-12">
+                  <div className="testimonial-quote-wrap inline_testimonial-quote-wrap4 my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
+                    <div className="client-say">
                       <p>FDA APPROVED</p>
                     </div>
-                    <div class="media author-info mb-3">
-                      <div class="media-body">
-                        <h5 class="mb-0" style={{ color: "#fff" }}>
+                    <div className="media author-info mb-3">
+                      <div className="media-body">
+                        <h5 className="mb-0" style={{ color: "#fff" }}>
                           Erectile Dysfunction
                         </h5>
                         <p>
@@ -97,24 +97,24 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div class="action-btn mt-4">
-                <a href="#edform" class="btn solid-btn page-scroll getitnow">
+              <div className="action-btn mt-4">
+                <a href="#edform" className="btn solid-btn page-scroll getitnow">
                   START MY FREE VISIT{" "}
-                  <span class="ti-angle-double-right"></span>
+                  <span className="ti-angle-double-right"></span>
                 </a>
               </div>
             </div>
 
-            <div class="row">
+            <div className="row">
               <ul
-                class="list-inline counter-wrap"
+                className="list-inline counter-wrap"
                 style={{ width: "100%", textAlign: "center" }}
               >
-                <li class="list-inline-item">
-                  <div class="single-counter text-center">
+                <li className="list-inline-item">
+                  <div className="single-counter text-center">
                     <span>
                       <i
-                        class="an-icon hide-650"
+                        className="an-icon hide-650"
                         data-src="hippa_white"
                         data-render="svg"
                         data-start="false"
@@ -125,11 +125,11 @@ const Hero = () => {
                     </span>
                   </div>
                 </li>
-                <li class="list-inline-item">
-                  <div class="single-counter text-center">
+                <li className="list-inline-item">
+                  <div className="single-counter text-center">
                     <span>
                       <i
-                        class="an-icon"
+                        className="an-icon"
                         data-src="pharmacy_white"
                         data-render="svg"
                         data-start="false"
@@ -142,12 +142,12 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div class="col-md-5 col-lg-5"></div>
+          <div className="col-md-5 col-lg-5"></div>
         </div>
 
-        <div class="row" id="">
-          <div class="col-md-6"></div>
-          <div class="col-md-6" style={{ textAlign: "center" }}>
+        <div className="row" id="">
+          <div className="col-md-6"></div>
+          <div className="col-md-6" style={{ textAlign: "center" }}>
             <img src="https://doko.md/edpills/4.8new.png" style={{ width: 200 }} />
           </div>
         </div>

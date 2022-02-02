@@ -1,3 +1,7 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import Blog from "./components/Blog/Blog";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
@@ -20,30 +24,67 @@ import Section8 from "./components/Section8/Section8";
 import Section9 from "./components/Section9/Section9";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="App">
       <Header />
-      <div class="main">
+      <div className="main">
         <Hero />
-        <Section2 />
-        <Blog />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Section7 />
-        <Section8 />
-        <Section9 />
-        <Section10 />
-        <Section11 />
-        <Section12 />
-        <Section13 />
-        <Section14 />
-        <Section15 />
-        <Section16 />
-        <Section17 />
+        <div data-aos="fade-up">
+          <Section2 />
+        </div>
+        <div data-aos="fade-up">
+          <Blog />
+        </div>
+        <div data-aos="fade-up">
+          <Section3 />
+        </div>
+        <div data-aos="fade-up">
+          <Section4 />
+        </div>
+        <div data-aos="fade-up">
+          <Section5 />
+        </div>
+        <div data-aos="fade-up">
+          <Section6 />
+        </div>
+        <div data-aos="fade-up">
+          <Section7 />
+        </div>
+        <div data-aos="fade-up">
+          <Section8 />
+        </div>
+        <div data-aos="fade-up">
+          <Section9 />
+        </div>
+        <div data-aos="fade-up">
+          <Section10 />
+        </div>
+        <div data-aos="fade-up">
+          <Section11 />
+        </div>
+        <div data-aos="fade-up">
+          <Section12 />
+        </div>
+        <div data-aos="fade-up">
+          <Section13 />
+        </div>
+        <div data-aos="fade-up">
+          <Section14 />
+        </div>
+        <div data-aos="fade-up">
+          <Section15 />
+        </div>
+        <div data-aos="fade-up">
+          <Section16 />
+        </div>
+        <div data-aos="fade-up">
+          <Section17 />
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

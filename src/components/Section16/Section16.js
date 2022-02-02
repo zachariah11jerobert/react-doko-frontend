@@ -5,90 +5,90 @@ const Section16 = () => {
   return (
     <section
       id="edform"
-      class="contact-us gray-light-bg ptb-100 edform inline_sec16_style1"
+      className="contact-us gray-light-bg ptb-100 edform inline_sec16_style1"
     >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-6">
-            <div class="section-heading text-left mb-5">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-6 col-md-6">
+            <div className="section-heading text-left mb-5">
               <h2 style={{ color: "#fff" }}>Real meds.</h2>
               <h2 style={{ color: "#fff" }}>Prescribed online.</h2>
               <h2 style={{ color: "#fff" }}>Delivered to your door.</h2>
-              <p class="lead" style={{ color: "#fff" }}>
+              <p className="lead" style={{ color: "#fff" }}>
                 Ready? Let’s do this!
               </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 pb-3 message-box d-none">
-            <div class="alert alert-danger"></div>
+        <div className="row">
+          <div className="col-12 pb-3 message-box d-none">
+            <div className="alert alert-danger"></div>
           </div>
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
             <div
-              class=""
+              className=""
               style={{ backgroundColor: "#fff", borderRadius: "5px" }}
             >
               <form
-                class="login-signup-form"
+                className="login-signup-form"
                 id="registerform"
                 style={{ padding: "15px" }}
               >
                 <div id="id_wrap_first">
-                  <div class="form-group">
-                    <label class="pb-1"> First Name </label>
+                  <div className="form-group">
+                    <label className="pb-1"> First Name </label>
 
-                    <div class="input-group input-group-merge">
-                      <div class="input-icon">
-                        <span class="ti-user color-primary"></span>
+                    <div className="input-group input-group-merge">
+                      <div className="input-icon">
+                        <span className="ti-user color-primary"></span>
                       </div>
                       <input
                         type="text"
                         name="firstname"
                         id="firstname"
-                        class="form-control"
+                        className="form-control"
                         placeholder="Enter your first name"
                         style={{ backgroundColor: "#eee" }}
                       />
                       <input
                         type="hidden"
-                        class="form-control"
+                        className="form-control"
                         name="reg_new_user"
                         id="reg_new_user"
                         placeholder="Last Name"
                       />
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="pb-1"> Last Name </label>
+                  <div className="form-group">
+                    <label className="pb-1"> Last Name </label>
 
-                    <div class="input-group input-group-merge">
-                      <div class="input-icon">
-                        <span class="ti-user color-primary"></span>
+                    <div className="input-group input-group-merge">
+                      <div className="input-icon">
+                        <span className="ti-user color-primary"></span>
                       </div>
                       <input
                         type="text"
                         name="lastname"
                         id="lastname"
-                        class="form-control"
+                        className="form-control"
                         placeholder="Enter your last name"
                         style={{ backgroundColor: "#eee" }}
                       />
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="pb-1"> Email Address </label>
+                  <div className="form-group">
+                    <label className="pb-1"> Email Address </label>
 
-                    <div class="input-group input-group-merge">
-                      <div class="input-icon">
-                        <span class="ti-email color-primary"></span>
+                    <div className="input-group input-group-merge">
+                      <div className="input-icon">
+                        <span className="ti-email color-primary"></span>
                       </div>
                       <input
                         type="email"
                         name="regusername"
                         id="regusername"
-                        class="form-control"
+                        className="form-control"
                         placeholder="name@address.com"
                         style={{ backgroundColor: "#eee" }}
                       />
@@ -96,24 +96,24 @@ const Section16 = () => {
                   </div>
                 </div>
 
-                <div id="id_wrap_other" class="no_display">
+                <div id="id_wrap_other" className="no_display">
                   <div
                     id="back_btn"
                     style={{ color: "#3c4040", cursor: "pointer" }}
                   >
-                    <i class="fa fa-chevron-left" aria-hidden="true"></i> Back
+                    <i className="fa fa-chevron-left" aria-hidden="true"></i> Back
                   </div>
                   <br />
-                  <div class="form-group">
-                    <label class="pb-1"> Phone </label>
+                  <div className="form-group">
+                    <label className="pb-1"> Phone </label>
 
-                    <div class="input-group input-group-merge">
-                      <div class="input-icon">
-                        <span class="ti-mobile color-primary"></span>
+                    <div className="input-group input-group-merge">
+                      <div className="input-icon">
+                        <span className="ti-mobile color-primary"></span>
                       </div>
                       <input
                         type="number"
-                        class="form-control"
+                        className="form-control"
                         name="mobileno"
                         id="mobileno"
                         placeholder="(xxx) xxx - xxxx"
@@ -121,15 +121,15 @@ const Section16 = () => {
                       />
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="pb-1"> States </label>
+                  <div className="form-group">
+                    <label className="pb-1"> States </label>
 
-                    <div class="input-group input-group-merge">
-                      <div class="input-icon">
-                        <span class="ti-map color-primary"></span>
+                    <div className="input-group input-group-merge">
+                      <div className="input-icon">
+                        <span className="ti-map color-primary"></span>
                       </div>
                       <select
-                        class="form-control"
+                        className="form-control"
                         name="state"
                         id="state"
                         style={{ backgroundColor: "#eee" }}
@@ -143,10 +143,10 @@ const Section16 = () => {
                 </div>
 
                 <div
-                  class="form-check d-flex align-items-center text-center"
+                  className="form-check d-flex align-items-center text-center"
                   style={{ textAlign: "center" }}
                 >
-                  <label class="form-check-label small" for="exampleCheck1">
+                  <label className="form-check-label small" for="exampleCheck1">
                     By Signing Up, you agree to our
                     <a
                       href="https://doko.md/privacy"
@@ -184,28 +184,28 @@ const Section16 = () => {
 
                 <button
                   type="button"
-                  class="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3"
+                  className="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3"
                   id="register_check"
                 >
                   START MY FREE VISIT
-                  <span class="ti-angle-double-right"></span>
+                  <span className="ti-angle-double-right"></span>
                 </button>
 
                 <button
                   type="button"
                   id="register"
-                  class="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3 no_display"
+                  className="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3 no_display"
                 >
-                  SUBMIT <span class="ti-angle-double-right"></span>
+                  SUBMIT <span className="ti-angle-double-right"></span>
                 </button>
               </form>
-              <p class="form-message"></p>
+              <p className="form-message"></p>
             </div>
           </div>
-          <div class="col-md-3"></div>
+          <div className="col-md-3"></div>
         </div>
-        <div class="row" style={{ display: "none" }} id="logismobile">
-          <div class="col-12">
+        <div className="row" style={{ display: "none" }} id="logismobile">
+          <div className="col-12">
             <div style={{ textAlign: "center" }}>
               <img
                 src="https://static.legitscript.com/seals/5343072.png"

@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer-section">
-      <div class="footer-bottom gray-light-bg py-3">
-        <div class="container">
-          <div class="row text-center justify-content-center">
-            <div class="col-md-6 col-lg-6">
-              <p class="copyright-text pb-0 mb-0">
+    <footer className="footer-section">
+      <div className="footer-bottom gray-light-bg py-3">
+        <div className="container">
+          <div className="row text-center justify-content-center">
+            <div className="col-md-6 col-lg-6">
+              <p className="copyright-text pb-0 mb-0">
                 <a href="../privacy" target="_blank">
                   Privacy Policy
                 </a>{" "}
@@ -25,8 +25,8 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            <div class="col-md-6 col-lg-6">
-              <p class="copyright-text pb-0 mb-0">
+            <div className="col-md-6 col-lg-6">
+              <p className="copyright-text pb-0 mb-0">
                 Copyrights © 2021. All rights reserved by
                 <a href="" target="_blank">
                   Doko Medical Inc.

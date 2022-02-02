@@ -3,14 +3,14 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <section id="blog" class="our-blog-section  gray-light-bg blogsec">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="section-heading mb-5" style={{ textAlign: "center" }}>
+    <section id="blog" className="our-blog-section  gray-light-bg blogsec">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <div className="section-heading mb-5" style={{ textAlign: "center" }}>
               <br />
               <h2>Our Treatments for ED</h2>
-              <p class="" style={{ marginBottom: "0em" }}>
+              <p className="" style={{ marginBottom: "0em" }}>
                 We offer prescription medications clinically proven to help
                 improve erections.
               </p>
@@ -18,10 +18,10 @@ const Blog = () => {
           </div>
         </div>
 
-        <div class="row" style={{ marginTop: "9%" }}>
-          <div class="col-md-6 chnageclassmedlist">
+        <div className="row" style={{ marginTop: "9%" }}>
+          <div className="col-md-6 chnageclassmedlist">
             <div
-              class="single-blog-card card border-0 shadow-sm"
+              className="single-blog-card card border-0 shadow-sm"
               style={{ minHeight: "400px", maxHeight: "auto" }}
             >
               <div
@@ -30,18 +30,18 @@ const Blog = () => {
                   textAlign: "center",
                 }}
               >
-                <div class="row">
+                <div className="row">
                   <div
-                    class="col-6"
+                    className="col-6"
                     style={{
                       paddingRight: "0px",
                       paddingLeft: "0px",
                     }}
                   >
                     <ul className="list-group list-group-flush inline_blog_style1">
-                      <li class="list-group-item border-1">
+                      <li className="list-group-item border-1">
                         <h3
-                          class="h5 card-title"
+                          className="h5 card-title"
                           style={{ marginBottom: "0rem" }}
                         >
                           <a href="#" style={{ color: "#1f98cf" }}>
@@ -49,13 +49,13 @@ const Blog = () => {
                           </a>
                         </h3>
                       </li>
-                      <li class="list-group-item sildbck">
+                      <li className="list-group-item sildbck">
                         <span className="inline_blog_style2">Dose </span>
 
                         <span className="inline_blog_style3">Price </span>
                       </li>
                       <li
-                        class="list-group-item sildbck"
+                        className="list-group-item sildbck"
                         style={{
                           color: "#4b4a4a",
                         }}
@@ -71,7 +71,7 @@ const Blog = () => {
                       </li>
 
                       <li
-                        class="list-group-item sildbck"
+                        className="list-group-item sildbck"
                         style={{ color: "#000" }}
                       >
                         <span className="inline_blog_style4">50 mg</span>
@@ -84,7 +84,7 @@ const Blog = () => {
                         </span>
                       </li>
                       <li
-                        class="list-group-item sildbck"
+                        className="list-group-item sildbck"
                         style={{ color: "#000" }}
                       >
                         <span className="inline_blog_style4">100 mg</span>
@@ -101,21 +101,21 @@ const Blog = () => {
                   <div className="col-6 inline_blog_style9">
                     <img
                       src="https://doko.md/edpills/meds2s.png"
-                      class="card-img-top inline_blog_style7 position-relative"
+                      className="card-img-top inline_blog_style7 position-relative"
                       alt="blog"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="card-body"
+                className="card-body"
                 style={{
                   textAlign: "center",
                 }}
               >
-                <div class="post-meta mb-2"></div>
+                <div className="post-meta mb-2"></div>
 
-                <p class="card-text">
+                <p className="card-text">
                   Sildenafil is the active ingredient in Viagra . it is in the
                   group of medicines that doctors call PDE-5 inhibitors and use
                   to treat erectile dysfunction. It’s available from Doko MD in
@@ -125,30 +125,30 @@ const Blog = () => {
                 </p>
                 <a
                   href="#edform"
-                  class="btn solid-btn page-scroll getitnow"
+                  className="btn solid-btn page-scroll getitnow"
                   style={{ borderRadius: "3px" }}
                 >
                   START MY FREE VISIT{" "}
-                  <span class="ti-angle-double-right"></span>
+                  <span className="ti-angle-double-right"></span>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 chnageclassmedlist" id="">
+          <div className="col-md-6 chnageclassmedlist" id="">
             <div
-              class="single-blog-card card border-0 shadow-sm mgtopphone"
+              className="single-blog-card card border-0 shadow-sm mgtopphone"
               style={{ minHeight: "400px", maxHeight: "auto" }}
             >
               <div style={{ backgroundColor: "#f7eac3", textAlign: "center" }}>
-                <div class="row">
+                <div className="row">
                   <div
-                    class="col-6"
+                    className="col-6"
                     style={{ paddingRight: "0px", paddingLeft: "0px" }}
                   >
                     <ul className="list-group list-group-flush inline_blog_style8">
-                      <li class="list-group-item border-1">
+                      <li className="list-group-item border-1">
                         <h3
-                          class="h5 card-title"
+                          className="h5 card-title"
                           style={{ marginBottom: "0rem" }}
                         >
                           <a href="#" style={{ color: "#ecb969" }}>
@@ -156,13 +156,13 @@ const Blog = () => {
                           </a>
                         </h3>
                       </li>
-                      <li class="list-group-item tdabck">
+                      <li className="list-group-item tdabck">
                         <span className="inline_blog_style2">Dose </span>
 
                         <span className="inline_blog_style3">Price</span>
                       </li>
                       <li
-                        class="list-group-item tdabck"
+                        className="list-group-item tdabck"
                         style={{ color: "#4b4a4a" }}
                       >
                         <span className="inline_blog_style4">2.5 mg</span>
@@ -176,7 +176,7 @@ const Blog = () => {
                       </li>
 
                       <li
-                        class="list-group-item tdabck"
+                        className="list-group-item tdabck"
                         style={{ color: "#000" }}
                       >
                         <span className="inline_blog_style4">5 mg</span>
@@ -189,7 +189,7 @@ const Blog = () => {
                         </span>
                       </li>
                       <li
-                        class="list-group-item tdabck"
+                        className="list-group-item tdabck"
                         style={{ color: "#000" }}
                       >
                         <span className="inline_blog_style4">10 mg</span>
@@ -202,7 +202,7 @@ const Blog = () => {
                         </span>
                       </li>
                       <li
-                        class="list-group-item tdabck"
+                        className="list-group-item tdabck"
                         style={{ color: "#000" }}
                       >
                         <span className="inline_blog_style4">20 mg</span>
@@ -220,19 +220,19 @@ const Blog = () => {
                       </li>
                     </ul>
                   </div>
-                  <div class="col-6 inline_blog_style9">
+                  <div className="col-6 inline_blog_style9">
                     <img
                       src="https://doko.md/edpills/meds1s.png"
-                      class="card-img-top position-relative inline_blog_style7"
+                      className="card-img-top position-relative inline_blog_style7"
                       alt="blog"
                     />
                   </div>
                 </div>
               </div>
-              <div class="card-body" style={{ textAlign: "center" }}>
-                <div class="post-meta mb-2"></div>
+              <div className="card-body" style={{ textAlign: "center" }}>
+                <div className="post-meta mb-2"></div>
 
-                <p class="card-text">
+                <p className="card-text">
                   Tadalafil is the active ingredient in Cialis. It is approved
                   by the FDA to treat erectile dysfunction. It’s available from
                   Doko MD in <b style={{ color: "#009688" }}>2.5mg </b>,{" "}
@@ -242,11 +242,11 @@ const Blog = () => {
                 </p>
                 <a
                   href="#edform"
-                  class="btn solid-btn page-scroll getitnow"
+                  className="btn solid-btn page-scroll getitnow"
                   style={{ borderRadius: "3px" }}
                 >
                   START MY FREE VISIT
-                  <span class="ti-angle-double-right"></span>
+                  <span className="ti-angle-double-right"></span>
                 </a>
               </div>
             </div>

@@ -3,13 +3,13 @@ import "./section17.css"
 
 const Section17 = () => {
   return (
-    <section id="contact" class="contact-us-section contact-us ptb-100"
+    <section id="contact" className="contact-us-section contact-us ptb-100"
     style={{backgroundImage: "linear-gradient(to right, #1c2c46, #1c2c46e3, #1c2c46d1, #1c2c46c2, #1c2c46)"}}
     >
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-md-4">
-            <div class="contact-us-content">
+      <div className="container">
+        <div className="row justify-content-around">
+          <div className="col-md-4">
+            <div className="contact-us-content">
               <img
                 src="https://doko.md/img/usa.svg"
                 alt="usa-flag"
@@ -22,15 +22,15 @@ const Section17 = () => {
                 CA 94080, United States
               </address>
               <span>
-                <i class="ti-mobile" style={{ color: "#ffffffb8" }}></i>
+                <i className="ti-mobile" style={{ color: "#ffffffb8" }}></i>
                 <a href="tel:+1-888-910-DOKO(3656)">1-888-910-DOKO(3656)</a>
               </span>
               <br />
             </div>
             <br />
           </div>
-          <div class="col-md-4">
-            <div class="contact-us-content">
+          <div className="col-md-4">
+            <div className="contact-us-content">
               <img
                 src="https://doko.md/img/canada.svg"
                 alt="canada-flag"
@@ -42,19 +42,19 @@ const Section17 = () => {
                 Toronto ON M4W 1A8,
               </address>
               <span>
-                <i class="ti-mobile" style={{ color: "#ffffffb8" }}></i>
+                <i className="ti-mobile" style={{ color: "#ffffffb8" }}></i>
                 <a href="tel:+1-888-910-DOKO(3656)">1-888-910-DOKO(3656)</a>
               </span>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="contact-us-content">
-              <div class="row justify-content-around" id="dview">
-                <div class="col-md-6" style={{ textAlign: "center" }}>
+          <div className="col-md-4">
+            <div className="contact-us-content">
+              <div className="row justify-content-around" id="dview">
+                <div className="col-md-6" style={{ textAlign: "center" }}>
                   <img src="https://doko.md/edpills/img/ata.svg" alt="ata" />
                 </div>
 
-                <div class="col-md-6" style={{ textAlign: "center" }}>
+                <div className="col-md-6" style={{ textAlign: "center" }}>
                   <img src="https://static.legitscript.com/seals/5343072.png"/>
                 </div>
               </div>
@@ -62,36 +62,36 @@ const Section17 = () => {
 
             <br />
             <div style={{ textAlign: "center", marginTop: "0%" }}>
-              <ul class="list-unstyled social-list mb-0">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/in.doko.md" class="rounded">
-                    <span class="ti-facebook white-bg color-2 shadow rounded-circle footer-social"></span>
+              <ul className="list-unstyled social-list mb-0">
+                <li className="list-inline-item">
+                  <a href="https://www.facebook.com/in.doko.md" className="rounded">
+                    <span className="ti-facebook white-bg color-2 shadow rounded-circle footer-social"></span>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/doko_md" class="rounded">
-                    <span class="ti-twitter white-bg color-2 shadow rounded-circle footer-social"></span>
+                <li className="list-inline-item">
+                  <a href="https://twitter.com/doko_md" className="rounded">
+                    <span className="ti-twitter white-bg color-2 shadow rounded-circle footer-social"></span>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com/doko.md/" class="rounded">
-                    <span class="ti-instagram white-bg color-2 shadow rounded-circle footer-social"></span>
+                <li className="list-inline-item">
+                  <a href="https://www.instagram.com/doko.md/" className="rounded">
+                    <span className="ti-instagram white-bg color-2 shadow rounded-circle footer-social"></span>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <a
                     href="https://www.linkedin.com/company/doko-medical-inc/"
-                    class="rounded"
+                    className="rounded"
                   >
-                    <span class="ti-linkedin white-bg color-2 shadow rounded-circle footer-social"></span>
+                    <span className="ti-linkedin white-bg color-2 shadow rounded-circle footer-social"></span>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <a
                     href="https://www.pinterest.ca/mktgdokomd/_saved/"
-                    class="rounded"
+                    className="rounded"
                   >
-                    <span class="ti-pinterest white-bg color-2 shadow rounded-circle footer-social"></span>
+                    <span className="ti-pinterest white-bg color-2 shadow rounded-circle footer-social"></span>
                   </a>
                 </li>
               </ul>

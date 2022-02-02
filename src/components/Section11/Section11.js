@@ -3,19 +3,19 @@ import "./section11.css";
 
 const Section11 = () => {
   return (
-    <section class="video-promo ptb-100 gradient-overlay inline_sec11_style1">
-      <div class="container">
+    <section className="video-promo ptb-100 gradient-overlay inline_sec11_style1">
+      <div className="container">
         <br />
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="video-promo-content mt-4 text-center">
+        <div className="row justify-content-center">
+          <div className="col-md-6">
+            <div className="video-promo-content mt-4 text-center">
               <a
                 href="https://www.youtube.com/watch?v=fLycQcCxado"
-                class="popup-youtube video-play-icon d-inline-block"
+                className="popup-youtube video-play-icon d-inline-block"
               >
-                <span class="ti-control-play"></span>
+                <span className="ti-control-play"></span>
               </a>
-              <h2 class="mt-4 text-white">
+              <h2 className="mt-4 text-white">
                 YOU'RE <span style={{ color: "#42d7c8" }}>NOT ALONE</span>
               </h2>
             </div>

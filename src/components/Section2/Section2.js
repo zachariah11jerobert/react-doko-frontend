@@ -3,13 +3,13 @@ import React from "react";
 const Section2 = () => {
   return (
     <section style={{ backgroundColor: "#1c2c46" }}>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div class="single-fact text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
+            <div className="single-fact text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon3.png"
-                class="card-img-top"
+                className="card-img-top"
                 style={{ width: "35%" }}
                 alt="blog"
               />
@@ -24,11 +24,11 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div class="single-fact  text-center">
+          <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
+            <div className="single-fact  text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon1.png"
-                class="card-img-top position-relative"
+                className="card-img-top position-relative"
                 alt="blog"
                 style={{ width: "35%" }}
               />
@@ -43,11 +43,11 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div class="single-fact text-center">
+          <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
+            <div className="single-fact text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon2.png"
-                class="card-img-top position-relative"
+                className="card-img-top position-relative"
                 style={{ width: "35%" }}
                 alt="blog"
               />
