@@ -21,7 +21,7 @@ const Section4 = () => {
             <div class="col-md-12 col-lg-12">
               <div class="img-wrap">
                 <img
-                  src="desk-how-work2.png"
+                  src="https://doko.md/edpills/desk-how-work2.png"
                   alt="how work"
                   class="img-fluid"
                 />
@@ -47,7 +47,7 @@ const Section4 = () => {
           <div class="row justify-content-between align-items-center">
             <div class="col-md-12 col-lg-12">
               <div class="img-wrap">
-                <img src="ph-how-work.png" alt="how work" class="img-fluid" />
+                <img src="https://doko.md/edpills/desk-how-work2.png" alt="how work" class="img-fluid" />
               </div>
             </div>
           </div>

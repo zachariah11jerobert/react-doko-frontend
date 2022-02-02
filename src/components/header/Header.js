@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header class="header">
       <div className="offers inline-offer">
-        <p className="mt-5 mb-5">
+        <p style={{marginBottom:"5px",marginTop:"5px"}}>
           <b style={{ fontSize: 17, letterSpacing: 2 }}>
             Up to <span style={{ fontSize: 20 }}>75% </span>
             OFF your first order !

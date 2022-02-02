@@ -100,7 +100,7 @@ const Blog = () => {
                   </div>
                   <div className="col-6 inline_blog_style9">
                     <img
-                      src="meds2s.png"
+                      src="https://doko.md/edpills/meds2s.png"
                       class="card-img-top inline_blog_style7 position-relative"
                       alt="blog"
                     />
@@ -222,7 +222,7 @@ const Blog = () => {
                   </div>
                   <div class="col-6 inline_blog_style9">
                     <img
-                      src="meds1s.png"
+                      src="https://doko.md/edpills/meds1s.png"
                       class="card-img-top position-relative inline_blog_style7"
                       alt="blog"
                     />

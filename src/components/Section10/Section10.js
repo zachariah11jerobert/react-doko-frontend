@@ -25,7 +25,7 @@ const Section10 = () => {
           <div class="col-md-2 col-lg-2">
             <div class="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div class="partner-logo mb-3">
-                <img src="xr-1.png" alt="partner logo" class="img-fluid" />
+                <img src="https://doko.md/edpills/xr-1.png" alt="partner logo" class="img-fluid" />
               </div>
               <div class="partner-heading mb-2">
                 <h5 class="mb-0">Getting Help</h5>
@@ -38,7 +38,7 @@ const Section10 = () => {
           <div class="col-md-2 col-lg-2">
             <div class="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div class="partner-logo mb-3">
-                <img src="xr-2.png" alt="partner logo" class="img-fluid" />
+                <img src="https://doko.md/edpills/xr-2.png" alt="partner logo" class="img-fluid" />
               </div>
               <div class="partner-heading mb-2">
                 <h5 class="mb-0">Mental Health</h5>
@@ -53,7 +53,7 @@ const Section10 = () => {
           <div class="col-md-2 col-lg-2">
             <div class="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div class="partner-logo mb-3">
-                <img src="xr-3.png" alt="partner logo" class="img-fluid" />
+                <img src="https://doko.md/edpills/xr-3.png" alt="partner logo" class="img-fluid" />
               </div>
               <div class="partner-heading mb-2">
                 <h5 class="mb-0">You are not alone</h5>
@@ -67,7 +67,7 @@ const Section10 = () => {
           <div class="col-md-2 col-lg-2">
             <div class="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div class="partner-logo mb-3">
-                <img src="xr-5.png" alt="partner logo" class="img-fluid" />
+                <img src="https://doko.md/edpills/xr-5.png" alt="partner logo" class="img-fluid" />
               </div>
               <div class="partner-heading mb-2">
                 <h5 class="mb-0">Sign of Diabetes</h5>
@@ -80,7 +80,7 @@ const Section10 = () => {
           <div class="col-md-2 col-lg-2">
             <div class="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div class="partner-logo mb-3">
-                <img src="xr-6.png" alt="partner logo" class="img-fluid" />
+                <img src="https://doko.md/edpills/xr-6.png" alt="partner logo" class="img-fluid" />
               </div>
               <div class="partner-heading mb-2">
                 <h5 class="mb-0">Its Physical</h5>

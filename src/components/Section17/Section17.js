@@ -1,8 +1,11 @@
 import React from "react";
+import "./section17.css"
 
 const Section17 = () => {
   return (
-    <section id="contact" class="contact-us-section contact-us ptb-100">
+    <section id="contact" class="contact-us-section contact-us ptb-100"
+    style={{backgroundImage: "linear-gradient(to right, #1c2c46, #1c2c46e3, #1c2c46d1, #1c2c46c2, #1c2c46)"}}
+    >
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-md-4">
@@ -48,11 +51,11 @@ const Section17 = () => {
             <div class="contact-us-content">
               <div class="row justify-content-around" id="dview">
                 <div class="col-md-6" style={{ textAlign: "center" }}>
-                  <img src="img/ata.svg" alt="ata" />
+                  <img src="https://doko.md/edpills/img/ata.svg" alt="ata" />
                 </div>
 
                 <div class="col-md-6" style={{ textAlign: "center" }}>
-                  <script src="https://static.legitscript.com/seals/5343072.js"></script>
+                  <img src="https://static.legitscript.com/seals/5343072.png"/>
                 </div>
               </div>
             </div>

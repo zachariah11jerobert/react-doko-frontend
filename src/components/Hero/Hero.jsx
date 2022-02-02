@@ -1,6 +1,7 @@
 import React from "react";
 import Comp1 from "../comp1/comp1";
-import comp1 from "../comp1/comp1";
+
+import "./Hero.css"
 
 const Hero = () => {
   return (
@@ -147,7 +148,7 @@ const Hero = () => {
         <div class="row" id="">
           <div class="col-md-6"></div>
           <div class="col-md-6" style={{ textAlign: "center" }}>
-            <img src="4.8new.png" style={{ width: 200 }} />
+            <img src="https://doko.md/edpills/4.8new.png" style={{ width: 200 }} />
           </div>
         </div>
       </div>

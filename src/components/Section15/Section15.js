@@ -23,7 +23,7 @@ const Section15 = () => {
           >
             <img
               class="lib-img-show"
-              src="hipaa_blue.png"
+              src="https://doko.md/edpills/hipaa_blue.png"
               style={{width: "100%", borderRadius: "10px"}}
             />
           </div>
@@ -33,7 +33,7 @@ const Section15 = () => {
           >
             <img
               class="lib-img-show"
-              src="sslencr.png"
+              src="https://doko.md/edpills/sslencr.png"
               style={{width: "100%", borderRadius: "10px"}}
             />
           </div>

@@ -16,7 +16,7 @@ const Section5 = () => {
             >
               <div class="client-img">
                 <img
-                  src="numb-doc.png"
+                  src="https://doko.md/edpills/numb-doc.png"
                   alt="client"
                   width="120"
                   class="img-fluid rounded-circle"
@@ -37,7 +37,7 @@ const Section5 = () => {
             >
               <div class="client-img">
                 <img
-                  src="numb-list.png"
+                  src="https://doko.md/edpills/numb-list.png"
                   alt="client"
                   width="120"
                   class="img-fluid rounded-circle"
@@ -58,7 +58,7 @@ const Section5 = () => {
             >
               <div class="client-img">
                 <img
-                  src="numb-states.png"
+                  src="https://doko.md/edpills/numb-states.png"
                   alt="client"
                   width="120"
                   class="img-fluid rounded-circle"

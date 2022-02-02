@@ -13,7 +13,7 @@ const Section3 = () => {
           </div>
           <div class="col-md-5">
             <div class="about-content-right">
-              <img src="cardelivery.png" alt="about us" class="img-fluid" />
+              <img src="https://doko.md/edpills/cardelivery.png" alt="about us" class="img-fluid" />
             </div>
           </div>
         </div>
