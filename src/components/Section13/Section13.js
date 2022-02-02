@@ -11,7 +11,7 @@ const Section13 = () => {
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8">
             <div class="section-heading mb-5 text-center">
-              <h2 style={{color: #fff}}>Check what our Patients are Saying</h2>
+              <h2 style={{color: "#fff"}}>Check what our Patients are Saying</h2>
             </div>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Section13 = () => {
                   alt="client"
                   width="60"
                   class="img-fluid rounded-circle shadow-sm"
-                  style={{backgroundColor: #fff, border: "2px solid #009688"}}
+                  style={{backgroundColor: "#fff", border: "2px solid #009688"}}
                 />
               </div>
               <div class="client-info">

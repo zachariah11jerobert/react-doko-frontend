@@ -143,7 +143,7 @@ const Section16 = () => {
 
                 <div
                   class="form-check d-flex align-items-center text-center"
-                  style={{ textAlign: center }}
+                  style={{ textAlign: "center" }}
                 >
                   <label class="form-check-label small" for="exampleCheck1">
                     By Signing Up, you agree to our
