@@ -13,7 +13,8 @@ const Section11 = () => {
                 href="https://www.youtube.com/watch?v=fLycQcCxado"
                 className="popup-youtube video-play-icon d-inline-block"
               >
-                <span className="ti-control-play"></span>
+                <i class="fa fa-play fa-3x" aria-hidden="true"></i>
+
               </a>
               <h2 className="mt-4 text-white">
                 YOU'RE <span style={{ color: "#42d7c8" }}>NOT ALONE</span>

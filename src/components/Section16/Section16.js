@@ -125,28 +125,6 @@ const Section16 = () => {
                   </div>
                 </div>
 
-                <div id="id_wrap_other" className="no_display">
-                  <div className="form-group">
-                    <label className="pb-1"> States </label>
-
-                    <div className="input-group input-group-merge">
-                      <div className="input-icon">
-                        <span className="ti-map color-primary"></span>
-                      </div>
-                      <select
-                        className="form-control"
-                        name="state"
-                        id="state"
-                        style={{ backgroundColor: "#eee" }}
-                      >
-                        <option value="1">Choose States</option>
-                        <option value="10">FL</option>
-                        <option value="44">TX</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-
                 <div
                   className="form-check d-flex align-items-center text-center"
                   style={{ textAlign: "center" }}
