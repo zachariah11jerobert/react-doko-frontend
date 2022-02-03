@@ -41,7 +41,10 @@ const Section16 = () => {
 
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
-                        <span className="ti-user color-primary"></span>
+                        <i
+                          class="fa fa-user-o fa-2x color-primary"
+                          aria-hidden="true"
+                        ></i>
                       </div>
                       <input
                         type="text"
@@ -65,7 +68,10 @@ const Section16 = () => {
 
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
-                        <span className="ti-user color-primary"></span>
+                        <i
+                          class="fa fa-user-o fa-2x color-primary"
+                          aria-hidden="true"
+                        ></i>
                       </div>
                       <input
                         type="text"
@@ -82,7 +88,10 @@ const Section16 = () => {
 
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
-                        <span className="ti-email color-primary"></span>
+                        <i
+                          class="fa fa-envelope-o fa-2x color-primary"
+                          aria-hidden="true"
+                        ></i>
                       </div>
                       <input
                         type="email"
@@ -94,22 +103,15 @@ const Section16 = () => {
                       />
                     </div>
                   </div>
-                </div>
-
-                <div id="id_wrap_other" className="no_display">
-                  <div
-                    id="back_btn"
-                    style={{ color: "#3c4040", cursor: "pointer" }}
-                  >
-                    <i className="fa fa-chevron-left" aria-hidden="true"></i> Back
-                  </div>
-                  <br />
                   <div className="form-group">
                     <label className="pb-1"> Phone </label>
 
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
-                        <span className="ti-mobile color-primary"></span>
+                        <i
+                          class="fa fa-mobile fa-3x color-primary"
+                          aria-hidden="true"
+                        ></i>
                       </div>
                       <input
                         type="number"
@@ -121,6 +123,9 @@ const Section16 = () => {
                       />
                     </div>
                   </div>
+                </div>
+
+                <div id="id_wrap_other" className="no_display">
                   <div className="form-group">
                     <label className="pb-1"> States </label>
 
@@ -188,7 +193,6 @@ const Section16 = () => {
                   id="register_check"
                 >
                   START MY FREE VISIT
-                  <span className="ti-angle-double-right"></span>
                 </button>
 
                 <button
@@ -196,7 +200,7 @@ const Section16 = () => {
                   id="register"
                   className="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3 no_display"
                 >
-                  SUBMIT <span className="ti-angle-double-right"></span>
+                  SUBMIT
                 </button>
               </form>
               <p className="form-message"></p>

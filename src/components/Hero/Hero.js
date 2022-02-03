@@ -44,8 +44,14 @@ const Hero = () => {
                   href="#edform"
                   className="btn solid-btn page-scroll getitnow"
                 >
-                  START MY FREE VISIT
-                  <span className="ti-angle-double-right"></span>
+                  <span className="hero_start_getit">
+                    <span >START MY FREE VISIT</span>
+                    <i
+                      className="fa fa-angle-double-right fa-2x"
+                      style={{marginLeft:"5px"}}
+                      // aria-hidden="true"
+                    ></i>
+                  </span>
                 </a>
               </div>
             </div>

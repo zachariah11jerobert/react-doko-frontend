@@ -1,10 +1,15 @@
 import React from "react";
-import "./section17.css"
+import "./section17.css";
 
 const Section17 = () => {
   return (
-    <section id="contact" className="contact-us-section contact-us ptb-100"
-    style={{backgroundImage: "linear-gradient(to right, #1c2c46, #1c2c46e3, #1c2c46d1, #1c2c46c2, #1c2c46)"}}
+    <section
+      id="contact"
+      className="contact-us-section contact-us ptb-100"
+      style={{
+        backgroundImage:
+          "linear-gradient(to right, #1c2c46, #1c2c46e3, #1c2c46d1, #1c2c46c2, #1c2c46)",
+      }}
     >
       <div className="container">
         <div className="row justify-content-around">
@@ -55,7 +60,7 @@ const Section17 = () => {
                 </div>
 
                 <div className="col-md-6" style={{ textAlign: "center" }}>
-                  <img src="https://static.legitscript.com/seals/5343072.png"/>
+                  <img src="https://static.legitscript.com/seals/5343072.png" />
                 </div>
               </div>
             </div>
@@ -64,18 +69,30 @@ const Section17 = () => {
             <div style={{ textAlign: "center", marginTop: "0%" }}>
               <ul className="list-unstyled social-list mb-0">
                 <li className="list-inline-item">
-                  <a href="https://www.facebook.com/in.doko.md" className="rounded">
-                    <span className="ti-facebook white-bg color-2 shadow rounded-circle footer-social"></span>
+                  <a
+                    href="https://www.facebook.com/in.doko.md"
+                    className="rounded"
+                  >
+                    <span className="white-bg color-2 shadow rounded-circle footer-social">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </span>
                   </a>
                 </li>
                 <li className="list-inline-item">
                   <a href="https://twitter.com/doko_md" className="rounded">
-                    <span className="ti-twitter white-bg color-2 shadow rounded-circle footer-social"></span>
+                    <span className="white-bg color-2 shadow rounded-circle footer-social">
+                      <i className="fa fa-twitter" aria-hidden="true"></i>
+                    </span>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.instagram.com/doko.md/" className="rounded">
-                    <span className="ti-instagram white-bg color-2 shadow rounded-circle footer-social"></span>
+                  <a
+                    href="https://www.instagram.com/doko.md/"
+                    className="rounded"
+                  >
+                    <span className="white-bg color-2 shadow rounded-circle footer-social">
+                      <i className="fa fa-instagram" aria-hidden="true"></i>
+                    </span>
                   </a>
                 </li>
                 <li className="list-inline-item">
@@ -83,7 +100,9 @@ const Section17 = () => {
                     href="https://www.linkedin.com/company/doko-medical-inc/"
                     className="rounded"
                   >
-                    <span className="ti-linkedin white-bg color-2 shadow rounded-circle footer-social"></span>
+                    <span className="white-bg color-2 shadow rounded-circle footer-social">
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                    </span>
                   </a>
                 </li>
                 <li className="list-inline-item">
@@ -91,7 +110,9 @@ const Section17 = () => {
                     href="https://www.pinterest.ca/mktgdokomd/_saved/"
                     className="rounded"
                   >
-                    <span className="ti-pinterest white-bg color-2 shadow rounded-circle footer-social"></span>
+                    <span className="ti-pinterest white-bg color-2 shadow rounded-circle footer-social">
+                      <i className="fa fa-pinterest" aria-hidden="true"></i>
+                    </span>
                   </a>
                 </li>
               </ul>

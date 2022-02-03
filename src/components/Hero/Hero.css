@@ -53,3 +53,8 @@
     center/cover;
   padding: 70px 0px 70px 0px;
 }
+
+.hero_start_getit{
+  display: flex;
+  align-items: center !important;
+}
