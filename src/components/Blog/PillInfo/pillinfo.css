@@ -1,0 +1,56 @@
+.pillinfo_container {
+  height: 670px;
+  width: 410px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.pillinfo_container__header {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 410px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pillinfo_container__header-text {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.pillinfo_container__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pillinfo_container_button {
+  display: block;
+  border-style: none;
+  border-radius: 64px;
+  width: 230px;
+  height: 55px;
+  background: rgba(253, 118, 88, 1);
+  box-shadow: none;
+  text-shadow: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: Open Sans;
+  font-style: normal;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pillinfo_container .content{
+    text-align: center;
+}

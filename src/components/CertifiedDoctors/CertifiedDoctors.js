@@ -7,7 +7,9 @@ const CertifiedDoctors = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="text-center">
-              <h2 className="mt-50">Some of our US Board Certified Doctors</h2>
+              <h2 style={{ marginTop: "50px !important" }}>
+                Some of our US Board Certified Doctors
+              </h2>
               <p>Discuss it all with your healthcare provider</p>
             </div>
           </div>
@@ -15,7 +17,10 @@ const CertifiedDoctors = () => {
 
         <div className="row">
           <div className="col-md-3">
-            <div className="single-blog-card card border-0 shadow-sm">
+            <div
+              className="single-blog-card card border-0 shadow-sm"
+              data-aos="flip-down"
+            >
               <img
                 src="https://doko.md/edpills/kn.png"
                 className="card-img-top position-relative"
@@ -32,7 +37,10 @@ const CertifiedDoctors = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="single-blog-card card border-0 shadow-sm">
+            <div
+              className="single-blog-card card border-0 shadow-sm"
+              data-aos="flip-down"
+            >
               <img
                 src="https://doko.md/edpills/chris.png"
                 className="card-img-top position-relative"
@@ -49,7 +57,10 @@ const CertifiedDoctors = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="single-blog-card card border-0 shadow-sm">
+            <div
+              className="single-blog-card card border-0 shadow-sm"
+              data-aos="flip-down"
+            >
               <img
                 src="https://doko.md/edpills/maria.png"
                 className="card-img-top"
@@ -66,7 +77,10 @@ const CertifiedDoctors = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="single-blog-card card border-0 shadow-sm">
+            <div
+              className="single-blog-card card border-0 shadow-sm"
+              data-aos="flip-down"
+            >
               <img
                 src="https://doko.md/edpills/dd6.png"
                 className="card-img-top"
