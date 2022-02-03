@@ -65,7 +65,7 @@ const Hero = () => {
                         data-start="false"
                         style={{ width: "9%" }}
                       >
-                        {svg1}
+                        {/* {svg1} */}
                       </i>
                     </span>
                   </div>
@@ -79,7 +79,7 @@ const Hero = () => {
                         data-render="svg"
                         data-start="false"
                       >
-                        {svg1}
+                        {/* {svg1} */}
                       </i>
                     </span>
                   </div>
