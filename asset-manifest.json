@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.c1f089aa.css",
-    "main.js": "/react-doko-frontend/static/js/main.0f94bb96.js",
+    "main.css": "/react-doko-frontend/static/css/main.d2ab64d2.css",
+    "main.js": "/react-doko-frontend/static/js/main.d591412e.js",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/bck3threebox.png": "/react-doko-frontend/static/media/bck3threebox.ff1ab063a27a685644af.png",
     "static/media/maintopimgmin.jpg": "/react-doko-frontend/static/media/maintopimgmin.dea18f60b1338b01a20b.jpg",
+    "static/media/svg1.svg": "/react-doko-frontend/static/media/svg1.91e9b011ebac70e58f27598ac2d0ac19.svg",
     "index.html": "/react-doko-frontend/index.html",
-    "main.c1f089aa.css.map": "/react-doko-frontend/static/css/main.c1f089aa.css.map",
-    "main.0f94bb96.js.map": "/react-doko-frontend/static/js/main.0f94bb96.js.map"
+    "main.d2ab64d2.css.map": "/react-doko-frontend/static/css/main.d2ab64d2.css.map",
+    "main.d591412e.js.map": "/react-doko-frontend/static/js/main.d591412e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f089aa.css",
-    "static/js/main.0f94bb96.js"
+    "static/css/main.d2ab64d2.css",
+    "static/js/main.d591412e.js"
   ]
 }
