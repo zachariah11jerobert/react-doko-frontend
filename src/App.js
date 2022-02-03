@@ -16,10 +16,10 @@ import Section16 from "./components/Section16/Section16";
 import Section17 from "./components/Section17/Section17";
 import Section2 from "./components/Section2/Section2";
 import Section3 from "./components/Section3/Section3";
-import Section4 from "./components/Section4/Section4";
+import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
 import Section5 from "./components/Section5/Section5";
 import Section6 from "./components/Section6/Section6";
-import Section7 from "./components/Section7/Section7";
+import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import Section8 from "./components/Section8/Section8";
 import Section9 from "./components/Section9/Section9";
 
@@ -32,18 +32,14 @@ function App() {
       <Header />
       <div className="main">
         <Hero />
-        <div data-aos="fade-up">
-          <Section2 />
-        </div>
-        <div data-aos="fade-up">
-          <Blog />
-        </div>
+
+        <Blog />
+
+        <SectionHowItWorks />
         <div data-aos="fade-up">
           <Section3 />
         </div>
-        <div data-aos="fade-up">
-          <Section4 />
-        </div>
+
         <div data-aos="fade-up">
           <Section5 />
         </div>
@@ -51,7 +47,7 @@ function App() {
           <Section6 />
         </div>
         <div data-aos="fade-up">
-          <Section7 />
+          <CertifiedDoctors />
         </div>
         <div data-aos="fade-up">
           <Section8 />

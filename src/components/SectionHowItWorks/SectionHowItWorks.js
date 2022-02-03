@@ -1,19 +1,21 @@
 import React from "react";
 
-const Section4 = () => {
+const SectionHowItWorks = () => {
   return (
     <>
       <section
-        className="ptb-100 gray-light-bg"
+        className="ptb-100 bg-theme-blue"
         id="htwdesk"
         style={{ padding: "20px 0 100px" }}
       >
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <div className="row justify-content-center">
             <div className="col-md-9 col-lg-8">
               <div className="section-heading mb-5 text-center">
-                <h1>How It Works</h1>
-                <p className="lead">It’s quick and easy! Here are the steps:</p>
+                <h1 className="text-white">How It Works</h1>
+                <p className="lead text-white">
+                  It’s quick and easy! Here are the steps:
+                </p>
               </div>
             </div>
           </div>
@@ -47,14 +49,18 @@ const Section4 = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-md-12 col-lg-12">
               <div className="img-wrap">
-                <img src="https://doko.md/edpills/desk-how-work2.png" alt="how work" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/desk-how-work2.png"
+                  alt="how work"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 };
 
-export default Section4;
+export default SectionHowItWorks;

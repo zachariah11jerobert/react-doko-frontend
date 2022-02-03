@@ -22,3 +22,11 @@ code {
 .border-1{
   border: 1px solid #efecec;
 }
+
+.flex-container-row{
+  display: flex;
+}
+
+.bg-theme-blue{
+  background-color: #1c2c46;
+}

@@ -1,0 +1,21 @@
+.pill_footer {
+  width: 92%;
+  /* height: 24px; */
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  margin-left: 4%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.inline_testimonial-quote-wrap4 {
+  padding: 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #2fa5a9;
+  color: #fff;
+  border-radius: 10px !important;
+}

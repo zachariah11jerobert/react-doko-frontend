@@ -3,8 +3,8 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <section id="blog" className="our-blog-section  gray-light-bg blogsec">
-      <div className="container">
+    <section id="blog" className="our-blog-section gray-light-bg blogsec">
+      <div className="container" data-aos="fade-up">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div

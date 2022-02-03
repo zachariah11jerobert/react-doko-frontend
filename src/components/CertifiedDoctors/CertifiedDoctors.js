@@ -1,16 +1,13 @@
 import React from "react";
 
-const Section7 = () => {
+const CertifiedDoctors = () => {
   return (
-    <section
-      className="our-blog-section ptb-100 gray-light-bg doctorlist-desk"
-      style={{ padding: "0 0 0px" }}
-    >
+    <section className="gray-light-bg">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="section-heading mb-5">
-              <h2>Some of our US Board Certified Doctors</h2>
+            <div className="text-center">
+              <h2 className="mt-50">Some of our US Board Certified Doctors</h2>
               <p>Discuss it all with your healthcare provider</p>
             </div>
           </div>
@@ -91,4 +88,4 @@ const Section7 = () => {
   );
 };
 
-export default Section7;
+export default CertifiedDoctors;
