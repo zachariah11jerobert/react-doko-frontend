@@ -19,7 +19,7 @@ const CertifiedDoctors = () => {
           <div className="col-md-3">
             <div
               className="single-blog-card card border-0 shadow-sm"
-              data-aos="flip-down"
+              data-aos="fade-up"
             >
               <img
                 src="https://doko.md/edpills/kn.png"
@@ -39,7 +39,7 @@ const CertifiedDoctors = () => {
           <div className="col-md-3">
             <div
               className="single-blog-card card border-0 shadow-sm"
-              data-aos="flip-down"
+              data-aos="fade-up"
             >
               <img
                 src="https://doko.md/edpills/chris.png"
@@ -59,7 +59,7 @@ const CertifiedDoctors = () => {
           <div className="col-md-3">
             <div
               className="single-blog-card card border-0 shadow-sm"
-              data-aos="flip-down"
+              data-aos="fade-up"
             >
               <img
                 src="https://doko.md/edpills/maria.png"
@@ -79,7 +79,7 @@ const CertifiedDoctors = () => {
           <div className="col-md-3">
             <div
               className="single-blog-card card border-0 shadow-sm"
-              data-aos="flip-down"
+              data-aos="fade-up"
             >
               <img
                 src="https://doko.md/edpills/dd6.png"
