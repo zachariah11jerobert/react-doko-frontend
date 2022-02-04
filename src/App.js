@@ -38,12 +38,12 @@ function App() {
 
         <SectionHowItWorks />
         <div data-aos="fade-up">
+          <Section5 />
+        </div>
+        <div data-aos="fade-up">
           <Section3 />
         </div>
 
-        <div data-aos="fade-up">
-          <Section5 />
-        </div>
         <div data-aos="fade-up">
           <Section6 />
         </div>

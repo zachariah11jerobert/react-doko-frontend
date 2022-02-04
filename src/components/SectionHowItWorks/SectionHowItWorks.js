@@ -4,7 +4,7 @@ const SectionHowItWorks = () => {
   return (
     <>
       <section
-        className="ptb-100 bg-theme-blue"
+        className="ptb-100"
         id="htwdesk"
         style={{ padding: "20px 0 100px" }}
       >
@@ -12,10 +12,8 @@ const SectionHowItWorks = () => {
           <div className="row justify-content-center">
             <div className="col-md-9 col-lg-8">
               <div className="section-heading mb-5 text-center">
-                <h1 className="text-white">How It Works</h1>
-                <p className="lead text-white">
-                  It’s quick and easy! Here are the steps:
-                </p>
+                <h1>How It Works</h1>
+                <p className="lead">It’s quick and easy! Here are the steps:</p>
               </div>
             </div>
           </div>

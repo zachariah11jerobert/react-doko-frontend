@@ -2,15 +2,15 @@ import React from "react";
 
 const CertifiedDoctors = () => {
   return (
-    <section className="gray-light-bg">
+    <section className="bg-theme-blue">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="text-center">
-              <h2 style={{ marginTop: "50px !important" }}>
+              <h2 className="text-white" style={{ marginTop: "50px !important" }}>
                 Some of our US Board Certified Doctors
               </h2>
-              <p>Discuss it all with your healthcare provider</p>
+              <p className="text-white">Discuss it all with your healthcare provider</p>
             </div>
           </div>
         </div>

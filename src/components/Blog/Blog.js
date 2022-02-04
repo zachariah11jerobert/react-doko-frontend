@@ -7,17 +7,17 @@ import cialis from "../../assets/tadalafil-bottle.png";
 
 const Blog = () => {
   return (
-    <section id="blog" className="our-blog-section gray-light-bg blogsec">
+    <section id="blog" className="bg-theme-blue pb-50">
       <div className="container" data-aos="fade-up">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div
-              className="section-heading mb-5"
+              className="mb-5"
               style={{ textAlign: "center" }}
             >
               <br />
-              <h2>Our Treatments for ED</h2>
-              <p className="" style={{ marginBottom: "0em" }}>
+              <h2 className="text-white">Our Treatments for ED</h2>
+              <p className="text-white" style={{ marginBottom: "0em" }}>
                 We offer prescription medications clinically proven to help
                 improve erections.
               </p>
