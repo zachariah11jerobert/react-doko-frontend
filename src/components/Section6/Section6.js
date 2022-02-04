@@ -1,18 +1,17 @@
 import React from "react";
 import "./Section6.css";
 
+import img1 from "../../assets/numb-doc.png";
+import img2 from "../../assets/numb-list.png";
+import img3 from "../../assets/numb-states.png";
+
 const Section6 = () => {
   return (
     <section className="ptb-30 bg-theme-blue" id="itemslide-ph">
       <div className="d-flex justify-content-around align-item-center flex-wrap">
         <div className="box_content" data-aos="zoom-in">
           <div className="client-img">
-            <img
-              src="https://doko.md/edpills/numb-doc.png"
-              alt="client"
-              width="150"
-              className="img-fluid"
-            />
+            <img src={img1} alt="client" className="img-fluid" />
           </div>
           <div className="margin-minus-left-fix">
             <h5 className="mb-0 text-white" style={{ fontSize: "2rem" }}>
@@ -27,10 +26,10 @@ const Section6 = () => {
         <div className="box_content" data-aos="zoom-in">
           <div className="client-img">
             <img
-              src="https://doko.md/edpills/numb-list.png"
+              src={img2}
               alt="client"
-              width="150"
-              className="img-fluid"
+
+              // className="img-fluid"
             />
           </div>
           <div className="margin-minus-left-fix">
@@ -45,12 +44,7 @@ const Section6 = () => {
 
         <div className="box_content" data-aos="zoom-in">
           <div className="client-img">
-            <img
-              src="https://doko.md/edpills/numb-states.png"
-              alt="client"
-              width="150"
-              className="img-fluid"
-            />
+            <img src={img3} alt="client" className="img-fluid" />
           </div>
           <div className="margin-minus-left-fix">
             <h5 className="mb-0 text-white" style={{ fontSize: "2rem" }}>

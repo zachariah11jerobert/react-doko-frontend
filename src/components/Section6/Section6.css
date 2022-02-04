@@ -1,19 +1,23 @@
-.box_content{
+.box_content {
   display: flex;
   align-items: center;
 }
 
-.margin-minus-left-fix{
+.margin-minus-left-fix {
   margin-left: -20px !important;
 }
 
+.client-img img{
+  width: 200px !important;
+}
+
 @media only screen and (max-width: 420px) {
-  .box_content{
+  .box_content {
     width: 300px !important;
-    height: 100px !important;
+    height: 80px !important;
   }
 
-  .client-img{
-    height: 150px !important;
+  .client-img img{
+    width: 120px !important;
   }
 }
