@@ -3,15 +3,12 @@ import "./Section6.css";
 
 const Section6 = () => {
   return (
-    <section
-      className="our-partner-section ptb-100 inline_sec6_style1"
-      id="itemslide-ph"
-    >
+    <section className="ptb-30" id="itemslide-ph">
       <div className="d-flex justify-content-center align-item-center flex-wrap">
         <div className="box_content_300 mt-5">
           <div className="client-img">
             <img
-              src="numb-doc.png"
+              src="https://doko.md/edpills/numb-doc.png"
               alt="client"
               width="120"
               className="img-fluid rounded-circle"
@@ -33,7 +30,7 @@ const Section6 = () => {
         <div className="box_content_300 mt-5">
           <div className="client-img">
             <img
-              src="numb-list.png"
+              src="https://doko.md/edpills/numb-list.png"
               alt="client"
               width="120"
               className="img-fluid rounded-circle"
@@ -52,7 +49,7 @@ const Section6 = () => {
         <div className="box_content_300 mt-5">
           <div className="client-img">
             <img
-              src="numb-states.png"
+              src="https://doko.md/edpills/numb-states.png"
               alt="client"
               width="120"
               className="img-fluid rounded-circle"
