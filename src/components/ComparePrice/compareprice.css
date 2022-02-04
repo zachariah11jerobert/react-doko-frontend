@@ -1,3 +1,10 @@
+@media only screen and (max-width: 420px) {
+  .box-left {
+    max-width: 360px !important;
+    min-width: 320px !important;
+  }
+}
+
 .price-real {
   padding-top: 55px;
 }
@@ -7,7 +14,10 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
+
+
 
 .box-left {
   max-width: 685px;

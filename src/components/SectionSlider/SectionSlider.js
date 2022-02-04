@@ -1,17 +1,13 @@
 import React from "react";
-import OwlCarousel from "react-owl-carousel2";
-import 'react-owl-carousel2/style.css';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const SectionSlider = () => {
-  const options = {
-    items: 1,
-    nav: true,
-    rewind: true,
-    autoplay: true,
-  };
+
   return (
-    <OwlCarousel options={options}>
-      <div>
+    <OwlCarousel className="owl-theme" loop margin={10} nav items="1">
+      <div className="item">
         <div className="rounded text-center p-4">
           <div className="mb-3">
             <img
@@ -28,7 +24,7 @@ const SectionSlider = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="item">
         <div className="rounded text-center p-4">
           <div className="mb-3">
             <img
@@ -48,7 +44,7 @@ const SectionSlider = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="item">
         <div className="rounded text-center p-4">
           <div className="mb-3">
             <img
@@ -65,7 +61,7 @@ const SectionSlider = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="item">
         <div className="single-partner-wrap card-bottom-line  rounded text-center p-4">
           <div className="mb-3">
             <img
@@ -82,7 +78,7 @@ const SectionSlider = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="item">
         <div className="rounded text-center p-4">
           <div className="mb-3">
             <img

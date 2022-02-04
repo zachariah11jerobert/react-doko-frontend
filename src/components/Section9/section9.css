@@ -5,9 +5,8 @@
   background-size: 100% 100%;
 }
 
-.inline_sec9_style2 {
-  background: url("../../assets/mobilephramacy.png") no-repeat center left / cover; 
-  opacity: 1;
-  height: 1100px;
-  background-size: 100% 100%;
+.image-mobile{
+  width:350px !important;
 }
+
+
