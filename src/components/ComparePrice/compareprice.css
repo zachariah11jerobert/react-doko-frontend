@@ -5,18 +5,18 @@
 .box-content {
   margin-top: 45px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
 .box-left {
-  max-width: 500px;
+  max-width: 685px;
   min-width: 500px;
 }
 
 .box-right {
   padding-left: 30px;
-  max-width: 685px;
+  max-width: 500px;
   padding-bottom: 30px;
 }
 

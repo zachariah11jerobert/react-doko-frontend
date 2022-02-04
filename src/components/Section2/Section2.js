@@ -6,7 +6,7 @@ const Section2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div className="single-fact text-center">
+            <div className="text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon3.png"
                 className="card-img-top"
@@ -25,7 +25,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div className="single-fact  text-center">
+            <div className="text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon1.png"
                 className="card-img-top position-relative"
@@ -44,7 +44,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-4 mb-lg-0">
-            <div className="single-fact text-center">
+            <div className="text-center">
               <img
                 src="https://dokocrm.com/telemed/mailicon2.png"
                 className="card-img-top position-relative"

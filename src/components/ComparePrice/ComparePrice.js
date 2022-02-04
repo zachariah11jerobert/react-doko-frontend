@@ -7,7 +7,7 @@ const ComparePrice = () => {
     <section class="price-real">
       <div class="center">
         <div class="box-content">
-          <div class="box-right">
+          <div class="box-left">
             <div class="tx-center">
               <h2 class="title js-scroll fade-top">
                 Real Meds.

@@ -8,11 +8,11 @@ import Section2 from "../Section2/Section2";
 
 const Hero = () => {
   return (
-    <section className="hero-section background-img inline_hero-section top01sec">
+    <section className="hero-section">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-md-7 col-lg-7">
-            <div className="hero-content section-title text-center text-lg-left my-5 mt-lg-0">
+            <div className="text-center text-lg-left my-5 mt-lg-0">
               <span className="text-uppercase color-secondary font-weight-bold">
                 Best Service Quality
               </span>
