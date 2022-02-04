@@ -74,7 +74,7 @@ const Section17 = () => {
                     className="rounded"
                   >
                     <span className="white-bg color-2 shadow rounded-circle footer-social">
-                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <i className="fa fa-facebook" aria-hidden="true"></i>
                     </span>
                   </a>
                 </li>

@@ -42,7 +42,7 @@ const Section16 = () => {
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
                         <i
-                          class="fa fa-user-o fa-2x color-primary"
+                          className="fa fa-user-o fa-2x color-primary"
                           aria-hidden="true"
                         ></i>
                       </div>
@@ -69,7 +69,7 @@ const Section16 = () => {
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
                         <i
-                          class="fa fa-user-o fa-2x color-primary"
+                          className="fa fa-user-o fa-2x color-primary"
                           aria-hidden="true"
                         ></i>
                       </div>
@@ -89,7 +89,7 @@ const Section16 = () => {
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
                         <i
-                          class="fa fa-envelope-o fa-2x color-primary"
+                          className="fa fa-envelope-o fa-2x color-primary"
                           aria-hidden="true"
                         ></i>
                       </div>
@@ -109,7 +109,7 @@ const Section16 = () => {
                     <div className="input-group input-group-merge">
                       <div className="input-icon">
                         <i
-                          class="fa fa-mobile fa-3x color-primary"
+                          className="fa fa-mobile fa-3x color-primary"
                           aria-hidden="true"
                         ></i>
                       </div>

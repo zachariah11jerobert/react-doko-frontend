@@ -13,7 +13,7 @@ const Section11 = () => {
                 href="https://www.youtube.com/watch?v=fLycQcCxado"
                 className="popup-youtube video-play-icon d-inline-block"
               >
-                <i class="fa fa-play fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-play fa-3x" aria-hidden="true"></i>
 
               </a>
               <h2 className="mt-4 text-white">
