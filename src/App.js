@@ -22,6 +22,7 @@ import Section6 from "./components/Section6/Section6";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
 import Section9 from "./components/Section9/Section9";
+import ComparePrice from "./components/ComparePrice/ComparePrice";
 
 function App() {
   useEffect(() => {
@@ -32,7 +33,7 @@ function App() {
       <Header />
       <div className="main">
         <Hero />
-
+        <ComparePrice />
         <Blog />
 
         <SectionHowItWorks />

@@ -25,7 +25,11 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img src="https://doko.md/edpills/xr-1.png" alt="partner logo" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/xr-1.png"
+                  alt="partner logo"
+                  className="img-fluid"
+                />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Getting Help</h5>
@@ -38,7 +42,11 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img src="https://doko.md/edpills/xr-2.png" alt="partner logo" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/xr-2.png"
+                  alt="partner logo"
+                  className="img-fluid"
+                />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Mental Health</h5>
@@ -53,7 +61,11 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img src="https://doko.md/edpills/xr-3.png" alt="partner logo" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/xr-3.png"
+                  alt="partner logo"
+                  className="img-fluid"
+                />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">You are not alone</h5>
@@ -67,7 +79,11 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img src="https://doko.md/edpills/xr-5.png" alt="partner logo" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/xr-5.png"
+                  alt="partner logo"
+                  className="img-fluid"
+                />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Sign of Diabetes</h5>
@@ -80,7 +96,11 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img src="https://doko.md/edpills/xr-6.png" alt="partner logo" className="img-fluid" />
+                <img
+                  src="https://doko.md/edpills/xr-6.png"
+                  alt="partner logo"
+                  className="img-fluid"
+                />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Its Physical</h5>
@@ -90,7 +110,6 @@ const Section10 = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-1 col-lg-1"></div>
         </div>
       </div>
     </section>
