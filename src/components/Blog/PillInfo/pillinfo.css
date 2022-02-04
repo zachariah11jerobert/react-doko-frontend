@@ -8,16 +8,20 @@
   margin-top: 10px;
 }
 
+.pillinfo_container p{
+  font-weight: 500 !important;
+}
+
 @media only screen and (max-width: 420px) {
   .pillinfo_container {
-    width: 350px !important;
+    width: 320px !important;
     height: 600px;
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
 
   .pillinfo_container__header {
-    width: 350px !important;
+    width: 320px !important;
   }
 }
 

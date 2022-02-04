@@ -22,13 +22,13 @@ const Blog = () => {
         </div>
 
         <div className="d-flex justify-content-center align-item-center flex-wrap">
-          <div data-aos="fade-right">
+          <div data-aos="zoom-in">
             <PillInfo
               bgColor={"#c0eeea"}
               textColor={"rgb(36, 168, 157)"}
               pillName="Viagra (Sildenafil)"
               pillImage={viagra}
-              subtitle={"(Previously 25mg $2, 50mg $4, 100mg $8)"}
+              subtitle={"25mg $2, 50mg $4, 100mg $8"}
             >
               Sildenafil is the active ingredient in Viagra. It is in the group
               of medicines that doctors call PDE-5 inhibitors and use to treat
@@ -36,13 +36,13 @@ const Blog = () => {
               and 100mg strength.
             </PillInfo>
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="zoom-in">
             <PillInfo
               bgColor={"#f6ecc6"}
               textColor={"rgb(236, 185, 105)"}
               pillName="Cialis (Tadalafil)"
               pillImage={cialis}
-              subtitle={"(Previously 2.5mg $2, 5mg $4, 10mg $8 , 20mg $16)"}
+              subtitle={"2.5mg $2, 5mg $4, 10mg $8 , 20mg $16"}
             >
               Tadalafil is the active ingredient in Cialis. It is approved by
               the FDA to treat erectile dysfunction. It’s available from Doko MD
