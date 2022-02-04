@@ -4,7 +4,7 @@ import CompPill from "../comppill/CompPill";
 import "./Hero.css";
 
 import svg1 from "../../assets/svg1.svg";
-import Section2 from "../Section2/Section2";
+import HeroRibbon from "../HeroRibbon/HeroRibbon";
 import BoxMobile from "../BoxMobile/BoxMobile";
 
 const Hero = () => {
@@ -102,19 +102,9 @@ const Hero = () => {
           </div>
           <div className="col-md-5 col-lg-5"></div>
         </div>
-
-        <div className="row" id="">
-          <div className="col-md-6"></div>
-          <div className="col-md-6" style={{ textAlign: "center" }}>
-            <img
-              src="https://doko.md/edpills/4.8new.png"
-              style={{ width: 200 }}
-            />
-          </div>
-        </div>
       </div>
       <div data-aos="fade-up">
-        <Section2 />
+        <HeroRibbon />
       </div>
     </section>
   );
