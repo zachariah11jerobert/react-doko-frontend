@@ -9,7 +9,9 @@
 }
 
 .pillinfo_container p{
-  font-weight: 500 !important;
+  margin-top: 10px;
+  font-weight: 600 !important;
+  text-align: center;
 }
 
 @media only screen and (max-width: 420px) {
@@ -22,6 +24,10 @@
 
   .pillinfo_container__header {
     width: 320px !important;
+  }
+
+  .pillinfo_container h5{
+    display: none;
   }
 }
 
