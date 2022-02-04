@@ -23,14 +23,14 @@ const Hero = () => {
               <p className="lead" style={{ color: "#dbd8d8" }}></p>
 
               <div className="row" id="boxdesk01">
-                <div className="col-6">
+                <div className="col-md-6">
                   <CompPill
                     tabletName="Viagra® (sildenafil)"
                     tabletImage="https://rexmd.com/home/04/img/viagra.png"
                     footerBackgroundColor="#33c7b8"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <CompPill
                     tabletName="Cialis® (tadalafil)"
                     tabletImage="https://rexmd.com/home/04/img/cialis.png"
@@ -39,16 +39,16 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="action-btn mt-4">
+              <div className="mt-4">
                 <a
                   href="#edform"
                   className="btn solid-btn page-scroll getitnow"
                 >
                   <span className="hero_start_getit">
-                    <span >START MY FREE VISIT</span>
+                    <span>START MY FREE VISIT</span>
                     <i
                       className="fa fa-angle-double-right fa-2x"
-                      style={{marginLeft:"5px"}}
+                      style={{ marginLeft: "5px" }}
                       // aria-hidden="true"
                     ></i>
                   </span>

@@ -22,7 +22,7 @@ const Blog = () => {
         </div>
 
         <div className="d-flex justify-content-center align-item-center flex-wrap">
-          <div className="ml-5" data-aos="fade-right">
+          <div data-aos="fade-right">
             <PillInfo
               bgColor={"#c0eeea"}
               textColor={"rgb(36, 168, 157)"}
@@ -36,7 +36,7 @@ const Blog = () => {
               and 100mg strength.
             </PillInfo>
           </div>
-          <div className="ml-5" data-aos="fade-left">
+          <div data-aos="fade-left">
             <PillInfo
               bgColor={"#f6ecc6"}
               textColor={"rgb(236, 185, 105)"}
@@ -50,7 +50,7 @@ const Blog = () => {
             </PillInfo>
           </div>
         </div>
-        <br/>
+        <br />
       </div>
     </section>
   );

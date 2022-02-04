@@ -5,7 +5,6 @@ const Section12 = () => {
     <section
       id="clientslider"
       className="screenshots-section ptb-100 gray-light-bg"
-      style={{ backgroundColor: "#3ebeb4", display: "none" }}
     >
       <div className="container">
         <div className="row justify-content-center">

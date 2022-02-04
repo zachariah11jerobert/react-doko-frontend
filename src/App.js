@@ -14,7 +14,7 @@ import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
 import Section16 from "./components/Section16/Section16";
 import Section17 from "./components/Section17/Section17";
-import Section2 from "./components/Section2/Section2";
+import SectionSlider from "./components/SectionSlider/SectionSlider";
 import Section3 from "./components/Section3/Section3";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
 import Section5 from "./components/Section5/Section5";
@@ -60,22 +60,34 @@ function App() {
           <Section9 />
         </div>
         <div data-aos="fade-up">
-          <Section10 />
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <Section10 />
+          </div>
+          <div className="d-sm-block d-md-none d-lg-none d-xl-none">
+            <SectionSlider />
+          </div>
         </div>
         <div data-aos="fade-up">
           <Section11 />
         </div>
+
         <div data-aos="fade-up">
-          <Section12 />
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <Section13 />
+          </div>
+          {/* <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <Section12 />
+          </div> */}
         </div>
         <div data-aos="fade-up">
-          <Section13 />
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <Section14 />
+          </div>
         </div>
         <div data-aos="fade-up">
-          <Section14 />
-        </div>
-        <div data-aos="fade-up">
-          <Section15 />
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <Section15 />
+          </div>
         </div>
         <div data-aos="fade-up">
           <Section16 />

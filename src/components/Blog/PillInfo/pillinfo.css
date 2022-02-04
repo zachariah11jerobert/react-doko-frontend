@@ -3,6 +3,22 @@
   width: 410px;
   background-color: #fff;
   border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 420px) {
+  .pillinfo_container {
+    width: 350px !important;
+    height: 600px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .pillinfo_container__header {
+    width: 350px !important;
+  }
 }
 
 .pillinfo_container__header {
@@ -51,6 +67,6 @@
   background-repeat: no-repeat;
 }
 
-.pillinfo_container .content{
-    text-align: center;
+.pillinfo_container .content {
+  text-align: center;
 }

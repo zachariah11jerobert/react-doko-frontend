@@ -4,7 +4,19 @@
   padding: 70px 0px 0px 0px;
 }
 
-.hero_start_getit{
+.hero_start_getit {
   display: flex;
   align-items: center !important;
+}
+
+.solid-btn {
+  box-shadow: 0 20px 30px 0 rgb(255 255 255 / 20%) !important;
+}
+.solid-btn {
+  color: #fff;
+  -webkit-box-shadow: 0 20px 30px 0 rgba(67, 37, 204, 0.2);
+  box-shadow: 0 20px 30px 0 rgba(67, 37, 204, 0.2);
+  background: #fd7658;
+  border: 2px solid #fd7658;
+  border-radius: 30px;
 }
