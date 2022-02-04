@@ -5,7 +5,6 @@ const CerifiedDoctorsCourousal = () => {
     <section
       id="doctorlist-ph"
       className="screenshots-section ptb-100"
-      style={{ display: "none" }}
     >
       <div className="container">
         <div className="row justify-content-center">
@@ -49,7 +48,7 @@ const CerifiedDoctorsCourousal = () => {
               <div className="col-md-4">
                 <div className="single-blog-card card border-0 shadow-sm">
                   <img
-                    src="kn.png"
+                    src="https://doko.md/edpills/kn.png"
                     className="card-img-top position-relative inline_sec8_style_1"
                     alt="blog"
                   />
@@ -77,7 +76,7 @@ const CerifiedDoctorsCourousal = () => {
               <div className="col-md-4">
                 <div className="single-blog-card card border-0 shadow-sm">
                   <img
-                    src="maria.png"
+                    src="https://doko.md/edpills/maria.png"
                     className="card-img-top position-relative inline_sec8_style_1"
                     alt="blog"
                   />
@@ -106,7 +105,7 @@ const CerifiedDoctorsCourousal = () => {
               <div className="col-md-4">
                 <div className="single-blog-card card border-0 shadow-sm">
                   <img
-                    src="chris.png"
+                    src="https://doko.md/edpills/chris.png"
                     className="card-img-top position-relative inline_sec8_style_1"
                     alt="blog"
                   />
@@ -134,7 +133,7 @@ const CerifiedDoctorsCourousal = () => {
               <div className="col-md-4">
                 <div className="single-blog-card card border-0 shadow-sm">
                   <img
-                    src="dd6.png"
+                    src="https://doko.md/edpills/dd6.png"
                     className="card-img-top position-relative inline_sec8_style_1"
                     alt="blog"
                   />

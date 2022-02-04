@@ -47,10 +47,10 @@ function App() {
           <Section6 />
         </div>
         <div data-aos="fade-up">
-          <div className="d-sm-none d-md-block">
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <CertifiedDoctors />
           </div>
-          <div className="d-md-none d-lg-block">
+          <div className="d-sm-block d-md-none d-lg-none d-xl-none">
             <CerifiedDoctorsCourousal />
           </div>
         </div>
