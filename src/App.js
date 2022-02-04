@@ -17,7 +17,6 @@ import Section17 from "./components/Section17/Section17";
 import SectionSlider from "./components/SectionSlider/SectionSlider";
 import Section3 from "./components/Section3/Section3";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
-import Section5 from "./components/Section5/Section5";
 import Section6 from "./components/Section6/Section6";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
@@ -37,16 +36,16 @@ function App() {
         <Blog />
 
         <SectionHowItWorks />
+        
         <div data-aos="fade-up">
-          <Section5 />
+          <Section6 />
         </div>
+
         <div data-aos="fade-up">
           <Section3 />
         </div>
 
-        <div data-aos="fade-up">
-          <Section6 />
-        </div>
+        
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <CertifiedDoctors />
@@ -75,9 +74,7 @@ function App() {
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <Section13 />
           </div>
-          {/* <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-            <Section12 />
-          </div> */}
+   
         </div>
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
