@@ -22,14 +22,8 @@ const Section9 = () => {
           className="col-lg-12 col-md-12"
           style={{ paddingRight: "0px", paddingLeft: "0px" }}
         >
-          <div
-            className="background-image-holder inline_sec9_style1"
-            id="phamap"
-          ></div>
-          <div
-            className="background-image-holder inline_sec9_style2"
-            id="phamaphone"
-          ></div>
+          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block inline_sec9_style1"></div>
+          <div className="d-sm-block d-md-none d-lg-none d-xl-none inline_sec9_style2"></div>
         </div>
       </div>
     </section>
