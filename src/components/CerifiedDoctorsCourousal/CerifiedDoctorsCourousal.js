@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section8 = () => {
+const CerifiedDoctorsCourousal = () => {
   return (
     <section
       id="doctorlist-ph"
@@ -58,7 +58,10 @@ const Section8 = () => {
                       className="hero-content section-title text-center text-lg-left mt-lg-0"
                       //   style="text-align: center !important"
                     >
-                      <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
+                      <h1
+                        className="font-weight-bold"
+                        style={{ fontSize: "2rem" }}
+                      >
                         Dr. Kent Northcote
                       </h1>
                       <p className="lead" style={{ fontSize: "1rem" }}>
@@ -83,7 +86,10 @@ const Section8 = () => {
                       className="hero-content section-title text-center text-lg-left mt-lg-0"
                       //   style="text-align: center !important"
                     >
-                      <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
+                      <h1
+                        className="font-weight-bold"
+                        style={{ fontSize: "2rem" }}
+                      >
                         Dr. Marianna Zelenak
                       </h1>
                       <p className="lead" style={{ fontSize: "1rem" }}>
@@ -109,7 +115,10 @@ const Section8 = () => {
                       className="hero-content section-title text-center text-lg-left mt-lg-0"
                       //   style="text-align: center !important"
                     >
-                      <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
+                      <h1
+                        className="font-weight-bold"
+                        style={{ fontSize: "2rem" }}
+                      >
                         Dr. Christine Nguyen
                       </h1>
                       <p className="lead" style={{ fontSize: "1rem" }}>
@@ -134,7 +143,10 @@ const Section8 = () => {
                       className="hero-content section-title text-center text-lg-left mt-lg-0"
                       //   style="text-align: center !important"
                     >
-                      <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
+                      <h1
+                        className="font-weight-bold"
+                        style={{ fontSize: "2rem" }}
+                      >
                         And 100+ more Doctors
                       </h1>
 
@@ -151,4 +163,4 @@ const Section8 = () => {
   );
 };
 
-export default Section8;
+export default CerifiedDoctorsCourousal;

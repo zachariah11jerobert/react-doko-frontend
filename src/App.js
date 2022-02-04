@@ -20,7 +20,7 @@ import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks"
 import Section5 from "./components/Section5/Section5";
 import Section6 from "./components/Section6/Section6";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
-import Section8 from "./components/Section8/Section8";
+import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
 import Section9 from "./components/Section9/Section9";
 
 function App() {
@@ -47,11 +47,14 @@ function App() {
           <Section6 />
         </div>
         <div data-aos="fade-up">
-          <CertifiedDoctors />
+          <div className="d-sm-none d-md-block">
+            <CertifiedDoctors />
+          </div>
+          <div className="d-md-none d-lg-block">
+            <CerifiedDoctorsCourousal />
+          </div>
         </div>
-        <div data-aos="fade-up">
-          <Section8 />
-        </div>
+
         <div data-aos="fade-up">
           <Section9 />
         </div>
