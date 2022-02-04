@@ -5,6 +5,7 @@ import "./Hero.css";
 
 import svg1 from "../../assets/svg1.svg";
 import Section2 from "../Section2/Section2";
+import BoxMobile from "../BoxMobile/BoxMobile";
 
 const Hero = () => {
   return (
@@ -22,21 +23,27 @@ const Hero = () => {
               <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
               <p className="lead" style={{ color: "#dbd8d8" }}></p>
 
-              <div className="row" id="boxdesk01">
-                <div className="col-md-6">
-                  <CompPill
-                    tabletName="Viagra® (sildenafil)"
-                    tabletImage="https://rexmd.com/home/04/img/viagra.png"
-                    footerBackgroundColor="#33c7b8"
-                  />
+              <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                <div className="row" id="boxdesk01">
+                  <div className="col-md-6">
+                    <CompPill
+                      tabletName="Viagra® (sildenafil)"
+                      tabletImage="https://rexmd.com/home/04/img/viagra.png"
+                      footerBackgroundColor="#33c7b8"
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <CompPill
+                      tabletName="Cialis® (tadalafil)"
+                      tabletImage="https://rexmd.com/home/04/img/cialis.png"
+                      footerBackgroundColor="#e1a240"
+                    />
+                  </div>
                 </div>
-                <div className="col-md-6">
-                  <CompPill
-                    tabletName="Cialis® (tadalafil)"
-                    tabletImage="https://rexmd.com/home/04/img/cialis.png"
-                    footerBackgroundColor="#e1a240"
-                  />
-                </div>
+              </div>
+
+              <div className="d-sm-block d-md-none d-lg-none d-xl-none">
+                <BoxMobile />
               </div>
 
               <div className="mt-4">

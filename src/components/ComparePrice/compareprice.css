@@ -1,7 +1,14 @@
 @media only screen and (max-width: 420px) {
   .box-left {
-    max-width: 360px !important;
-    min-width: 320px !important;
+    width: 100% !important;
+  }
+
+  .box-right {
+    width: 100% !important;
+  }
+
+  .tab-controls {
+    padding: 0 0 5px !important;
   }
 }
 
@@ -17,17 +24,12 @@
   flex-wrap: wrap;
 }
 
-
-
 .box-left {
-  max-width: 685px;
-  min-width: 500px;
+  width: 60%;
 }
 
 .box-right {
-  padding-left: 30px;
-  max-width: 500px;
-  padding-bottom: 30px;
+  width: 40%;
 }
 
 .tab-controls {

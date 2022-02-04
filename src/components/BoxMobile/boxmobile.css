@@ -1,0 +1,20 @@
+.box_mobile-footer {
+  width: 94%;
+  height: 32px;
+  background-color: #34bbad;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  margin-left: 3%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+}
+
+.box_mobile-header {
+  padding: 0rem 2rem 2rem 2rem !important;
+  background-color: #1c2c46;
+  border: 1px solid #2fa5a9;
+  color: #fff;
+  border-radius: 10px !important;
+}
