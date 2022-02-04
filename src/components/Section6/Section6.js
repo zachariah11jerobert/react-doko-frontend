@@ -10,8 +10,8 @@ const Section6 = () => {
             <img
               src="https://doko.md/edpills/numb-doc.png"
               alt="client"
-              width="250"
-              className="img-fluid rounded-circle"
+              width="150"
+              className="img-fluid"
             />
           </div>
           <div className="margin-minus-left-fix">
@@ -29,8 +29,8 @@ const Section6 = () => {
             <img
               src="https://doko.md/edpills/numb-list.png"
               alt="client"
-              width="250"
-              className="img-fluid rounded-circle"
+              width="150"
+              className="img-fluid"
             />
           </div>
           <div className="margin-minus-left-fix">
@@ -48,8 +48,8 @@ const Section6 = () => {
             <img
               src="https://doko.md/edpills/numb-states.png"
               alt="client"
-              width="250"
-              className="img-fluid rounded-circle"
+              width="150"
+              className="img-fluid"
             />
           </div>
           <div className="margin-minus-left-fix">
