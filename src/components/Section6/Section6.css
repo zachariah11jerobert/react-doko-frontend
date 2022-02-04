@@ -4,3 +4,9 @@
   background: url(https://doko.md/img/covided.png) no-repeat center center /
     cover;
 }
+
+.box_content_300{
+  display: flex;
+  align-items: center;
+  width: 300px !important;
+}

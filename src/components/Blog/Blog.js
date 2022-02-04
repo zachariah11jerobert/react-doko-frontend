@@ -26,7 +26,7 @@ const Blog = () => {
         </div>
 
         <div>
-          <div className="d-flex justify-content-center align-item-center">
+          <div className="d-flex justify-content-center align-item-center flex-wrap">
             <div className="ml-5" data-aos="fade-right">
               <PillInfo
                 bgColor={"#c0eeea"}
