@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.1c1fde89.css",
-    "main.js": "/react-doko-frontend/static/js/main.6435f426.js",
+    "main.css": "/react-doko-frontend/static/css/main.382542fb.css",
+    "main.js": "/react-doko-frontend/static/js/main.5413dcb4.js",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/maintopimgmin.jpg": "/react-doko-frontend/static/media/maintopimgmin.dea18f60b1338b01a20b.jpg",
     "static/media/sildenafil-bottle.png": "/react-doko-frontend/static/media/sildenafil-bottle.a648fb1944d14f039dfa.png",
     "static/media/tadalafil-bottle.png": "/react-doko-frontend/static/media/tadalafil-bottle.583a43721ff261c9d297.png",
+    "static/media/numb-states.png": "/react-doko-frontend/static/media/numb-states.64bf9e6f99cbb3a790bc.png",
+    "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
+    "static/media/mailicon2.png": "/react-doko-frontend/static/media/mailicon2.765f6421eca293a1ead8.png",
     "static/media/svg1.svg": "/react-doko-frontend/static/media/svg1.91e9b011ebac70e58f27598ac2d0ac19.svg",
+    "static/media/4.8new.png": "/react-doko-frontend/static/media/4.8new.1bd77399a85061950983.png",
+    "static/media/mailicon3.png": "/react-doko-frontend/static/media/mailicon3.42d8228912808f7923cd.png",
+    "static/media/numb-list.png": "/react-doko-frontend/static/media/numb-list.fcd3bef639abd0b477e6.png",
     "index.html": "/react-doko-frontend/index.html",
-    "main.1c1fde89.css.map": "/react-doko-frontend/static/css/main.1c1fde89.css.map",
-    "main.6435f426.js.map": "/react-doko-frontend/static/js/main.6435f426.js.map"
+    "main.382542fb.css.map": "/react-doko-frontend/static/css/main.382542fb.css.map",
+    "main.5413dcb4.js.map": "/react-doko-frontend/static/js/main.5413dcb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c1fde89.css",
-    "static/js/main.6435f426.js"
+    "static/css/main.382542fb.css",
+    "static/js/main.5413dcb4.js"
   ]
 }
