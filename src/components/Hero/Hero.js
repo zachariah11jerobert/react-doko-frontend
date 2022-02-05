@@ -21,7 +21,7 @@ const Hero = () => {
                 ED Meds PrescribedOnline Delivered Free!
               </h1>
               <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
-              <p className="lead" style={{ color: "#dbd8d8" }}></p>
+              <p  style={{ color: "#dbd8d8" }}></p>
 
               <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
                 <div className="row" id="boxdesk01">

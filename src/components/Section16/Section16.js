@@ -14,7 +14,7 @@ const Section16 = () => {
               <h2 style={{ color: "#fff" }}>Real meds.</h2>
               <h2 style={{ color: "#fff" }}>Prescribed online.</h2>
               <h2 style={{ color: "#fff" }}>Delivered to your door.</h2>
-              <p className="lead" style={{ color: "#fff" }}>
+              <p  style={{ color: "#fff" }}>
                 Ready? Let’s do this!
               </p>
             </div>

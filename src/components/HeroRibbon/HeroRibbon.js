@@ -18,24 +18,24 @@ const HeroRibbon = () => {
           <div className="box_ribbon">
             <img src={img1} alt="blog" />
             <div className="margin-left-10">
-              <h4 style={{ color: "#fff" }}>No Monthly</h4>
-              <p>Commitment.</p>
+              <h4 className="text-white">No Monthly</h4>
+              <p className="text-white">Commitment.</p>
             </div>
           </div>
 
           <div className="box_ribbon">
             <img src={img2} alt="blog" />
             <div className="margin-left-10">
-              <h4 style={{ color: "#fff" }}>FREE Doctor</h4>
-              <p>Consultations</p>
+              <h4 className="text-white">FREE Doctor</h4>
+              <p className="text-white">Consultations</p>
             </div>
           </div>
 
           <div className="box_ribbon">
             <img src={img3} alt="blog" />
             <div className="margin-left-10">
-              <h4 style={{ color: "#fff" }}>No Membership</h4>
-              <p>Fees</p>
+              <h4 className="text-white">No Membership</h4>
+              <p className="text-white">Fees</p>
             </div>
           </div>
         </div>

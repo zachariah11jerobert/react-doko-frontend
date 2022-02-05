@@ -1,6 +1,5 @@
 .box_mobile-footer {
   width: 94%;
-  height: 32px;
   background-color: #34bbad;
   position: absolute;
   bottom: 0px;
@@ -8,7 +7,10 @@
   margin-left: 3%;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .box_mobile-header {
@@ -17,4 +19,11 @@
   border: 1px solid #2fa5a9;
   color: #fff;
   border-radius: 10px !important;
+}
+
+.box_flex_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

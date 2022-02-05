@@ -63,7 +63,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Kent Northcote
                       </h1>
-                      <p className="lead" style={{ fontSize: "1rem" }}>
+                      <p  style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>
@@ -91,7 +91,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Marianna Zelenak
                       </h1>
-                      <p className="lead" style={{ fontSize: "1rem" }}>
+                      <p  style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>
@@ -120,7 +120,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Christine Nguyen
                       </h1>
-                      <p className="lead" style={{ fontSize: "1rem" }}>
+                      <p  style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>

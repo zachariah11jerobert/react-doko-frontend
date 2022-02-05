@@ -13,7 +13,7 @@ const SectionHowItWorks = () => {
             <div className="col-md-9 col-lg-8">
               <div className="section-heading mb-5 text-center">
                 <h1>How It Works</h1>
-                <p className="lead">It’s quick and easy! Here are the steps:</p>
+                <p >It’s quick and easy! Here are the steps:</p>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const SectionHowItWorks = () => {
             <div className="col-md-12 col-lg-12">
               <div className="section-heading  text-center">
                 <h1 style={{ color: "#28c3b5" }}>How It Works</h1>
-                <p className="lead">It’s quick and easy! Here are the steps:</p>
+                <p >It’s quick and easy! Here are the steps:</p>
               </div>
             </div>
           </div>
