@@ -1,10 +1,11 @@
+.box_flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .box_mobile-footer {
-  width: 94%;
   background-color: #34bbad;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  margin-left: 3%;
+  color: #fff;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   padding-top: 10px;
@@ -14,14 +15,31 @@
 }
 
 .box_mobile-header {
-  padding: 0rem 2rem 2rem 2rem !important;
-  background-color: #1c2c46;
-  border: 1px solid #2fa5a9;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
-  border-radius: 10px !important;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  /* background-color: #34bbad; */
+  background-color: #98061e;
 }
 
-.box_flex_column{
+.box_mobile-header p {
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+}
+.box_mobile-header h5 {
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+}
+
+.box_mobile-body {
+  background-color: #1c2c46;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.box_flex_column {
   display: flex;
   flex-direction: column;
   justify-content: center;

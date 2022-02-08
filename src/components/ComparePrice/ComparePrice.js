@@ -7,7 +7,7 @@ const ComparePrice = () => {
     <section>
       <div className="center">
         <div className="box-content">
-          <div className="box-left">
+          <div className="box-left" data-aos="zoom-in">
             <div className="text-center">
               <h2 className="title">Real Meds. Lowest Prices.</h2>
               <p className="subtitle">
@@ -34,7 +34,7 @@ const ComparePrice = () => {
               </div>
             </div>
           </div>
-          <div className="box-right">
+          <div className="box-right" data-aos="zoom-in">
             <div className="tab">
               <ul className="tab-controls">
                 <li data-tab="tab-1" onClick={() => setActiveTab("tab1")}>

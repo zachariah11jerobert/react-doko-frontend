@@ -36,16 +36,11 @@ function App() {
         <Blog />
 
         <SectionHowItWorks />
-        
-        <div data-aos="fade-up">
-          <Section6 />
-        </div>
 
-        <div data-aos="fade-up">
-          <Section3 />
-        </div>
+        <Section6 />
 
-        
+        <Section3 />
+
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <CertifiedDoctors />
@@ -74,7 +69,6 @@ function App() {
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <Section13 />
           </div>
-   
         </div>
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
