@@ -78,9 +78,8 @@ function App() {
         <div data-aos="fade-up">
           <ContactForm />
         </div>
-        <div data-aos="fade-up">
-          <Section17 />
-        </div>
+
+        <Section17 />
       </div>
       <Footer />
     </div>

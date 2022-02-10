@@ -89,6 +89,12 @@ code {
   align-items: center;
 }
 
+.flex-row-sc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .custtom-text-green {
   color: rgb(40, 195, 181);
 }
