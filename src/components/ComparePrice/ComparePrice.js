@@ -9,13 +9,11 @@ const ComparePrice = () => {
         <div className="box-content">
           <div className="box-left" data-aos="zoom-in">
             <div className="text-center">
-              <h2 className="title">Real Meds. Lowest Prices.</h2>
-              <p className="subtitle">
-                We're not just ED, we're the best in men’s telehealth.
-              </p>
+              <h2 className="title">Compare </h2>
+              <p className="subtitle">We Have Lowest Prices.</p>
 
               <div className="content">
-                <p className="first ">
+                <p>
                   <b>
                     REX MD is your online source for men’s ED medications,
                     delivered
@@ -23,7 +21,7 @@ const ComparePrice = () => {
                     Affordable.
                   </b>
                 </p>
-                <p className="">
+                <p>
                   We guarantee the <span>lowest price per tablet</span> on
                   generic Viagra®, Cialis®, and
                   <br /> Cialis® Daily. Save up to 85% on generic ED medications

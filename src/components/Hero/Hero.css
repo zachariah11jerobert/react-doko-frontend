@@ -1,6 +1,13 @@
 .hero-section {
-  background: url("../../assets/maintopimgmin.jpg") no-repeat center
-    center/cover;
+  background: linear-gradient(
+      to right,
+      #1c2c46,
+      #1c2c46e3,
+      #1c2c46d1,
+      #1c2c46c2,
+      #1c2c46
+    ),
+    url("../../assets/maintopimgmin.jpg") no-repeat center center/cover;
   padding: 70px 0px 0px 0px;
 }
 

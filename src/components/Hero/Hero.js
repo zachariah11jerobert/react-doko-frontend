@@ -60,7 +60,6 @@ const Hero = () => {
                 </a>
               </div>
             </div>
-
           </div>
           <div className="col-md-5 col-lg-5"></div>
         </div>
