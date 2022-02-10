@@ -17,7 +17,7 @@ const PillInfo = (props) => {
         </span>
       </div>
 
-      <div className="pillinfo_container__body">
+      <div className="pillinfo_container__body flex-column mt-3">
         <div className="flex-row">
           <div>
             <img src={props.pillImage} style={{ height: "250px" }} />
@@ -41,7 +41,7 @@ const PillInfo = (props) => {
           </div>
         </div>
         <div>
-          <button className="pillinfo_container_button">GET IT NOW!</button>
+          <button className="pillinfo_container_button mt-2">GET IT NOW!</button>
         </div>
         <p className="desc">{props.children}</p>
       </div>

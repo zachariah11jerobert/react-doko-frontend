@@ -4,28 +4,27 @@ import PillInfo from "./PillInfo/PillInfo";
 import viagra from "../../assets/sildenafil-bottle.png";
 import cialis from "../../assets/tadalafil-bottle.png";
 
+import "./blog.css";
+
 const Blog = () => {
   return (
     <section id="blog" className="bg-theme-blue">
-      <div className="container pb-50" data-aos="fade-up">
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="mb-5" style={{ textAlign: "center" }}>
-              <br />
-              <h2 className="text-white">Our Treatments for ED</h2>
-              <p className="text-white" style={{ marginBottom: "0em" }}>
-                We offer prescription medications clinically proven to help
-                improve erections.
-              </p>
-            </div>
+      <div className="pt-3 pb-30">
+        <div data-aos="fade-up">
+          <div className="blog_header text-center">
+            <h3 style={{ color: "rgb(232 169 71)" }}>Our Treatments for ED</h3>
+            <p className="custtom-text-green pl-5 pr-5">
+              We offer prescription medications clinically proven to help
+              improve erections.
+            </p>
           </div>
         </div>
 
         <div className="d-flex justify-content-center align-item-center flex-wrap">
           <div data-aos="zoom-in">
             <PillInfo
-              bgColor={"#c0eeea"}
-              textColor={"rgb(36, 168, 157)"}
+              bgColor={"rgb(85 156 227 / 15%)"}
+              textColor={"rgb(85 156 227)"}
               pillName="Viagra (Sildenafil)"
               pillImage={viagra}
               subtitle={[
@@ -42,8 +41,8 @@ const Blog = () => {
           </div>
           <div data-aos="zoom-in">
             <PillInfo
-              bgColor={"#f6ecc6"}
-              textColor={"rgb(236, 185, 105)"}
+              bgColor={"rgb(232 169 71 / 15%)"}
+              textColor={"rgb(232 169 71)"}
               pillName="Cialis (Tadalafil)"
               pillImage={cialis}
               subtitle={[

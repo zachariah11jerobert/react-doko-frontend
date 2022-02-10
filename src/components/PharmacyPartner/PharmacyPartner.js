@@ -1,9 +1,9 @@
 import React from "react";
-import "./section9.css";
+import "./pharmacypartner.css";
 
 import pharmacyMobile from "../../assets/mobilephramacy.png";
 
-const Section9 = () => {
+const PharmacyPartner = () => {
   return (
     <section className="imageblock-section switchable switchable-content">
       <div className="bg-theme-blue pt-2 pb-2">
@@ -17,7 +17,7 @@ const Section9 = () => {
       <div className="row" style={{ marginRight: "0px", marginLeft: "0px" }}>
         <div className="col-lg-12 col-md-12">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block inline_sec9_style1"></div>
-          <div className="d-sm-block d-md-none d-lg-none d-xl-none image-mobile">
+          <div className="d-sm-block d-md-none d-lg-none d-xl-none">
             <img src={pharmacyMobile} className="image-mobile" />
           </div>
         </div>
@@ -26,4 +26,4 @@ const Section9 = () => {
   );
 };
 
-export default Section9;
+export default PharmacyPartner;

@@ -19,7 +19,7 @@ import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks"
 import Section6 from "./components/Section6/Section6";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
-import Section9 from "./components/Section9/Section9";
+import PharmacyPartner from "./components/PharmacyPartner/PharmacyPartner";
 import ComparePrice from "./components/ComparePrice/ComparePrice";
 
 function App() {
@@ -35,12 +35,6 @@ function App() {
         <Blog />
 
         <SectionHowItWorks />
-        <Shipping />
-
-        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-          <Section6 />
-        </div>
-
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <CertifiedDoctors />
@@ -51,7 +45,13 @@ function App() {
         </div>
 
         <div data-aos="fade-up">
-          <Section9 />
+          <PharmacyPartner />
+        </div>
+
+        <Shipping />
+
+        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+          <Section6 />
         </div>
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">

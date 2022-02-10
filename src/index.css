@@ -17,6 +17,7 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
 }
 
 @media screen and (max-width: 650px) {
@@ -50,8 +51,34 @@ code {
   background-color: #1c2c46;
 }
 
+.bg-theme-gray {
+  background: #ece7e7;
+}
+
+.bg-theme-blue-gradient {
+  background: linear-gradient(
+    to right,
+    #1c2c46,
+    #1c2c46e3,
+    #1c2c46d1,
+    #1c2c46c2,
+    #1c2c46
+  );
+}
+
 .flex-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.custtom-text-green {
+  color: rgb(40, 195, 181);
 }

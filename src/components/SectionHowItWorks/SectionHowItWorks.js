@@ -34,7 +34,7 @@ const SectionHowItWorks = () => {
           </div>
         </section>
       </div>
-      <div className="d-sm-block d-md-none d-lg-none d-xl-none">
+      <div className="d-sm-block d-md-none d-lg-none d-xl-none pt-5">
         <section className="gray-light-bg" id="htwph" data-aos="zoom-in">
           <div className="container">
             <div className="section-heading  text-center">
