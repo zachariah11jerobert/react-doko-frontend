@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.9405e0a8.css",
-    "main.js": "/react-doko-frontend/static/js/main.52167ac5.js",
+    "main.css": "/react-doko-frontend/static/css/main.8db937db.css",
+    "main.js": "/react-doko-frontend/static/js/main.de8875d7.js",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/ph-how-work.png": "/react-doko-frontend/static/media/ph-how-work.5a0d05deaa37c3e4be65.png",
@@ -10,19 +10,21 @@
     "static/media/sildenafil-bottle.png": "/react-doko-frontend/static/media/sildenafil-bottle.a648fb1944d14f039dfa.png",
     "static/media/tadalafil-bottle.png": "/react-doko-frontend/static/media/tadalafil-bottle.583a43721ff261c9d297.png",
     "static/media/numb-states.png": "/react-doko-frontend/static/media/numb-states.64bf9e6f99cbb3a790bc.png",
+    "static/media/svg2.svg": "/react-doko-frontend/static/media/svg2.0ece697d7e687771ca407867b9492d75.svg",
     "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
     "static/media/mailicon2.png": "/react-doko-frontend/static/media/mailicon2.765f6421eca293a1ead8.png",
+    "static/media/svg1.svg": "/react-doko-frontend/static/media/svg1.91e9b011ebac70e58f27598ac2d0ac19.svg",
     "static/media/4.8new.png": "/react-doko-frontend/static/media/4.8new.1bd77399a85061950983.png",
     "static/media/mailicon3.png": "/react-doko-frontend/static/media/mailicon3.42d8228912808f7923cd.png",
     "static/media/numb-list.png": "/react-doko-frontend/static/media/numb-list.fcd3bef639abd0b477e6.png",
     "index.html": "/react-doko-frontend/index.html",
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
-    "main.9405e0a8.css.map": "/react-doko-frontend/static/css/main.9405e0a8.css.map",
-    "main.52167ac5.js.map": "/react-doko-frontend/static/js/main.52167ac5.js.map"
+    "main.8db937db.css.map": "/react-doko-frontend/static/css/main.8db937db.css.map",
+    "main.de8875d7.js.map": "/react-doko-frontend/static/js/main.de8875d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9405e0a8.css",
-    "static/js/main.52167ac5.js"
+    "static/css/main.8db937db.css",
+    "static/js/main.de8875d7.js"
   ]
 }
