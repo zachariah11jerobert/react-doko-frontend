@@ -49,3 +49,9 @@ code {
 .bg-theme-blue {
   background-color: #1c2c46;
 }
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

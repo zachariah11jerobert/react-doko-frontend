@@ -5,6 +5,9 @@ import "./Hero.css";
 import HeroRibbon from "../HeroRibbon/HeroRibbon";
 import BoxMobile from "../BoxMobile/BoxMobile";
 
+import svg1 from "../../assets/svg1.svg";
+import svg2 from "../../assets/svg2.svg";
+
 const Hero = () => {
   return (
     <section className="hero-section">
@@ -59,9 +62,13 @@ const Hero = () => {
                   </span>
                 </a>
               </div>
+
+              <div className="flex-row mb-3">
+                <img src={svg1} />
+                <img src={svg2} />
+              </div>
             </div>
           </div>
-          <div className="col-md-5 col-lg-5"></div>
         </div>
       </div>
       <div data-aos="fade-up">
