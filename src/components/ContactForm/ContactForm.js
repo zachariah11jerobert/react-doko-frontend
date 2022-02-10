@@ -1,11 +1,11 @@
 import React from "react";
-import "./section16.css";
+import "./contactform.css";
 
-const Section16 = () => {
+const ContactForm = () => {
   return (
     <section
       id="edform"
-      className="contact-us gray-light-bg ptb-100 edform inline_sec16_style1"
+      className="contact-us bg-theme-green"
     >
       <div className="container">
         <div className="row justify-content-center">
@@ -14,9 +14,7 @@ const Section16 = () => {
               <h2 style={{ color: "#fff" }}>Real meds.</h2>
               <h2 style={{ color: "#fff" }}>Prescribed online.</h2>
               <h2 style={{ color: "#fff" }}>Delivered to your door.</h2>
-              <p  style={{ color: "#fff" }}>
-                Ready? Let’s do this!
-              </p>
+              <p style={{ color: "#fff" }}>Ready? Let’s do this!</p>
             </div>
           </div>
         </div>
@@ -39,8 +37,8 @@ const Section16 = () => {
                   <div className="form-group">
                     <label className="pb-1"> First Name </label>
 
-                    <div className="input-group input-group-merge">
-                      <div className="input-icon">
+                    <div className="flex-row-cc">
+                      <div className="mr-2">
                         <i
                           className="fa fa-user-o fa-2x color-primary"
                           aria-hidden="true"
@@ -66,8 +64,8 @@ const Section16 = () => {
                   <div className="form-group">
                     <label className="pb-1"> Last Name </label>
 
-                    <div className="input-group input-group-merge">
-                      <div className="input-icon">
+                    <div className="flex-row-cc">
+                      <div className="mr-2">
                         <i
                           className="fa fa-user-o fa-2x color-primary"
                           aria-hidden="true"
@@ -86,8 +84,8 @@ const Section16 = () => {
                   <div className="form-group">
                     <label className="pb-1"> Email Address </label>
 
-                    <div className="input-group input-group-merge">
-                      <div className="input-icon">
+                    <div className="flex-row-cc">
+                      <div className="mr-2">
                         <i
                           className="fa fa-envelope-o fa-2x color-primary"
                           aria-hidden="true"
@@ -106,10 +104,10 @@ const Section16 = () => {
                   <div className="form-group">
                     <label className="pb-1"> Phone </label>
 
-                    <div className="input-group input-group-merge">
-                      <div className="input-icon">
+                    <div className="flex-row-cc">
+                      <div className="mr-2">
                         <i
-                          className="fa fa-mobile fa-3x color-primary"
+                          className="fa fa-phone fa-2x color-primary"
                           aria-hidden="true"
                         ></i>
                       </div>
@@ -201,4 +199,4 @@ const Section16 = () => {
   );
 };
 
-export default Section16;
+export default ContactForm;

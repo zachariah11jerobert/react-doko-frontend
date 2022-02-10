@@ -10,7 +10,7 @@ import Section10 from "./components/Section10/Section10";
 import Section13 from "./components/Section13/Section13";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
-import Section16 from "./components/Section16/Section16";
+import ContactForm from "./components/ContactForm/ContactForm";
 import Section17 from "./components/Section17/Section17";
 import SectionSlider from "./components/SectionSlider/SectionSlider";
 import Shipping from "./components/Shipping/Shipping";
@@ -60,7 +60,6 @@ function App() {
           <SectionSlider />
         </div>
 
-
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <Section13 />
@@ -77,7 +76,7 @@ function App() {
           </div>
         </div>
         <div data-aos="fade-up">
-          <Section16 />
+          <ContactForm />
         </div>
         <div data-aos="fade-up">
           <Section17 />

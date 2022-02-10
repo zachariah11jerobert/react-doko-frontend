@@ -66,6 +66,10 @@ code {
   );
 }
 
+.bg-theme-green {
+  background-color: rgb(40, 195, 181);
+}
+
 .flex-row {
   display: flex;
   justify-content: space-around;
@@ -79,10 +83,16 @@ code {
   align-items: stretch;
 }
 
+.flex-row-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .custtom-text-green {
   color: rgb(40, 195, 181);
 }
 
-.text-black{
+.text-black {
   color: #000;
 }
