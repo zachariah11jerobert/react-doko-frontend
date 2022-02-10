@@ -20,9 +20,9 @@ const ComparePrice = () => {
                 <p>
                   We guarantee the{" "}
                   <span style={{ color: "#a20e1e" }}>
-                    lowest price per tablet
+                    lowest price per tablet{" "}
                   </span>
-                  on generic Viagra®, Cialis®, . <br />
+                  on generic Viagra®, Cialis® <br />
                   <span style={{ color: "#a20e1e" }}>Save up to 85%</span> on
                   generic ED medications compared to any telehealth provider -
                   <br />

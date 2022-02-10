@@ -7,6 +7,10 @@
     flex-wrap: wrap;
   }
 
+  .box-content p{
+    font-weight: 600;
+  }
+
   .box-left {
     flex: 1 !important;
     width: 100% !important;

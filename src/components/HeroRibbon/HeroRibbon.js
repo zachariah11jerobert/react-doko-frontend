@@ -8,7 +8,7 @@ import img3 from "../../assets/mailicon2.png";
 
 const HeroRibbon = () => {
   return (
-    <section style={{ backgroundColor: "#1c2c46" }}>
+    <section className="bg-theme-blue pb-3">
       <div className="container_main">
         <div className="flex-right">
           <img src={review} style={{ width: 250 }} />
