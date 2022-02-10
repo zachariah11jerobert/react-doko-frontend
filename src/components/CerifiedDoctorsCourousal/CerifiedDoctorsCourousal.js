@@ -2,19 +2,16 @@ import React from "react";
 
 const CerifiedDoctorsCourousal = () => {
   return (
-    <section
-      id="doctorlist-ph"
-      className="screenshots-section ptb-100"
-    >
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-md-9 col-lg-8">
-            <div className="section-heading mb-5 text-center">
-              <h2>Some of our US Board Certified Doctors</h2>
-            </div>
+    <section id="doctorlist-ph">
+      <div className="bg-theme-blue text-white pt-2 pb-2">
+        <div className="justify-content-center" data-aos="zoom-in">
+          <div className="text-center">
+            <h3>Some of our US Board Certified Doctors</h3>
           </div>
         </div>
+      </div>
 
+      <div className="mt-2">
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
@@ -63,7 +60,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Kent Northcote
                       </h1>
-                      <p  style={{ fontSize: "1rem" }}>
+                      <p style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>
@@ -91,7 +88,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Marianna Zelenak
                       </h1>
-                      <p  style={{ fontSize: "1rem" }}>
+                      <p style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>
@@ -120,7 +117,7 @@ const CerifiedDoctorsCourousal = () => {
                       >
                         Dr. Christine Nguyen
                       </h1>
-                      <p  style={{ fontSize: "1rem" }}>
+                      <p style={{ fontSize: "1rem" }}>
                         Emergency Medicine. 20 years of experience.
                       </p>
                       <div className="action-btn mt-4"></div>

@@ -8,14 +8,13 @@ import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import Section10 from "./components/Section10/Section10";
 import Section11 from "./components/Section11/Section11";
-import Section12 from "./components/Section12/Section12";
 import Section13 from "./components/Section13/Section13";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
 import Section16 from "./components/Section16/Section16";
 import Section17 from "./components/Section17/Section17";
 import SectionSlider from "./components/SectionSlider/SectionSlider";
-import Section3 from "./components/Section3/Section3";
+import Shipping from "./components/Shipping/Shipping";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
 import Section6 from "./components/Section6/Section6";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
@@ -36,10 +35,11 @@ function App() {
         <Blog />
 
         <SectionHowItWorks />
+        <Shipping />
 
-        <Section6 />
-
-        <Section3 />
+        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+          <Section6 />
+        </div>
 
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
@@ -53,14 +53,14 @@ function App() {
         <div data-aos="fade-up">
           <Section9 />
         </div>
-        <div data-aos="fade-up">
-          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-            <Section10 />
-          </div>
-          <div className="d-sm-block d-md-none d-lg-none d-xl-none">
-            <SectionSlider />
-          </div>
+
+        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+          <Section10 />
         </div>
+        <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
+          <SectionSlider />
+        </div>
+
         <div data-aos="fade-up">
           <Section11 />
         </div>
