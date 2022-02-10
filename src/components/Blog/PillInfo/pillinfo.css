@@ -31,9 +31,7 @@
     width: 320px !important;
   }
 
-  .pillinfo_container h5 {
-    display: none;
-  }
+ 
 
   .pillinfo_container__body .desc {
     display: none;

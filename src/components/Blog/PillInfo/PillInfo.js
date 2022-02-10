@@ -2,6 +2,7 @@ import React from "react";
 import "./pillinfo.css";
 
 const PillInfo = (props) => {
+  console.log(props.subtitle);
   return (
     <div className="pillinfo_container">
       <div
@@ -24,13 +25,19 @@ const PillInfo = (props) => {
           <div className="ml-3">
             <div style={{ color: props.textColor }}>
               <span style={{ fontSize: "48px", fontWeight: "700" }}>$1</span>
-              <br/>/
-              Per Dose
+              <br />/ Per Dose
             </div>
-            <h5>
-              Previously <br />
-              {props.subtitle}
-            </h5>
+            <div>
+              <h5>Previously </h5>
+              <table>
+                {props.subtitle.map((data) => (
+                  <tr>
+                    <td>{data.qty}</td>
+                    <td>{data.price}</td>
+                  </tr>
+                ))}
+              </table>
+            </div>
           </div>
         </div>
         <div>
