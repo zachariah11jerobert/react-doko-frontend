@@ -89,6 +89,12 @@ code {
   align-items: center;
 }
 
+.flex-row-bc {
+  display: flex;
+  justify-content: baseline;
+  align-items:center;
+}
+
 .flex-row-sc {
   display: flex;
   justify-content: flex-start;

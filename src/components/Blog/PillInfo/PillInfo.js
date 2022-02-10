@@ -11,7 +11,7 @@ const PillInfo = (props) => {
       >
         <span
           className="pillinfo_container__header-text"
-          style={{ color: "#fff" ,fontSize:'24px'}}
+          style={{ color: "#fff", fontSize: "24px" }}
         >
           {props.pillName}
         </span>
@@ -28,27 +28,26 @@ const PillInfo = (props) => {
               style={{ backgroundColor: props.textColor }}
             >
               <span style={{ fontSize: "72px", fontWeight: "700" }}>$1</span>
-              <span style={{ fontSize: "16px", fontWeight: "700",marginTop:'20px',marginBottom:'10px' }}> / Dose</span>
+              <span
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "700",
+                  marginTop: "20px",
+                  marginBottom: "10px",
+                }}
+              >
+                {" "}
+                / Dose
+              </span>
             </div>
-            
-            {/* <div>
-              <h5>Previously </h5>
-              <table>
-                {props.subtitle.map((data) => (
-                  <tr>
-                    <td>{data.qty}</td>
-                    <td>{data.price}</td>
-                  </tr>
-                ))}
-              </table>
-            </div> */}
+            <div>
+              <button className="pillinfo_container_button mt-3">
+                GET IT NOW!
+              </button>
+            </div>
           </div>
         </div>
-        <div>
-          <button className="pillinfo_container_button mt-2">
-            GET IT NOW!
-          </button>
-        </div>
+
         <p className="desc">{props.children}</p>
       </div>
     </div>

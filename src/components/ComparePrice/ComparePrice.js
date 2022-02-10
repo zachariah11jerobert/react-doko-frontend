@@ -11,10 +11,10 @@ const ComparePrice = () => {
         <div className="box-content">
           <div className="box-left" data-aos="zoom-in">
             <div className="pl-3 pr-3">
-              <h2 className="title">
-                Real Meds. <br />
+              <h3 className="title">
+                Real Meds.
                 <span style={{ color: "#a20e1e" }}>Lowest Prices.</span>
-              </h2>
+              </h3>
 
               <div className="content">
                 <p>
@@ -22,12 +22,11 @@ const ComparePrice = () => {
                   <span style={{ color: "#a20e1e" }}>
                     lowest price per tablet{" "}
                   </span>
-                  on generic Viagra®, Cialis® <br />
+                  on generic Viagra®, Cialis®.
                   <span style={{ color: "#a20e1e" }}>Save up to 85%</span> on
-                  generic ED medications compared to any telehealth provider -
-                  <br />
-                  if you find a lower price we will beat it, guaranteed.
+                  generic ED medications compared to any telehealth provider.
                 </p>
+                <p>if you find a lower price we will beat it, guaranteed.</p>
               </div>
             </div>
           </div>
@@ -52,7 +51,7 @@ const ComparePrice = () => {
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#e6f0fb" }}
+                        style={{ backgroundColor: "#fd7658" }}
                       >
                         <div style={{ height: 30 }}>
                           <img src={dokologo} style={{ width: "100%" }} />
@@ -69,10 +68,10 @@ const ComparePrice = () => {
                         </div>
                       </li>
                       <li>
-                        <div>
+                        <div style={{ height: 30 }}>
                           <img
                             src="https://rexmd.com/home/04/img//rexmdlogo.svg"
-                            alt=""
+                            style={{ width: "100%" }}
                           />
                         </div>
                         <div>100mg</div>
@@ -121,7 +120,7 @@ const ComparePrice = () => {
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#e6f0fb" }}
+                        style={{ backgroundColor: "#fd7658" }}
                       >
                         <div style={{ height: 30 }}>
                           <img src={dokologo} style={{ width: "100%" }} />
@@ -138,10 +137,10 @@ const ComparePrice = () => {
                         </div>
                       </li>
                       <li>
-                        <div>
+                        <div style={{ height: 30 }}>
                           <img
                             src="https://rexmd.com/home/04/img/rexmdlogo.svg"
-                            alt=""
+                            style={{ width: "100%" }}
                           />
                         </div>
                         <div>2.5 or 5mg</div>
