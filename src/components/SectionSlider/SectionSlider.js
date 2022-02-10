@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import "./sectionslider.css";
 
 const SectionSlider = () => {
   return (
@@ -15,8 +16,8 @@ const SectionSlider = () => {
       <div data-aos="fade-up">
         <OwlCarousel className="owl-theme" loop margin={10} nav items="1">
           <div className="item">
-            <div className="rounded text-center p-4">
-              <div className="mb-3">
+            <div className="flex-column-cc">
+              <div className="image_wrapper">
                 <img
                   src="https://doko.md/edpills/xr-1.png"
                   alt="partner logo"
@@ -32,8 +33,8 @@ const SectionSlider = () => {
             </div>
           </div>
           <div className="item">
-            <div className="rounded text-center p-4">
-              <div className="mb-3">
+            <div className="flex-column-cc">
+              <div className="image_wrapper">
                 <img
                   src="https://doko.md/edpills/xr-2.png"
                   alt="partner logo"
@@ -52,8 +53,8 @@ const SectionSlider = () => {
             </div>
           </div>
           <div className="item">
-            <div className="rounded text-center p-4">
-              <div className="mb-3">
+            <div className="flex-column-cc">
+              <div className="image_wrapper">
                 <img
                   src="https://doko.md/edpills/xr-3.png"
                   alt="partner logo"
@@ -69,8 +70,8 @@ const SectionSlider = () => {
             </div>
           </div>
           <div className="item">
-            <div className="single-partner-wrap card-bottom-line  rounded text-center p-4">
-              <div className="mb-3">
+            <div className="flex-column-cc">
+              <div className="image_wrapper">
                 <img
                   src="https://doko.md/edpills/xr-5.png"
                   alt="partner logo"
@@ -86,8 +87,8 @@ const SectionSlider = () => {
             </div>
           </div>
           <div className="item">
-            <div className="rounded text-center p-4">
-              <div className="mb-3">
+            <div className="flex-column-cc">
+              <div className="image_wrapper">
                 <img
                   src="https://doko.md/edpills/xr-6.png"
                   alt="partner logo"

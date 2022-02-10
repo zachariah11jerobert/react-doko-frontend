@@ -3,18 +3,12 @@ import "./contactform.css";
 
 const ContactForm = () => {
   return (
-    <section
-      id="edform"
-      className="contact-us bg-theme-green"
-    >
+    <section id="edform" className="contact-us bg-theme-green">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-6">
-            <div className="section-heading text-left mb-5">
-              <h2 style={{ color: "#fff" }}>Real meds.</h2>
-              <h2 style={{ color: "#fff" }}>Prescribed online.</h2>
-              <h2 style={{ color: "#fff" }}>Delivered to your door.</h2>
-              <p style={{ color: "#fff" }}>Ready? Let’s do this!</p>
+            <div className="mt-4 text-left mb-5">
+              <h2 style={{ color: "#fff" }}>Ready? Let’s do this!</h2>
             </div>
           </div>
         </div>
@@ -169,14 +163,6 @@ const ContactForm = () => {
                   id="register_check"
                 >
                   START MY FREE VISIT
-                </button>
-
-                <button
-                  type="button"
-                  id="register"
-                  className="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3 no_display"
-                >
-                  SUBMIT
                 </button>
               </form>
               <p className="form-message"></p>

@@ -102,3 +102,10 @@ code {
 .text-black {
   color: #000;
 }
+
+.flex-column-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
