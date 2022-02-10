@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.4869b0f6.css",
-    "main.js": "/react-doko-frontend/static/js/main.ac757a5d.js",
+    "main.css": "/react-doko-frontend/static/css/main.9405e0a8.css",
+    "main.js": "/react-doko-frontend/static/js/main.52167ac5.js",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
+    "static/media/ph-how-work.png": "/react-doko-frontend/static/media/ph-how-work.5a0d05deaa37c3e4be65.png",
     "static/media/maintopimgmin.jpg": "/react-doko-frontend/static/media/maintopimgmin.dea18f60b1338b01a20b.jpg",
+    "static/media/desk-how-work2.png": "/react-doko-frontend/static/media/desk-how-work2.4e5ffeb42091d88398d7.png",
     "static/media/sildenafil-bottle.png": "/react-doko-frontend/static/media/sildenafil-bottle.a648fb1944d14f039dfa.png",
     "static/media/tadalafil-bottle.png": "/react-doko-frontend/static/media/tadalafil-bottle.583a43721ff261c9d297.png",
     "static/media/numb-states.png": "/react-doko-frontend/static/media/numb-states.64bf9e6f99cbb3a790bc.png",
@@ -16,11 +18,11 @@
     "index.html": "/react-doko-frontend/index.html",
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
-    "main.4869b0f6.css.map": "/react-doko-frontend/static/css/main.4869b0f6.css.map",
-    "main.ac757a5d.js.map": "/react-doko-frontend/static/js/main.ac757a5d.js.map"
+    "main.9405e0a8.css.map": "/react-doko-frontend/static/css/main.9405e0a8.css.map",
+    "main.52167ac5.js.map": "/react-doko-frontend/static/js/main.52167ac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4869b0f6.css",
-    "static/js/main.ac757a5d.js"
+    "static/css/main.9405e0a8.css",
+    "static/js/main.52167ac5.js"
   ]
 }
