@@ -14,6 +14,17 @@
   text-align: center;
 }
 
+.circle-background {
+  width: 7rem;
+  height: 7rem;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 @media only screen and (max-width: 440px) {
   .pillinfo_container {
     width: 320px !important;
@@ -25,7 +36,6 @@
   .pillinfo_container__header {
     width: 320px !important;
   }
-
 
   .pillinfo_container__body .desc {
     display: none;

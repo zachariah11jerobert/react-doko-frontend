@@ -7,11 +7,11 @@ const PillInfo = (props) => {
     <div className="pillinfo_container">
       <div
         className="pillinfo_container__header ptb-10"
-        style={{ backgroundColor: props.bgColor }}
+        style={{ backgroundColor: props.textColor }}
       >
         <span
           className="pillinfo_container__header-text"
-          style={{ color: props.textColor }}
+          style={{ color: "#fff" ,fontSize:'24px'}}
         >
           {props.pillName}
         </span>
@@ -23,11 +23,15 @@ const PillInfo = (props) => {
             <img src={props.pillImage} style={{ height: "250px" }} />
           </div>
           <div className="ml-3">
-            <div style={{ color: props.textColor }}>
-              <span style={{ fontSize: "48px", fontWeight: "700" }}>$1</span>
-              <br />/ Per Dose
+            <div
+              className="circle-background"
+              style={{ backgroundColor: props.textColor }}
+            >
+              <span style={{ fontSize: "72px", fontWeight: "700" }}>$1</span>
+              <span style={{ fontSize: "16px", fontWeight: "700",marginTop:'20px',marginBottom:'10px' }}> / Dose</span>
             </div>
-            <div>
+            
+            {/* <div>
               <h5>Previously </h5>
               <table>
                 {props.subtitle.map((data) => (
@@ -37,11 +41,13 @@ const PillInfo = (props) => {
                   </tr>
                 ))}
               </table>
-            </div>
+            </div> */}
           </div>
         </div>
         <div>
-          <button className="pillinfo_container_button mt-2">GET IT NOW!</button>
+          <button className="pillinfo_container_button mt-2">
+            GET IT NOW!
+          </button>
         </div>
         <p className="desc">{props.children}</p>
       </div>
