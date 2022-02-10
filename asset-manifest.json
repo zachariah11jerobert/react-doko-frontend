@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.2171caa7.css",
-    "main.js": "/react-doko-frontend/static/js/main.c7713fda.js",
+    "main.css": "/react-doko-frontend/static/css/main.85245a46.css",
+    "main.js": "/react-doko-frontend/static/js/main.19bb50d5.js",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/ph-how-work.png": "/react-doko-frontend/static/media/ph-how-work.5a0d05deaa37c3e4be65.png",
@@ -14,17 +14,18 @@
     "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
     "static/media/mailicon2.png": "/react-doko-frontend/static/media/mailicon2.765f6421eca293a1ead8.png",
     "static/media/svg1.svg": "/react-doko-frontend/static/media/svg1.91e9b011ebac70e58f27598ac2d0ac19.svg",
+    "static/media/doko-logo.png": "/react-doko-frontend/static/media/doko-logo.43a6fc79e9b3f6d11f27.png",
     "static/media/4.8new.png": "/react-doko-frontend/static/media/4.8new.1bd77399a85061950983.png",
     "static/media/mailicon3.png": "/react-doko-frontend/static/media/mailicon3.42d8228912808f7923cd.png",
     "static/media/numb-list.png": "/react-doko-frontend/static/media/numb-list.fcd3bef639abd0b477e6.png",
     "index.html": "/react-doko-frontend/index.html",
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
-    "main.2171caa7.css.map": "/react-doko-frontend/static/css/main.2171caa7.css.map",
-    "main.c7713fda.js.map": "/react-doko-frontend/static/js/main.c7713fda.js.map"
+    "main.85245a46.css.map": "/react-doko-frontend/static/css/main.85245a46.css.map",
+    "main.19bb50d5.js.map": "/react-doko-frontend/static/js/main.19bb50d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2171caa7.css",
-    "static/js/main.c7713fda.js"
+    "static/css/main.85245a46.css",
+    "static/js/main.19bb50d5.js"
   ]
 }
