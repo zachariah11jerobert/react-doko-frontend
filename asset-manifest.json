@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.bd749d2e.css",
-    "main.js": "/react-doko-frontend/static/js/main.91cbc55a.js",
+    "main.css": "/react-doko-frontend/static/css/main.6dd8b69d.css",
+    "main.js": "/react-doko-frontend/static/js/main.c7713fda.js",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/ph-how-work.png": "/react-doko-frontend/static/media/ph-how-work.5a0d05deaa37c3e4be65.png",
@@ -20,11 +20,11 @@
     "index.html": "/react-doko-frontend/index.html",
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
-    "main.bd749d2e.css.map": "/react-doko-frontend/static/css/main.bd749d2e.css.map",
-    "main.91cbc55a.js.map": "/react-doko-frontend/static/js/main.91cbc55a.js.map"
+    "main.6dd8b69d.css.map": "/react-doko-frontend/static/css/main.6dd8b69d.css.map",
+    "main.c7713fda.js.map": "/react-doko-frontend/static/js/main.c7713fda.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd749d2e.css",
-    "static/js/main.91cbc55a.js"
+    "static/css/main.6dd8b69d.css",
+    "static/js/main.c7713fda.js"
   ]
 }
