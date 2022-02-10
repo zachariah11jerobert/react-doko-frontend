@@ -16,9 +16,9 @@ const Hero = () => {
         <div className="align-items-center justify-content-between">
           <div className="">
             <div className="text-center text-lg-left mt-lg-0">
-              <h1 className="font-weight-bold" style={{ color: "#fff" }}>
+              <h2 className="font-weight-bold" style={{ color: "#fff" }}>
                 ED Meds Prescribed Online & Delivered Free!
-              </h1>
+              </h2>
               <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
               <p style={{ color: "#dbd8d8" }}></p>
 
