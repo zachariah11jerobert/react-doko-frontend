@@ -68,7 +68,7 @@ code {
 
 .flex-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
 }
 
@@ -81,4 +81,8 @@ code {
 
 .custtom-text-green {
   color: rgb(40, 195, 181);
+}
+
+.text-black{
+  color: #000;
 }

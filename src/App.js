@@ -7,7 +7,6 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import Section10 from "./components/Section10/Section10";
-import Section11 from "./components/Section11/Section11";
 import Section13 from "./components/Section13/Section13";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
@@ -61,9 +60,6 @@ function App() {
           <SectionSlider />
         </div>
 
-        <div data-aos="fade-up">
-          <Section11 />
-        </div>
 
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">

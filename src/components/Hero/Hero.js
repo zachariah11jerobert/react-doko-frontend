@@ -7,6 +7,7 @@ import BoxMobile from "../BoxMobile/BoxMobile";
 
 import svg1 from "../../assets/svg1.svg";
 import svg2 from "../../assets/svg2.svg";
+import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 const Hero = () => {
   return (
@@ -61,6 +62,10 @@ const Hero = () => {
                     ></i>
                   </span>
                 </a>
+              </div>
+
+              <div>
+                <VideoPlayer />
               </div>
 
               <div className="flex-row mb-3">
