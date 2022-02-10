@@ -17,7 +17,7 @@ const HeroRibbon = () => {
         <div className="flex-left container_ribbon">
           <div className="box_ribbon">
             <img src={img1} alt="blog" />
-            <div className="margin-left-10">
+            <div className="text-center">
               <h4 className="text-white">No Monthly</h4>
               <p className="text-white">Commitment.</p>
             </div>
@@ -25,7 +25,7 @@ const HeroRibbon = () => {
 
           <div className="box_ribbon">
             <img src={img2} alt="blog" />
-            <div className="margin-left-10">
+            <div className="text-center">
               <h4 className="text-white">FREE Doctor</h4>
               <p className="text-white">Consultations</p>
             </div>
@@ -33,8 +33,8 @@ const HeroRibbon = () => {
 
           <div className="box_ribbon">
             <img src={img3} alt="blog" />
-            <div className="margin-left-10">
-              <h4 className="text-white">No Membership</h4>
+            <div className="text-center">
+              <h4 className="text-white">No Member</h4>
               <p className="text-white">Fees</p>
             </div>
           </div>

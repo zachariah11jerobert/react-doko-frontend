@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./compareprice.css";
 
+import dokologo from "../../assets/doko-logo.png";
+
 const ComparePrice = () => {
   const [activeTab, setActiveTab] = useState("tab1");
   return (
@@ -8,26 +10,23 @@ const ComparePrice = () => {
       <div className="center">
         <div className="box-content">
           <div className="box-left" data-aos="zoom-in">
-            <div className="text-center">
-              <h2 className="title">Compare </h2>
-              <p className="subtitle">We Have Lowest Prices.</p>
+            <div className="pl-3 pr-3">
+              <h2 className="title">
+                Real Meds. <br />
+                <span style={{ color: "#a20e1e" }}>Lowest Prices.</span>
+              </h2>
 
               <div className="content">
                 <p>
-                  <b>
-                    REX MD is your online source for men’s ED medications,
-                    delivered
-                    <br /> direct to your door for FREE. It’s Fast, Easy and
-                    Affordable.
-                  </b>
-                </p>
-                <p>
-                  We guarantee the <span>lowest price per tablet</span> on
-                  generic Viagra®, Cialis®, and
-                  <br /> Cialis® Daily. Save up to 85% on generic ED medications
-                  compared to any
-                  <br /> telehealth provider - if you find a lower price we will
-                  beat it, guaranteed.
+                  We guarantee the{" "}
+                  <span style={{ color: "#a20e1e" }}>
+                    lowest price per tablet
+                  </span>
+                  on generic Viagra®, Cialis®, . <br />
+                  <span style={{ color: "#a20e1e" }}>Save up to 85%</span> on
+                  generic ED medications compared to any telehealth provider -
+                  <br />
+                  if you find a lower price we will beat it, guaranteed.
                 </p>
               </div>
             </div>
@@ -36,10 +35,10 @@ const ComparePrice = () => {
             <div className="tab">
               <ul className="tab-controls">
                 <li data-tab="tab-1" onClick={() => setActiveTab("tab1")}>
-                  <div>Sildenafil</div>
+                  <div style={{ backgroundColor: "#4e95dd" }}>Sildenafil</div>
                 </li>
                 <li data-tab="tab-2" onClick={() => setActiveTab("tab2")}>
-                  <div>Tadalafil</div>
+                  <div style={{ backgroundColor: "#e6a846" }}>Tadalafil</div>
                 </li>
               </ul>
               <div className="tab-content">
@@ -51,7 +50,25 @@ const ComparePrice = () => {
                         <div>100MG SILDENAFIL</div>
                         <div>PRICE PER TABLETS</div>
                       </li>
-                      <li className="selected">
+                      <li
+                        className="selected"
+                        style={{ backgroundColor: "#e6f0fb" }}
+                      >
+                        <div style={{ height: 30 }}>
+                          <img src={dokologo} style={{ width: "100%" }} />
+                        </div>
+                        <div>100mg</div>
+                        <div>
+                          <b>$1.00</b>
+                          <i
+                            className="an-icon"
+                            data-src="cheсkbox_green"
+                            data-render="svg"
+                            data-start="true"
+                          ></i>
+                        </div>
+                      </li>
+                      <li>
                         <div>
                           <img
                             src="https://rexmd.com/home/04/img//rexmdlogo.svg"
@@ -60,7 +77,7 @@ const ComparePrice = () => {
                         </div>
                         <div>100mg</div>
                         <div>
-                          <b>$8.50</b>
+                          $8.50
                           <i
                             className="an-icon"
                             data-src="cheсkbox_green"
@@ -102,7 +119,25 @@ const ComparePrice = () => {
                         <div>CIALIS DAILY, 30 DAY SUPPLY</div>
                         <div>PRICE PER TABLET</div>
                       </li>
-                      <li className="selected">
+                      <li
+                        className="selected"
+                        style={{ backgroundColor: "#e6f0fb" }}
+                      >
+                        <div style={{ height: 30 }}>
+                          <img src={dokologo} style={{ width: "100%" }} />
+                        </div>
+                        <div>2.5 or 5mg</div>
+                        <div>
+                          <b>$1/month</b>
+                          <i
+                            className="an-icon"
+                            data-src="cheсkbox_green"
+                            data-render="svg"
+                            data-start="true"
+                          ></i>
+                        </div>
+                      </li>
+                      <li>
                         <div>
                           <img
                             src="https://rexmd.com/home/04/img/rexmdlogo.svg"
@@ -111,7 +146,7 @@ const ComparePrice = () => {
                         </div>
                         <div>2.5 or 5mg</div>
                         <div>
-                          <b>$90/month</b>
+                          $90/month
                           <i
                             className="an-icon"
                             data-src="cheсkbox_green"

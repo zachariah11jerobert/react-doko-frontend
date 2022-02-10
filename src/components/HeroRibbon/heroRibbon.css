@@ -51,6 +51,7 @@
   }
 
   .container_ribbon {
+    width: 100% !important;
     display: flex;
     justify-content: space-between !important;
     align-items: center;
@@ -64,10 +65,16 @@
   }
 
   .box_ribbon p {
-    display: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
 
   .box_ribbon h4 {
-    display: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
 }

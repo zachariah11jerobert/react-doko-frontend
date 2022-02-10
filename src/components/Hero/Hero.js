@@ -16,11 +16,8 @@ const Hero = () => {
         <div className="align-items-center justify-content-between">
           <div className="">
             <div className="text-center text-lg-left mt-lg-0">
-              <span className="text-uppercase color-secondary font-weight-bold">
-                Best Service Quality
-              </span>
               <h1 className="font-weight-bold" style={{ color: "#fff" }}>
-                ED Meds PrescribedOnline Delivered Free!
+                ED Meds Prescribed Online & Delivered Free!
               </h1>
               <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
               <p style={{ color: "#dbd8d8" }}></p>
@@ -64,10 +61,6 @@ const Hero = () => {
                 </a>
               </div>
 
-              <div>
-                <VideoPlayer />
-              </div>
-
               <div className="flex-row mb-3">
                 <img src={svg1} />
                 <img src={svg2} />
@@ -76,7 +69,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up">
+      <div className="pl-3 pr-3" data-aos="fade-up">
         <HeroRibbon />
       </div>
     </section>
