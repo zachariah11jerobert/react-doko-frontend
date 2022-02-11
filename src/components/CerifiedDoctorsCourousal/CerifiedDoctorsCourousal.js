@@ -2,6 +2,10 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
+import doctor_chris from "../../assets/doctor-chris.png";
+import doctor_maria from "../../assets/doctor-maria.png";
+import doctor_kn from "../../assets/doctor-kn.png";
+
 const CerifiedDoctorsCourousal = () => {
   return (
     <section id="doctorlist-ph">
@@ -18,8 +22,8 @@ const CerifiedDoctorsCourousal = () => {
           <div className="item">
             <div className="card border-0 shadow-sm">
               <img
-                src="https://doko.md/edpills/kn.png"
-                className="card-img-top position-relative inline_sec8_style_1"
+                src={doctor_kn}
+                className=""
                 alt="blog"
               />
               <div className="card-body">
@@ -27,9 +31,7 @@ const CerifiedDoctorsCourousal = () => {
                   className="hero-content section-title text-center text-lg-left mt-lg-0"
                   //   style="text-align: center !important"
                 >
-                  <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
-                    Dr. Kent Northcote
-                  </h1>
+                  <h3>Dr. Kent Northcote</h3>
                   <p style={{ fontSize: "1rem" }}>
                     Emergency Medicine. 20 years of experience.
                   </p>
@@ -41,8 +43,8 @@ const CerifiedDoctorsCourousal = () => {
           <div className="item">
             <div className="card border-0 shadow-sm">
               <img
-                src="https://doko.md/edpills/maria.png"
-                className="card-img-top position-relative inline_sec8_style_1"
+                src={doctor_maria}
+                className=""
                 alt="blog"
               />
               <div className="card-body">
@@ -50,9 +52,7 @@ const CerifiedDoctorsCourousal = () => {
                   className="hero-content section-title text-center text-lg-left mt-lg-0"
                   //   style="text-align: center !important"
                 >
-                  <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
-                    Dr. Marianna Zelenak
-                  </h1>
+                  <h3>Dr. Marianna Zelenak</h3>
                   <p style={{ fontSize: "1rem" }}>
                     Emergency Medicine. 20 years of experience.
                   </p>
@@ -65,8 +65,8 @@ const CerifiedDoctorsCourousal = () => {
           <div className="item">
             <div className="card border-0 shadow-sm">
               <img
-                src="https://doko.md/edpills/chris.png"
-                className="card-img-top position-relative inline_sec8_style_1"
+                src={doctor_chris}
+                className=""
                 alt="blog"
               />
               <div className="card-body">
@@ -74,9 +74,7 @@ const CerifiedDoctorsCourousal = () => {
                   className="hero-content section-title text-center text-lg-left mt-lg-0"
                   //   style="text-align: center !important"
                 >
-                  <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
-                    Dr. Christine Nguyen
-                  </h1>
+                  <h3>Dr. Christine Nguyen</h3>
                   <p style={{ fontSize: "1rem" }}>
                     Emergency Medicine. 20 years of experience.
                   </p>
@@ -89,7 +87,7 @@ const CerifiedDoctorsCourousal = () => {
             <div className="card border-0 shadow-sm">
               <img
                 src="https://doko.md/edpills/dd6.png"
-                className="card-img-top position-relative inline_sec8_style_1"
+                className=""
                 alt="blog"
               />
               <div className="card-body">
@@ -97,9 +95,7 @@ const CerifiedDoctorsCourousal = () => {
                   className="hero-content section-title text-center text-lg-left mt-lg-0"
                   //   style="text-align: center !important"
                 >
-                  <h1 className="font-weight-bold" style={{ fontSize: "2rem" }}>
-                    And 100+ more Doctors
-                  </h1>
+                  <h3>And 100+ more Doctors</h3>
 
                   <div className="action-btn mt-4"></div>
                 </div>
