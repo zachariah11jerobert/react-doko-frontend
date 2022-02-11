@@ -8,7 +8,7 @@ const SectionSlider = () => {
   return (
     <div>
       <div className="bg-theme-blue pt-2 pb-2">
-        <div className="text-center text-white" data-aos="zoom-in">
+        <div className="text-center text-white" data-aos="fade-up">
           <h3>Did you know...?</h3>
         </div>
       </div>

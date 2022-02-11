@@ -30,10 +30,10 @@ const PillInfo = (props) => {
               <span style={{ fontSize: "72px", fontWeight: "700" }}>$1</span>
               <span
                 style={{
-                  fontSize: "16px",
+                  fontSize: "18px",
                   fontWeight: "700",
                   marginTop: "20px",
-                  marginBottom: "10px",
+                  marginBottom: "20px",
                 }}
               >
                 {" "}
@@ -48,7 +48,7 @@ const PillInfo = (props) => {
           </div>
         </div>
 
-        <p className="desc">{props.children}</p>
+        <p className="text-left desc pl-2 pr-2">{props.children}</p>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const Section6 = () => {
   return (
     <section className="ptb-30 bg-theme-blue" id="itemslide-ph">
       <div className="d-flex justify-content-around align-item-center flex-wrap">
-        <div className="box_content" data-aos="zoom-in">
+        <div className="box_content" data-aos="fade-up">
           <div className="client-img">
             <img src={img1} alt="client" className="img-fluid" />
           </div>
@@ -23,7 +23,7 @@ const Section6 = () => {
           </div>
         </div>
 
-        <div className="box_content" data-aos="zoom-in">
+        <div className="box_content" data-aos="fade-up">
           <div className="client-img">
             <img
               src={img2}
@@ -42,7 +42,7 @@ const Section6 = () => {
           </div>
         </div>
 
-        <div className="box_content" data-aos="zoom-in">
+        <div className="box_content" data-aos="fade-up">
           <div className="client-img">
             <img src={img3} alt="client" className="img-fluid" />
           </div>

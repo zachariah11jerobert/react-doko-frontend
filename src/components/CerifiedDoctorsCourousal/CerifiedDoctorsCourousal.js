@@ -4,7 +4,7 @@ const CerifiedDoctorsCourousal = () => {
   return (
     <section id="doctorlist-ph">
       <div className="bg-theme-blue text-white pt-2 pb-2">
-        <div className="justify-content-center" data-aos="zoom-in">
+        <div className="justify-content-center" data-aos="fade-up">
           <div className="text-center">
             <h3>Some of our US Board Certified Doctors</h3>
           </div>

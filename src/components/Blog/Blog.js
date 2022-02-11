@@ -21,7 +21,7 @@ const Blog = () => {
         </div>
 
         <div className="d-flex justify-content-center align-item-center flex-wrap">
-          <div data-aos="zoom-in">
+          <div data-aos="fade-up">
             <PillInfo
               bgColor={"rgb(85 156 227 / 15%)"}
               textColor={"rgb(85 156 227)"}
@@ -39,7 +39,7 @@ const Blog = () => {
               and 100mg strength.
             </PillInfo>
           </div>
-          <div data-aos="zoom-in">
+          <div data-aos="fade-up">
             <PillInfo
               bgColor={"rgb(232 169 71 / 15%)"}
               textColor={"rgb(232 169 71)"}

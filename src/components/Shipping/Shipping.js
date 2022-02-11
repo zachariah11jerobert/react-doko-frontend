@@ -9,7 +9,7 @@ const Shipping = () => {
           className="bg-theme-blue text-white pt-2 pb-2"
           style={{ textAlign: "center" }}
         >
-          <div data-aos="zoom-in">
+          <div data-aos="fade-up">
             <h3>FREE Shipping </h3>
             <h4>Totally discreet</h4>
           </div>

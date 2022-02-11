@@ -27,7 +27,8 @@ const Footer = () => {
             </div>
             <div className="col-md-6 col-lg-6">
               <p className="copyright-text pb-0 mb-0">
-                Copyrights © 2021. All rights reserved by
+                Copyrights © 2022. All rights reserved by
+                <br />
                 <a href="" target="_blank">
                   Doko Medical Inc.
                 </a>

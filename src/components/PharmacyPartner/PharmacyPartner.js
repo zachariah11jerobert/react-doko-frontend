@@ -7,7 +7,7 @@ const PharmacyPartner = () => {
   return (
     <section className="imageblock-section switchable switchable-content">
       <div className="bg-theme-blue pt-2 pb-2">
-        <div className="text-center text-white" data-aos="zoom-in">
+        <div className="text-center text-white" data-aos="fade-up">
           <h2>Our Pharmacy Partner</h2>
           <p>
             has <b>30+</b> State Licenses to deliver pills.

@@ -15,8 +15,8 @@
 }
 
 .circle-background {
-  width: 7rem;
-  height: 7rem;
+  width: 8rem;
+  height: 8rem;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -28,18 +28,17 @@
 @media only screen and (max-width: 440px) {
   .pillinfo_container {
     width: 320px !important;
-    height: 360px !important;
+    height: 460px !important;
     margin-left: 0px !important;
     margin-right: 0px !important;
+    padding-bottom: 10px !important;
   }
 
   .pillinfo_container__header {
     width: 320px !important;
   }
 
-  .pillinfo_container__body .desc {
-    display: none;
-  }
+  
 }
 
 .pillinfo_container__header {

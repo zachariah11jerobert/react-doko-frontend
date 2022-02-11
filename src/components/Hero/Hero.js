@@ -16,11 +16,10 @@ const Hero = () => {
         <div className="align-items-center justify-content-between">
           <div className="">
             <div className="text-center text-lg-left mt-lg-0">
-              <h2 className="font-weight-bold" style={{ color: "#fff" }}>
+              <h2 className="font-weight-bold mb-5" style={{ color: "#fff" }}>
                 ED Meds Prescribed Online & Delivered Free!
               </h2>
-              <h3 style={{ color: "#fff", letterSpacing: 3 }}></h3>
-              <p style={{ color: "#dbd8d8" }}></p>
+             
 
               <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
                 <div className="row" id="boxdesk01">
@@ -41,11 +40,11 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="d-sm-block d-md-none d-lg-none d-xl-none">
+              <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
                 <BoxMobile />
               </div>
 
-              <div className="mt-4 mb-4">
+              <div className="mt-5 mb-5">
                 <a
                   href="#edform"
                   className="btn solid-btn page-scroll getitnow"
@@ -61,7 +60,7 @@ const Hero = () => {
                 </a>
               </div>
 
-              <div className="flex-row mb-3">
+              <div className="flex-row mb-5">
                 <img src={svg1} />
                 <img src={svg2} />
               </div>
