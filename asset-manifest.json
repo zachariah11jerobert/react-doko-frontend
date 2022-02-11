@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-doko-frontend/static/css/main.792fb3a5.css",
-    "main.js": "/react-doko-frontend/static/js/main.90d056f6.js",
+    "main.js": "/react-doko-frontend/static/js/main.2bece01d.js",
+    "static/media/doctor-kn.png": "/react-doko-frontend/static/media/doctor-kn.c75ce85b3441e0341acb.png",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
     "static/media/ph-how-work.png": "/react-doko-frontend/static/media/ph-how-work.5a0d05deaa37c3e4be65.png",
@@ -9,6 +10,8 @@
     "static/media/desk-how-work2.png": "/react-doko-frontend/static/media/desk-how-work2.4e5ffeb42091d88398d7.png",
     "static/media/sildenafil-bottle.png": "/react-doko-frontend/static/media/sildenafil-bottle.a648fb1944d14f039dfa.png",
     "static/media/tadalafil-bottle.png": "/react-doko-frontend/static/media/tadalafil-bottle.583a43721ff261c9d297.png",
+    "static/media/doctor-maria.png": "/react-doko-frontend/static/media/doctor-maria.114bd968f65d3ecdf514.png",
+    "static/media/doctor-chris.png": "/react-doko-frontend/static/media/doctor-chris.9a1c3ee31b64f504a3e7.png",
     "static/media/numb-states.png": "/react-doko-frontend/static/media/numb-states.64bf9e6f99cbb3a790bc.png",
     "static/media/svg2.svg": "/react-doko-frontend/static/media/svg2.0ece697d7e687771ca407867b9492d75.svg",
     "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
@@ -22,10 +25,10 @@
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
     "main.792fb3a5.css.map": "/react-doko-frontend/static/css/main.792fb3a5.css.map",
-    "main.90d056f6.js.map": "/react-doko-frontend/static/js/main.90d056f6.js.map"
+    "main.2bece01d.js.map": "/react-doko-frontend/static/js/main.2bece01d.js.map"
   },
   "entrypoints": [
     "static/css/main.792fb3a5.css",
-    "static/js/main.90d056f6.js"
+    "static/js/main.2bece01d.js"
   ]
 }
