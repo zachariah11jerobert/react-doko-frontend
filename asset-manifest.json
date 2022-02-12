@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.924fd5d0.css",
-    "main.js": "/react-doko-frontend/static/js/main.03890454.js",
+    "main.css": "/react-doko-frontend/static/css/main.99d3e227.css",
+    "main.js": "/react-doko-frontend/static/js/main.b6e757fb.js",
     "static/media/doctor-kn.png": "/react-doko-frontend/static/media/doctor-kn.c75ce85b3441e0341acb.png",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
@@ -14,7 +14,6 @@
     "static/media/tadalafil-bottle.png": "/react-doko-frontend/static/media/tadalafil-bottle.583a43721ff261c9d297.png",
     "static/media/cardelivery.png": "/react-doko-frontend/static/media/cardelivery.4257e468170938ed337f.png",
     "static/media/rod2.png": "/react-doko-frontend/static/media/rod2.075c8e6f1b1d86714eeb.png",
-    "static/media/vect.png": "/react-doko-frontend/static/media/vect.7810d29119470d9e1b77.png",
     "static/media/sslencr.png": "/react-doko-frontend/static/media/sslencr.91c65f01fe88561ace46.png",
     "static/media/doctor-maria.png": "/react-doko-frontend/static/media/doctor-maria.114bd968f65d3ecdf514.png",
     "static/media/doctor-chris.png": "/react-doko-frontend/static/media/doctor-chris.9a1c3ee31b64f504a3e7.png",
@@ -22,6 +21,7 @@
     "static/media/hipaa_blue.png": "/react-doko-frontend/static/media/hipaa_blue.c0d8c9d3c8c2e2abc465.png",
     "static/media/svg2.svg": "/react-doko-frontend/static/media/svg2.0ece697d7e687771ca407867b9492d75.svg",
     "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
+    "static/media/vect.png": "/react-doko-frontend/static/media/vect.46a05e92846a55dd5243.png",
     "static/media/rod.png": "/react-doko-frontend/static/media/rod.a7c166214f8670d6a56b.png",
     "static/media/mailicon2.png": "/react-doko-frontend/static/media/mailicon2.765f6421eca293a1ead8.png",
     "static/media/xr-5.png": "/react-doko-frontend/static/media/xr-5.d5f2e485ca6d61ab8890.png",
@@ -43,11 +43,11 @@
     "static/media/lemonaid_oxu7de.webp": "/react-doko-frontend/static/media/lemonaid_oxu7de.82197989e4313c1a74cb.webp",
     "static/media/upscript_wb4sco.webp": "/react-doko-frontend/static/media/upscript_wb4sco.354e83e137852b33aa17.webp",
     "static/media/roman_hu1cyf.webp": "/react-doko-frontend/static/media/roman_hu1cyf.21e7c08efc7ad7403677.webp",
-    "main.924fd5d0.css.map": "/react-doko-frontend/static/css/main.924fd5d0.css.map",
-    "main.03890454.js.map": "/react-doko-frontend/static/js/main.03890454.js.map"
+    "main.99d3e227.css.map": "/react-doko-frontend/static/css/main.99d3e227.css.map",
+    "main.b6e757fb.js.map": "/react-doko-frontend/static/js/main.b6e757fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.924fd5d0.css",
-    "static/js/main.03890454.js"
+    "static/css/main.99d3e227.css",
+    "static/js/main.b6e757fb.js"
   ]
 }
