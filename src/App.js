@@ -21,6 +21,7 @@ import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/Ceri
 import PharmacyPartner from "./components/PharmacyPartner/PharmacyPartner";
 import ComparePrice from "./components/ComparePrice/ComparePrice";
 import ReviewsSlider from "./components/ReviewSlider/ReviewsSlider";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,7 @@ function App() {
         <Hero />
         <ComparePrice />
         <Blog />
-
+        <MiniDescription />
         <SectionHowItWorks />
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
@@ -51,10 +52,6 @@ function App() {
         <Shipping />
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-          <MiniDescription />
-        </div>
-
-        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
           <DidYouKnow />
         </div>
         <div className="d-sm-block d-md-none d-lg-none d-xl-none">
@@ -65,8 +62,10 @@ function App() {
           <Reviews />
         </div>
         <div className="d-sm-block d-md-none d-lg-none d-xl-none">
-          <ReviewsSlider/>
+          <ReviewsSlider />
         </div>
+
+        <VideoPlayer />
 
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">

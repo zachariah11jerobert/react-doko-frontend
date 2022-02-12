@@ -8,7 +8,7 @@ import "./blog.css";
 
 const Blog = () => {
   return (
-    <section id="blog" className="bg-theme-blue">
+    <section id="blog" className="bg-theme-gray">
       <div className="pt-3 pb-30">
         <div data-aos="fade-up">
           <div className="blog_header text-center">

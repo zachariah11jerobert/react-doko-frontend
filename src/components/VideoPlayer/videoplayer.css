@@ -1,19 +1,30 @@
+.video-promo-content {
+  background: linear-gradient(
+      to right,
+      #1c2c46,
+      #1c2c46e3,
+      #1c2c46d1,
+      #1c2c46c2,
+      #1c2c46
+    ),
+    url("../../assets/covided.png") no-repeat center center/cover;
+  padding: 100px 0px 100px 0px;
+}
+
 .ripple {
   background-color: #fff;
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
   animation: ripple 2s linear infinite;
 }
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.2),
-     0 0 0 1rem rgba(255, 255, 255, 0.2),
-      0 0 0 2rem rgba(255, 255, 255, 0.2);
+      0 0 0 1rem rgba(255, 255, 255, 0.2), 0 0 0 2rem rgba(255, 255, 255, 0.2);
   }
   100% {
     box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.2),
-       0 0 0 1rem rgba(255, 255, 255, 0.2),
-      0 0 0 2rem rgba(255, 255, 255, 0);
+      0 0 0 1rem rgba(255, 255, 255, 0.2), 0 0 0 2rem rgba(255, 255, 255, 0);
   }
 }
