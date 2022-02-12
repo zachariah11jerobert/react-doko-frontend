@@ -1,0 +1,55 @@
+#didyouknowslider .image_wrapper {
+  max-width: 125px;
+  width: 125px;
+  height: 125px;
+}
+
+#didyouknowslider .item {
+  width: 350px;
+  background-color: #f7f7f7d9;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px 0px rgb(0 0 0 / 12%);
+  border: 1px solid #eee;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#didyouknowslider .owl-dots button.owl-dot span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+
+#didyouknowslider .owl-dots button.owl-dot.active span {
+  background-color: #fd7658 !important;
+}
+
+#didyouknowslider .owl-corousel {
+  position: relative;
+}
+
+#didyouknowslider .owl-nav {
+  color: #fff;
+  font-size: 72px;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+}
+
+#didyouknowslider .owl-next {
+  position: absolute;
+  right: 0;
+}
+
+#didyouknowslider .owl-prev {
+  position: absolute;
+  left: 0;
+}
+
+#didyouknowslider .owl-dots {
+  margin-top: 10px !important;
+}

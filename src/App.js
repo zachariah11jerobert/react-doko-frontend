@@ -12,7 +12,7 @@ import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Section17 from "./components/Section17/Section17";
-import SectionSlider from "./components/SectionSlider/SectionSlider";
+import DidYouKnowSlider from "./components/DidYouKnowSlider/DidYouKnowSlider";
 import Shipping from "./components/Shipping/Shipping";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
 import MiniDescription from "./components/MiniDescription/MiniDescription";
@@ -57,7 +57,7 @@ function App() {
           <Section10 />
         </div>
         <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
-          <SectionSlider />
+          <DidYouKnowSlider />
         </div>
 
         <div data-aos="fade-up">
