@@ -1,11 +1,11 @@
 import React from "react";
-import "./Section6.css";
+import "./minidescription.css";
 
 import img1 from "../../assets/numb-doc.png";
 import img2 from "../../assets/numb-list.png";
 import img3 from "../../assets/numb-states.png";
 
-const Section6 = () => {
+const MiniDescription = () => {
   return (
     <section className="ptb-30 bg-theme-blue" id="itemslide-ph">
       <div className="d-flex justify-content-around align-item-center flex-wrap">
@@ -60,4 +60,4 @@ const Section6 = () => {
   );
 };
 
-export default Section6;
+export default MiniDescription;

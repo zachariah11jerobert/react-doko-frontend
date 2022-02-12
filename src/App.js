@@ -15,7 +15,7 @@ import Section17 from "./components/Section17/Section17";
 import SectionSlider from "./components/SectionSlider/SectionSlider";
 import Shipping from "./components/Shipping/Shipping";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
-import Section6 from "./components/Section6/Section6";
+import MiniDescription from "./components/MiniDescription/MiniDescription";
 import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
 import PharmacyPartner from "./components/PharmacyPartner/PharmacyPartner";
@@ -50,7 +50,7 @@ function App() {
         <Shipping />
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-          <Section6 />
+          <MiniDescription />
         </div>
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">

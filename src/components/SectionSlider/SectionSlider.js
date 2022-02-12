@@ -3,6 +3,12 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./sectionslider.css";
 
+import xr_1 from "../../assets/xr-1.png";
+import xr_2 from "../../assets/xr-2.png";
+import xr_3 from "../../assets/xr-3.png";
+import xr_5 from "../../assets/xr-5.png";
+import xr_6 from "../../assets/xr-6.png";
+
 const SectionSlider = () => {
   return (
     <div>
@@ -17,11 +23,7 @@ const SectionSlider = () => {
           <div className="item">
             <div className="flex-column-cc">
               <div className="image_wrapper">
-                <img
-                  src="https://doko.md/edpills/xr-1.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_1} alt="partner logo" className="img-fluid" />
               </div>
               <div className="mb-2">
                 <h5 className="mb-0">Getting Help</h5>
@@ -35,7 +37,7 @@ const SectionSlider = () => {
             <div className="flex-column-cc">
               <div className="image_wrapper">
                 <img
-                  src="https://doko.md/edpills/xr-2.png"
+                  src={xr_2}
                   alt="partner logo"
                   style={{ marginLeft: "22%" }}
                   className="img-fluid"
@@ -54,11 +56,7 @@ const SectionSlider = () => {
           <div className="item">
             <div className="flex-column-cc">
               <div className="image_wrapper">
-                <img
-                  src="https://doko.md/edpills/xr-3.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_3} alt="partner logo" className="img-fluid" />
               </div>
               <div className="mb-2">
                 <h5 className="mb-0">You are not alone</h5>
@@ -71,11 +69,7 @@ const SectionSlider = () => {
           <div className="item">
             <div className="flex-column-cc">
               <div className="image_wrapper">
-                <img
-                  src="https://doko.md/edpills/xr-5.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_5} alt="partner logo" className="img-fluid" />
               </div>
               <div className="mb-2">
                 <h5 className="mb-0">Sign of Diabetes</h5>
@@ -88,11 +82,7 @@ const SectionSlider = () => {
           <div className="item">
             <div className="flex-column-cc">
               <div className="image_wrapper">
-                <img
-                  src="https://doko.md/edpills/xr-6.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_6} alt="partner logo" className="img-fluid" />
               </div>
               <div className="mb-2">
                 <h5 className="mb-0">Its Physical</h5>
