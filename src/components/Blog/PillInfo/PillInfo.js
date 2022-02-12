@@ -2,7 +2,6 @@ import React from "react";
 import "./pillinfo.css";
 
 const PillInfo = (props) => {
-  console.log(props.subtitle);
   return (
     <div className="pillinfo_container">
       <div

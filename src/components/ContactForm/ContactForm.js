@@ -121,7 +121,7 @@ const ContactForm = () => {
                   className="form-check d-flex align-items-center text-center"
                   style={{ textAlign: "center" }}
                 >
-                  <label className="form-check-label small" for="exampleCheck1">
+                  <label className="form-check-label small" htmlFor="exampleCheck1">
                     By Signing Up, you agree to our
                     <a
                       href="https://doko.md/privacy"
