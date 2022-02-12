@@ -4,7 +4,6 @@
   align-items: center;
 }
 .box_mobile-footer {
-  background-color: #34bbad;
   color: #fff;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -15,13 +14,16 @@
 }
 
 .box_mobile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  /* background-color: #34bbad; */
-  background-color: #98061e;
+  padding-left: 20px;
+  color: #34bbad;
+  font-weight: 600;
 }
 
 .box_mobile-header p {
@@ -34,7 +36,7 @@
 }
 
 .box_mobile-body {
-  background-color: #1c2c46;
+  /* background-color: #1c2c46e3; */
   color: #fff;
   padding-bottom: 10px;
 }
@@ -44,4 +46,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.pills-info img {
+  width: 90px;
+}
+.promo-animation {
+  border-radius: 8px;
+  color: #fff;
+  position: relative;
+  transition: opacity 0.3s;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.promo.circle-background {
+  width: 8.5rem;
+  height: 8.5rem;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #faa300;
+  border: 5px solid #fedd4f;
+}
+
+.price_style {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }

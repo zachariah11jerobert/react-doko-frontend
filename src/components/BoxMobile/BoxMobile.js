@@ -8,29 +8,53 @@ const BoxMobile = () => {
   return (
     <div>
       <div className="box_mobile-header">
-        <p>FDA APPROVED</p>
-        <h5 style={{ color: "#fff" }}>Erectile Dysfunction</h5>
+        <h5>FDA APPROVED</h5>
+        <h4>Erectile Dysfunction</h4>
       </div>
       <div className="box_mobile-body">
         <div className="box_flex-row">
-          <div className="box_flex_column">
-            <img src={img_viagra} style={{ marginTop: "6%" }} />
-            <span>
-              Viagra®
-              <br /> (sildenafil)
-            </span>
+          <div className="pills-info">
+            <div className="box_flex_column">
+              <img src={img_viagra} class="promo" />
+              <span>Viagra® (sildenafil)</span>
+            </div>
+
+            <div className="box_flex_column">
+              <img src={img_cialis} class="promo" />
+              <span>Cialis® (tadalafil)</span>
+            </div>
           </div>
-
-          <div className="box_flex_column">
-            <img src={img_cialis} style={{ marginTop: "6%" }} />
-
-            <span>
-              Cialis® <br /> (tadalafil)
-            </span>
+          <div>
+            <div className="promo circle-background promo-animation">
+              <span
+                style={{
+                  fontSize: "18px",
+                  fontWeight: "700",
+                  marginTop: "40px",
+                  marginBottom: "20px",
+                  color:"#000"
+                }}
+              >
+                
+                From
+              </span>
+              <span className="price_style">$1</span>
+              <span
+                style={{
+                  fontSize: "18px",
+                  fontWeight: "700",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  color:"#000"
+                }}
+              >
+                {" "}
+                per Pill
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      <div className="box_mobile-footer">From $1 per pill</div>
     </div>
   );
 };
