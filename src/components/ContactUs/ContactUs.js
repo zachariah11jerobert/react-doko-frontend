@@ -1,8 +1,9 @@
 import img_5343072 from "../../assets/5343072.png";
 import ata from "../../assets/ata.svg";
 import usa from "../../assets/usa.svg";
+import "./contactus.css";
 
-const Section17 = () => {
+const ContactUs = () => {
   return (
     <section id="contact" className="bg-theme-blue pb-2">
       <div className="pb-3">
@@ -109,4 +110,4 @@ const Section17 = () => {
   );
 };
 
-export default Section17;
+export default ContactUs;

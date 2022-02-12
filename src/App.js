@@ -11,7 +11,7 @@ import Section13 from "./components/Section13/Section13";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
 import ContactForm from "./components/ContactForm/ContactForm";
-import Section17 from "./components/Section17/Section17";
+import ContactUs from "./components/ContactUs/ContactUs";
 import DidYouKnowSlider from "./components/DidYouKnowSlider/DidYouKnowSlider";
 import Shipping from "./components/Shipping/Shipping";
 import SectionHowItWorks from "./components/SectionHowItWorks/SectionHowItWorks";
@@ -79,7 +79,7 @@ function App() {
           <ContactForm />
         </div>
 
-        <Section17 />
+        <ContactUs />
       </div>
       <Footer />
     </div>
