@@ -1,4 +1,7 @@
-import React from "react";
+import doctor_chris from "../../assets/doctor-chris.png";
+import doctor_maria from "../../assets/doctor-maria.png";
+import doctor_kn from "../../assets/doctor-kn.png";
+import dd6 from "../../assets/dd6.png";
 
 const CertifiedDoctors = () => {
   return (
@@ -7,10 +10,15 @@ const CertifiedDoctors = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="text-center">
-              <h2 className="text-white" style={{ marginTop: "50px !important" }}>
+              <h2
+                className="text-white"
+                style={{ marginTop: "50px !important" }}
+              >
                 Some of our US Board Certified Doctors
               </h2>
-              <p className="text-white">Discuss it all with your healthcare provider</p>
+              <p className="text-white">
+                Discuss it all with your healthcare provider
+              </p>
             </div>
           </div>
         </div>
@@ -22,7 +30,7 @@ const CertifiedDoctors = () => {
               data-aos="fade-up"
             >
               <img
-                src="https://doko.md/edpills/kn.png"
+                src={doctor_kn}
                 className="card-img-top position-relative"
                 alt="blog"
               />
@@ -42,7 +50,7 @@ const CertifiedDoctors = () => {
               data-aos="fade-up"
             >
               <img
-                src="https://doko.md/edpills/chris.png"
+                src={doctor_chris}
                 className="card-img-top position-relative"
                 alt="blog"
               />
@@ -61,11 +69,7 @@ const CertifiedDoctors = () => {
               className="single-blog-card card border-0 shadow-sm"
               data-aos="fade-up"
             >
-              <img
-                src="https://doko.md/edpills/maria.png"
-                className="card-img-top"
-                alt="blog"
-              />
+              <img src={doctor_maria} className="card-img-top" alt="blog" />
               <div className="card-body" style={{ minHeight: "160px" }}>
                 <h3 className="h5 card-title">
                   <a href="#">Dr. Marianna Zelenak</a>
@@ -81,11 +85,7 @@ const CertifiedDoctors = () => {
               className="single-blog-card card border-0 shadow-sm"
               data-aos="fade-up"
             >
-              <img
-                src="https://doko.md/edpills/dd6.png"
-                className="card-img-top"
-                alt="blog"
-              />
+              <img src={dd6} className="card-img-top" alt="blog" />
               <div className="card-body" style={{ minHeight: "160px" }}>
                 <h3 className="h5 card-title">
                   <a href="#">And 100+ more Doctors</a>

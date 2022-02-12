@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import doctor_chris from "../../assets/doctor-chris.png";
 import doctor_maria from "../../assets/doctor-maria.png";
 import doctor_kn from "../../assets/doctor-kn.png";
+import dd6 from "../../assets/dd6.png";
 
 const CerifiedDoctorsCourousal = () => {
   return (
@@ -86,7 +87,7 @@ const CerifiedDoctorsCourousal = () => {
           <div className="item">
             <div className="card border-0 shadow-sm">
               <img
-                src="https://doko.md/edpills/dd6.png"
+                src={dd6}
                 className=""
                 alt="blog"
               />

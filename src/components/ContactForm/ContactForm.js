@@ -1,5 +1,5 @@
-import React from "react";
 import "./contactform.css";
+import img_5343072 from "../../assets/5343072.png";
 
 const ContactForm = () => {
   return (
@@ -173,10 +173,7 @@ const ContactForm = () => {
         <div className="row" style={{ display: "none" }} id="logismobile">
           <div className="col-12">
             <div style={{ textAlign: "center" }}>
-              <img
-                src="https://static.legitscript.com/seals/5343072.png"
-                style={{ marginTop: "6%" }}
-              />
+              <img src={img_5343072} style={{ marginTop: "6%" }} />
             </div>
           </div>
         </div>

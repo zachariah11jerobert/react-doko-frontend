@@ -1,4 +1,5 @@
-import React from "react";
+import rod from '../../assets/rod.png';
+import vect from '../../assets/vect.png';
 
 const Section12 = () => {
   return (
@@ -75,7 +76,7 @@ const Section12 = () => {
               <div className="client-info-wrap d-flex align-items-center mt-5">
                 <div className="client-img mr-3">
                   <img
-                    src="https://doko.md/img/rod.png"
+                    src={rod}
                     alt="client"
                     width="60"
                     className="img-fluid rounded-circle shadow-sm"
@@ -137,7 +138,7 @@ const Section12 = () => {
               <div className="client-info-wrap d-flex align-items-center mt-5">
                 <div className="client-img mr-3">
                   <img
-                    src="https://doko.md/img/vect.png"
+                    src={vect}
                     alt="client"
                     width="60"
                     className="img-fluid rounded-circle shadow-sm"
@@ -199,7 +200,7 @@ const Section12 = () => {
               <div className="client-info-wrap d-flex align-items-center mt-5">
                 <div className="client-img mr-3">
                   <img
-                    src="https://doko.md/img/rod.png"
+                    src={rod}
                     alt="client"
                     width="60"
                     className="img-fluid rounded-circle shadow-sm"

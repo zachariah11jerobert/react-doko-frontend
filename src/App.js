@@ -6,7 +6,7 @@ import Blog from "./components/Blog/Blog";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
-import Section10 from "./components/Section10/Section10";
+import DidYouKnow from "./components/DidYouKnow/DidYouKnow";
 import Section13 from "./components/Section13/Section13";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
@@ -54,7 +54,7 @@ function App() {
         </div>
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-          <Section10 />
+          <DidYouKnow />
         </div>
         <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
           <DidYouKnowSlider />

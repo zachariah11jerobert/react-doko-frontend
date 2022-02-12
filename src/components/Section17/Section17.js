@@ -1,5 +1,6 @@
-import React from "react";
-import "./section17.css";
+import img_5343072 from "../../assets/5343072.png";
+import ata from "../../assets/ata.svg";
+import usa from "../../assets/usa.svg";
 
 const Section17 = () => {
   return (
@@ -8,7 +9,7 @@ const Section17 = () => {
         <div className="contact-us-content pt-2 pb-2 pl-3">
           <div className="flex-row-sc">
             <img
-              src="https://doko.md/img/usa.svg"
+              src={usa}
               alt="usa-flag"
               style={{ width: "20px" }}
               className="mr-2"
@@ -33,11 +34,11 @@ const Section17 = () => {
         <div className="contact-us-content">
           <div className="d-flex justify-content-around" id="dview">
             <div>
-              <img src="https://doko.md/edpills/img/ata.svg" alt="ata" />
+              <img src={ata} alt="ata" />
             </div>
 
             <div>
-              <img src="https://static.legitscript.com/seals/5343072.png" />
+              <img src={img_5343072} />
             </div>
           </div>
         </div>

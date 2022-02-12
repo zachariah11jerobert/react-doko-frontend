@@ -1,5 +1,5 @@
-import React from "react";
 import "./shipping.css";
+import cardelivery from "../../assets/cardelivery.png";
 
 const Shipping = () => {
   return (
@@ -17,11 +17,7 @@ const Shipping = () => {
 
         <div className="col-md-5" data-aos="fade-up">
           <div className="about-content-right">
-            <img
-              src="https://doko.md/edpills/cardelivery.png"
-              alt="about us"
-              className="img-fluid"
-            />
+            <img src={cardelivery} alt="about us" className="img-fluid" />
           </div>
         </div>
       </div>

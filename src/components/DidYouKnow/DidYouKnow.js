@@ -1,5 +1,5 @@
 import React from "react";
-import "./section10.css";
+import "./didyouknow.css";
 
 import xr_1 from "../../assets/xr-1.png";
 import xr_2 from "../../assets/xr-2.png";
