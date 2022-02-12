@@ -60,7 +60,7 @@ const ComparePrice = () => {
                         <div style={{ height: 30 }}>
                           <img src={dokologo} style={{ width: "100%" }} />
                         </div>
-                        <div className="text-white">2.5 or 5mg</div>
+                        <div className="text-white">100mg</div>
                         <div className="text-white">
                           <b>$1.00</b>
                           <i
@@ -75,7 +75,7 @@ const ComparePrice = () => {
                         <div style={{ height: 30 }}>
                           <img src={rexmdlogo} style={{ width: "100%" }} />
                         </div>
-                        <div>2.5 or 5mg</div>
+                        <div>100mg</div>
                         <div>$3.00</div>
                       </li>
                       <li>
@@ -83,7 +83,7 @@ const ComparePrice = () => {
                           <img src={roman_hu1cyf} alt="" />
                           <sup>®</sup>
                         </div>
-                        <div>2.5 or 5mg</div>
+                        <div>100mg</div>
                         <div>$8.00</div>
                       </li>
                       <li>
@@ -91,7 +91,7 @@ const ComparePrice = () => {
                           <img src={upscript_wb4sco} alt="" />
                           <sup>®</sup>
                         </div>
-                        <div>2.5 or 5mg</div>
+                        <div>100mg</div>
                         <div>$8.00</div>
                       </li>
                     </ul>
