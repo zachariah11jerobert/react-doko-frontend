@@ -24,7 +24,7 @@ const BoxMobile = () => {
               <span>Cialis® (tadalafil)</span>
             </div>
           </div>
-          <div>
+          <div className="">
             <div className="promo circle-background promo-animation">
               <span
                 style={{

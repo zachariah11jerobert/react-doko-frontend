@@ -1,7 +1,7 @@
 .box_flex-row {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
 }
 .box_mobile-footer {
   color: #fff;
@@ -18,16 +18,16 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
-  color: #fff;
   padding-left: 20px;
-  color: #34bbad;
-  font-weight: 600;
+  color: #fff;
+  background-color: #98061e70;
+  font-weight: 700;
 }
 
 .box_mobile-header p {
-  margin-top: 5px !important;
+  margin-top: 2px !important;
   margin-bottom: 0px !important;
 }
 .box_mobile-header h5 {
@@ -70,8 +70,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-color: #faa300;
-  border: 5px solid #fedd4f;
+  background-color: #34bbad;
+  border: 5px solid #f7f7f7;
 }
 
 .price_style {

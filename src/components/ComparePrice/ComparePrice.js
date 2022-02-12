@@ -55,10 +55,13 @@ const ComparePrice = () => {
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#1c2c46" }}
+                        style={{ backgroundColor: "#34bbad" }}
                       >
                         <div style={{ height: 30 }}>
-                          <img src={dokologo} style={{ width: "100%" }} />
+                          {/* <img src={dokologo} style={{ width: "100%" }} /> */}
+                          <span style={{ fontWeight: "700", fontSize: 32,color:"#fff" }}>
+                            doko
+                          </span>
                         </div>
                         <div className="text-white">100mg</div>
                         <div className="text-white">
@@ -107,10 +110,13 @@ const ComparePrice = () => {
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#1c2c46" }}
+                        style={{ backgroundColor: "#34bbad" }}
                       >
                         <div style={{ height: 30 }}>
-                          <img src={dokologo} style={{ width: "100%" }} />
+                          {/* <img src={dokologo} style={{ width: "100%" }} /> */}
+                          <span style={{ fontWeight: "700", fontSize: 32,color:"#fff" }}>
+                            doko
+                          </span>
                         </div>
                         <div className="text-white">2.5 or 5mg</div>
                         <div className="text-white">
