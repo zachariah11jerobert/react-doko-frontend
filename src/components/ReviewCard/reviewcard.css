@@ -1,23 +1,25 @@
+.review_flex_ss {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.review_flex_bc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .review_card {
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .review_card_content{
-      border-radius: 10px;
-  }
-  
-  div.client-img {
-      position: absolute;
-      top: -50px;
-      left: 20%;
-      transform: translateX(-50%);
-      width: 120px;
-      height: 100px;
-  }
-  div.client-img img {
-    width: 100px;
-    height: 100px;
-  }
-  
+  position: relative !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.review_card_content {
+  border-radius: 10px;
+}
+
+.client-img {
+  width: 120px !important;
+  height: 100px !important;
+}

@@ -55,7 +55,7 @@ code {
   background: #ece7e7;
 }
 
-.bg-theme-green{
+.bg-theme-green {
   background-color: #3ebeb4;
 }
 
@@ -96,7 +96,7 @@ code {
 .flex-row-bc {
   display: flex;
   justify-content: baseline;
-  align-items:center;
+  align-items: center;
 }
 
 .flex-row-sc {
@@ -118,4 +118,26 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* owl slider */
+.owl-dots button.owl-dot span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active span {
+  background-color: #fd7658 !important;
+}
+
+.owl-nav {
+  display: none !important;
+}
+
+.owl-dots {
+  margin-top: 10px !important;
 }

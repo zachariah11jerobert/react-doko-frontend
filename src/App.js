@@ -57,14 +57,14 @@ function App() {
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
           <DidYouKnow />
         </div>
-        <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
+        <div className="d-sm-block d-md-none d-lg-none d-xl-none">
           <DidYouKnowSlider />
         </div>
 
         <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
           <Reviews />
         </div>
-        <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
+        <div className="d-sm-block d-md-none d-lg-none d-xl-none">
           <ReviewsSlider/>
         </div>
 

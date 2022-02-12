@@ -2,29 +2,26 @@ import React from "react";
 import Rating from "../Rating/Rating";
 import "./reviewcard.css";
 
-const ReviewCard = () => {
+const ReviewCard = ({ image, reviewer, country, children }) => {
   return (
     <div className="pl-2 pr-2">
       <div className="bg-theme-gray review_card_content">
         <div className="review_card">
-          <div className="client-img">
+          <div className="review_flex_ss">
             <img
-              src="https://doko.md/img/rod.png"
+              src={image}
               alt="client"
-              className="rounded-circle"
+              className="rounded-circle client-img"
             />
+            <blockquote>{children}</blockquote>
           </div>
-          <div className=" pt-5 pl-2 pr-2">
-            <blockquote>
-              As a senior, these are particularly stressful times especially as
-              it relates to health and safety.{" "}
-            </blockquote>
-            <div className="client-ratting mt-2">
-              <Rating/>
-            </div>
+          <div className="pl-2 pr-2 review_flex_bc">
             <div className="client-info">
-              <h5 className="mb-0">D. Roderick, NY</h5>
-              <p className="mb-0">USA</p>
+              <h5 className="mb-0">{reviewer}</h5>
+              <p className="mb-0">{country}</p>
+            </div>
+            <div className="client-ratting mt-2">
+              <Rating />
             </div>
           </div>
         </div>
