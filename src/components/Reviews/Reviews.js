@@ -1,7 +1,7 @@
 import rod from "../../assets/rod.png";
 import vect from "../../assets/vect.png";
 import rod2 from "../../assets/rod2.png";
-const Section13 = () => {
+const Reviews = () => {
   return (
     <section
       id="reviwsslide"
@@ -217,4 +217,4 @@ const Section13 = () => {
   );
 };
 
-export default Section13;
+export default Reviews;

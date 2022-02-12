@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import DidYouKnow from "./components/DidYouKnow/DidYouKnow";
-import Section13 from "./components/Section13/Section13";
+import Reviews from "./components/Reviews/Reviews";
 import Section14 from "./components/Section14/Section14";
 import Section15 from "./components/Section15/Section15";
 import ContactForm from "./components/ContactForm/ContactForm";
@@ -20,6 +20,7 @@ import CertifiedDoctors from "./components/CertifiedDoctors/CertifiedDoctors";
 import CerifiedDoctorsCourousal from "./components/CerifiedDoctorsCourousal/CerifiedDoctorsCourousal";
 import PharmacyPartner from "./components/PharmacyPartner/PharmacyPartner";
 import ComparePrice from "./components/ComparePrice/ComparePrice";
+import ReviewsSlider from "./components/ReviewSlider/ReviewsSlider";
 
 function App() {
   useEffect(() => {
@@ -60,11 +61,13 @@ function App() {
           <DidYouKnowSlider />
         </div>
 
-        <div data-aos="fade-up">
-          <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-            <Section13 />
-          </div>
+        <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+          <Reviews />
         </div>
+        <div className="d-sm-block d-md-none d-lg-none d-xl-none mt-3">
+          <ReviewsSlider/>
+        </div>
+
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <Section14 />

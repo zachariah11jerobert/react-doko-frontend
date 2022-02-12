@@ -15,12 +15,12 @@ const BoxMobile = () => {
         <div className="box_flex-row">
           <div className="pills-info">
             <div className="box_flex_column">
-              <img src={img_viagra} class="promo" />
+              <img src={img_viagra} className="promo" />
               <span>Viagra® (sildenafil)</span>
             </div>
 
             <div className="box_flex_column">
-              <img src={img_cialis} class="promo" />
+              <img src={img_cialis} className="promo" />
               <span>Cialis® (tadalafil)</span>
             </div>
           </div>
