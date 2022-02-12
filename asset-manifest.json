@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.792fb3a5.css",
-    "main.js": "/react-doko-frontend/static/js/main.2bece01d.js",
+    "main.css": "/react-doko-frontend/static/css/main.e9483110.css",
+    "main.js": "/react-doko-frontend/static/js/main.a51555e1.js",
     "static/media/doctor-kn.png": "/react-doko-frontend/static/media/doctor-kn.c75ce85b3441e0341acb.png",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
@@ -16,19 +16,23 @@
     "static/media/svg2.svg": "/react-doko-frontend/static/media/svg2.0ece697d7e687771ca407867b9492d75.svg",
     "static/media/mailicon1.png": "/react-doko-frontend/static/media/mailicon1.9ad2fcdb90c662dc32c7.png",
     "static/media/mailicon2.png": "/react-doko-frontend/static/media/mailicon2.765f6421eca293a1ead8.png",
+    "static/media/xr-5.png": "/react-doko-frontend/static/media/xr-5.d5f2e485ca6d61ab8890.png",
     "static/media/svg1.svg": "/react-doko-frontend/static/media/svg1.91e9b011ebac70e58f27598ac2d0ac19.svg",
+    "static/media/xr-1.png": "/react-doko-frontend/static/media/xr-1.b15afe330359e384704d.png",
     "static/media/doko-logo.png": "/react-doko-frontend/static/media/doko-logo.43a6fc79e9b3f6d11f27.png",
     "static/media/4.8new.png": "/react-doko-frontend/static/media/4.8new.1bd77399a85061950983.png",
+    "static/media/xr-2.png": "/react-doko-frontend/static/media/xr-2.8af16c3530a13502dd54.png",
+    "static/media/xr-3.png": "/react-doko-frontend/static/media/xr-3.93757cb167cec1e52951.png",
     "static/media/mailicon3.png": "/react-doko-frontend/static/media/mailicon3.42d8228912808f7923cd.png",
     "static/media/numb-list.png": "/react-doko-frontend/static/media/numb-list.fcd3bef639abd0b477e6.png",
     "index.html": "/react-doko-frontend/index.html",
     "static/media/pfizer.webp": "/react-doko-frontend/static/media/pfizer.ada6b1c83f53c52d491a.webp",
     "static/media/cialis.webp": "/react-doko-frontend/static/media/cialis.0de419fc56a4220779bb.webp",
-    "main.792fb3a5.css.map": "/react-doko-frontend/static/css/main.792fb3a5.css.map",
-    "main.2bece01d.js.map": "/react-doko-frontend/static/js/main.2bece01d.js.map"
+    "main.e9483110.css.map": "/react-doko-frontend/static/css/main.e9483110.css.map",
+    "main.a51555e1.js.map": "/react-doko-frontend/static/js/main.a51555e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.792fb3a5.css",
-    "static/js/main.2bece01d.js"
+    "static/css/main.e9483110.css",
+    "static/js/main.a51555e1.js"
   ]
 }
