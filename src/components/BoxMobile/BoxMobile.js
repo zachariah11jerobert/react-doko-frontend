@@ -28,10 +28,10 @@ const BoxMobile = () => {
             <div className="promo circle-background promo-animation">
               <span
                 style={{
-                  fontSize: "18px",
-                  fontWeight: "700",
-                  marginTop: "40px",
-                  marginBottom: "20px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  marginTop: "20px",
+                  marginBottom: "10px",
                   color:"#000"
                 }}
               >
@@ -41,9 +41,8 @@ const BoxMobile = () => {
               <span className="price_style">$1</span>
               <span
                 style={{
-                  fontSize: "18px",
-                  fontWeight: "700",
-                  marginTop: "10px",
+                  fontSize: "16px",
+                  fontWeight: "600",
                   marginBottom: "10px",
                   color:"#000"
                 }}

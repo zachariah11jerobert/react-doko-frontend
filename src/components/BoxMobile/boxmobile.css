@@ -62,8 +62,8 @@
 }
 
 .promo.circle-background {
-  width: 8.5rem;
-  height: 8.5rem;
+  width: 7rem;
+  height: 7rem;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -75,7 +75,7 @@
 }
 
 .price_style {
-  font-size: 72px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
