@@ -39,6 +39,7 @@
   /* background-color: #1c2c46e3; */
   color: #fff;
   padding-bottom: 10px;
+  background-color: #98061e70;
 }
 
 .box_flex_column {
@@ -52,8 +53,6 @@
   width: 90px;
 }
 .promo-animation {
-  border-radius: 8px;
-  color: #fff;
   position: relative;
   transition: opacity 0.3s;
   animation-name: pulse;
