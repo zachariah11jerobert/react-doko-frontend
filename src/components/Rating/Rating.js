@@ -1,3 +1,4 @@
+import "./rating.css";
 const Rating = () => {
   return (
     <ul className="list-inline">
