@@ -40,9 +40,12 @@ const PillInfo = (props) => {
               </span>
             </div>
             <div>
-              <button className="pillinfo_container_button mt-3">
+              <a
+                href="#edform"
+                className="btn solid-btn page-scroll getitnow pillinfo_container_button mt-3"
+              >
                 GET IT NOW!
-              </button>
+              </a>
             </div>
           </div>
         </div>

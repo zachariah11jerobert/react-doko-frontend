@@ -6,7 +6,7 @@ import img_cialis from "../../assets/cialis.webp";
 
 const BoxMobile = () => {
   return (
-    <div>
+    <div className="box_container">
       <div className="box_mobile-header">
         <h5>FDA APPROVED</h5>
         <h4>Erectile Dysfunction</h4>

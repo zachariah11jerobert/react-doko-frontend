@@ -3,6 +3,12 @@
   justify-content: space-around;
   align-items: flex-end;
 }
+.box_container {
+  border: 3px solid #98061e;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .box_mobile-footer {
   color: #fff;
   border-bottom-right-radius: 5px;
@@ -39,7 +45,7 @@
   /* background-color: #1c2c46e3; */
   color: #fff;
   padding-bottom: 10px;
-  background-color: #98061e70;
+  /* background-color: #98061e70; */
 }
 
 .box_flex_column {
