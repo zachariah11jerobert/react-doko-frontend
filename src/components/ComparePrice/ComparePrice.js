@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./compareprice.css";
 
 import dokologo from "../../assets/doko-logo.png";
+import rexmdlogo from "../../assets/rexmdlogo.svg";
+import roman_hu1cyf from "../../assets/roman_hu1cyf.webp";
+import upscript_wb4sco from "../../assets/upscript_wb4sco.webp";
+import lemonaid_oxu7de from "../../assets/lemonaid_oxu7de.webp";
 
 const ComparePrice = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -46,18 +50,18 @@ const ComparePrice = () => {
                     <ul>
                       <li className="title">
                         <div>BRAND</div>
-                        <div>100MG SILDENAFIL</div>
+                        <div>SILDENAFIL</div>
                         <div>PRICE PER TABLETS</div>
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#fd7658" }}
+                        style={{ backgroundColor: "#1c2c46" }}
                       >
                         <div style={{ height: 30 }}>
                           <img src={dokologo} style={{ width: "100%" }} />
                         </div>
-                        <div>100mg</div>
-                        <div>
+                        <div className="text-white">2.5 or 5mg</div>
+                        <div className="text-white">
                           <b>$1.00</b>
                           <i
                             className="an-icon"
@@ -69,43 +73,26 @@ const ComparePrice = () => {
                       </li>
                       <li>
                         <div style={{ height: 30 }}>
-                          <img
-                            src="https://rexmd.com/home/04/img//rexmdlogo.svg"
-                            style={{ width: "100%" }}
-                          />
+                          <img src={rexmdlogo} style={{ width: "100%" }} />
                         </div>
-                        <div>100mg</div>
-                        <div>
-                          $8.50
-                          <i
-                            className="an-icon"
-                            data-src="cheсkbox_green"
-                            data-render="svg"
-                            data-start="true"
-                          ></i>
-                        </div>
+                        <div>2.5 or 5mg</div>
+                        <div>$3.00</div>
                       </li>
                       <li>
                         <div>
-                          <img
-                            src="https://rexmd.com/home/04/img/roman_hu1cyf.webp"
-                            alt=""
-                          />
+                          <img src={roman_hu1cyf} alt="" />
                           <sup>®</sup>
                         </div>
-                        <div>100mg</div>
-                        <div>$34.00</div>
+                        <div>2.5 or 5mg</div>
+                        <div>$8.00</div>
                       </li>
                       <li>
                         <div>
-                          <img
-                            src="https://rexmd.com/home/04/img/upscript_wb4sco.webp"
-                            alt=""
-                          />
+                          <img src={upscript_wb4sco} alt="" />
                           <sup>®</sup>
                         </div>
-                        <div>100mg</div>
-                        <div>$24.00</div>
+                        <div>2.5 or 5mg</div>
+                        <div>$8.00</div>
                       </li>
                     </ul>
                   </div>
@@ -115,19 +102,19 @@ const ComparePrice = () => {
                     <ul>
                       <li className="title">
                         <div>BRAND</div>
-                        <div>CIALIS DAILY, 30 DAY SUPPLY</div>
+                        <div>TADALAFIL</div>
                         <div>PRICE PER TABLET</div>
                       </li>
                       <li
                         className="selected"
-                        style={{ backgroundColor: "#fd7658" }}
+                        style={{ backgroundColor: "#1c2c46" }}
                       >
                         <div style={{ height: 30 }}>
                           <img src={dokologo} style={{ width: "100%" }} />
                         </div>
-                        <div>2.5 or 5mg</div>
-                        <div>
-                          <b>$1/month</b>
+                        <div className="text-white">2.5 or 5mg</div>
+                        <div className="text-white">
+                          <b>$1.00</b>
                           <i
                             className="an-icon"
                             data-src="cheсkbox_green"
@@ -138,43 +125,26 @@ const ComparePrice = () => {
                       </li>
                       <li>
                         <div style={{ height: 30 }}>
-                          <img
-                            src="https://rexmd.com/home/04/img/rexmdlogo.svg"
-                            style={{ width: "100%" }}
-                          />
+                          <img src={rexmdlogo} style={{ width: "100%" }} />
                         </div>
                         <div>2.5 or 5mg</div>
-                        <div>
-                          $90/month
-                          <i
-                            className="an-icon"
-                            data-src="cheсkbox_green"
-                            data-render="svg"
-                            data-start="true"
-                          ></i>
-                        </div>
+                        <div>$3.00</div>
                       </li>
                       <li>
                         <div>
-                          <img
-                            src="https://rexmd.com/home/04/img/roman_hu1cyf.webp"
-                            alt=""
-                          />
+                          <img src={roman_hu1cyf} alt="" />
                           <sup>®</sup>
                         </div>
                         <div>2.5 or 5mg</div>
-                        <div>$240/month</div>
+                        <div>$8.00</div>
                       </li>
                       <li>
                         <div>
-                          <img
-                            src="https://rexmd.com/home/04/img/lemonaid_oxu7de.png"
-                            alt=""
-                          />
+                          <img src={lemonaid_oxu7de} alt="" />
                           <sup>®</sup>
                         </div>
                         <div>2.5 or 5mg</div>
-                        <div>$240/month</div>
+                        <div>$8.00</div>
                       </li>
                     </ul>
                   </div>
