@@ -1,7 +1,13 @@
 import React from "react";
 import "./section10.css";
 
-const Section10 = () => {
+import xr_1 from "../../assets/xr-1.png";
+import xr_2 from "../../assets/xr-2.png";
+import xr_3 from "../../assets/xr-3.png";
+import xr_5 from "../../assets/xr-5.png";
+import xr_6 from "../../assets/xr-6.png";
+
+const DidYouKnow = () => {
   return (
     <section
       className="our-partner-section ptb-100 gray-light-bg"
@@ -25,11 +31,7 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img
-                  src="https://doko.md/edpills/xr-1.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_1} alt="partner logo" className="img-fluid" />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Getting Help</h5>
@@ -42,11 +44,7 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img
-                  src="https://doko.md/edpills/xr-2.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_2} alt="partner logo" className="img-fluid" />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Mental Health</h5>
@@ -61,11 +59,7 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img
-                  src="https://doko.md/edpills/xr-3.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_3} alt="partner logo" className="img-fluid" />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">You are not alone</h5>
@@ -79,11 +73,7 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img
-                  src="https://doko.md/edpills/xr-5.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_5} alt="partner logo" className="img-fluid" />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Sign of Diabetes</h5>
@@ -96,11 +86,7 @@ const Section10 = () => {
           <div className="col-md-2 col-lg-2">
             <div className="single-partner-wrap card-bottom-line rounded text-center p-4 inline_sec10_style1">
               <div className="partner-logo mb-3">
-                <img
-                  src="https://doko.md/edpills/xr-6.png"
-                  alt="partner logo"
-                  className="img-fluid"
-                />
+                <img src={xr_6} alt="partner logo" className="img-fluid" />
               </div>
               <div className="partner-heading mb-2">
                 <h5 className="mb-0">Its Physical</h5>
@@ -116,4 +102,4 @@ const Section10 = () => {
   );
 };
 
-export default Section10;
+export default DidYouKnow;
