@@ -141,3 +141,7 @@ code {
 .owl-dots {
   margin-top: 10px !important;
 }
+
+.mw-440{
+  max-width: 440px !important;
+}
