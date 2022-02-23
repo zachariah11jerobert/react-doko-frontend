@@ -6,7 +6,7 @@ import "./contactus.css";
 const ContactUs = () => {
   return (
     <section id="contact" className="bg-theme-blue pb-2">
-      <div className="pb-3">
+      <div className="flex-row-wrap flex-justi_sa flex-align_end pb-3 pt-3">
         <div className="contact-us-content pt-2 pb-2 pl-3">
           <div className="flex-row-sc">
             <img
@@ -30,8 +30,7 @@ const ContactUs = () => {
           </span>
           <br />
         </div>
-      </div>
-      <div className="col-md-4">
+
         <div className="contact-us-content">
           <div className="d-flex justify-content-around" id="dview">
             <div>
@@ -44,9 +43,8 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <br />
-        <div style={{ textAlign: "center", marginTop: "0%" }}>
-          <ul className="list-unstyled social-list mb-0">
+        <div>
+          <ul className="mb-0">
             <li className="list-inline-item">
               <a href="https://www.facebook.com/in.doko.md" className="rounded">
                 <span className="white-bg color-2 shadow rounded-circle footer-social">

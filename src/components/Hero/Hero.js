@@ -7,7 +7,6 @@ import BoxMobile from "../BoxMobile/BoxMobile";
 
 import svg1 from "../../assets/svg1.svg";
 import svg2 from "../../assets/svg2.svg";
-import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 const Hero = () => {
   return (
