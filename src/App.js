@@ -22,6 +22,7 @@ import PharmacyPartner from "./components/PharmacyPartner/PharmacyPartner";
 import ComparePrice from "./components/ComparePrice/ComparePrice";
 import ReviewsSlider from "./components/ReviewSlider/ReviewsSlider";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
+import FAQs from "./components/FAQ/FAQs";
 
 function App() {
   useEffect(() => {
@@ -66,6 +67,9 @@ function App() {
         </div>
 
         <VideoPlayer />
+        <div data-aos="fade-up">
+          <FAQs/>
+        </div>
 
         <div data-aos="fade-up">
           <div className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
