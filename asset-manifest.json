@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-doko-frontend/static/css/main.ea830f5f.css",
-    "main.js": "/react-doko-frontend/static/js/main.e0b4bdb4.js",
+    "main.css": "/react-doko-frontend/static/css/main.1d2e12ee.css",
+    "main.js": "/react-doko-frontend/static/js/main.9b10dab6.js",
     "static/media/doctor-kn.png": "/react-doko-frontend/static/media/doctor-kn.c75ce85b3441e0341acb.png",
     "static/media/mobilephramacy.png": "/react-doko-frontend/static/media/mobilephramacy.d5d4a136535105b33860.png",
     "static/media/deskphramacy.png": "/react-doko-frontend/static/media/deskphramacy.c5344890b782d58c094c.png",
@@ -43,11 +43,11 @@
     "static/media/lemonaid_oxu7de.webp": "/react-doko-frontend/static/media/lemonaid_oxu7de.82197989e4313c1a74cb.webp",
     "static/media/upscript_wb4sco.webp": "/react-doko-frontend/static/media/upscript_wb4sco.354e83e137852b33aa17.webp",
     "static/media/roman_hu1cyf.webp": "/react-doko-frontend/static/media/roman_hu1cyf.21e7c08efc7ad7403677.webp",
-    "main.ea830f5f.css.map": "/react-doko-frontend/static/css/main.ea830f5f.css.map",
-    "main.e0b4bdb4.js.map": "/react-doko-frontend/static/js/main.e0b4bdb4.js.map"
+    "main.1d2e12ee.css.map": "/react-doko-frontend/static/css/main.1d2e12ee.css.map",
+    "main.9b10dab6.js.map": "/react-doko-frontend/static/js/main.9b10dab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea830f5f.css",
-    "static/js/main.e0b4bdb4.js"
+    "static/css/main.1d2e12ee.css",
+    "static/js/main.9b10dab6.js"
   ]
 }
